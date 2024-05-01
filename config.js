@@ -36,8 +36,8 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '¿Azami ~ Zam?'
-global.devnum = '+591 62714296'
+global.dev = 'Jxtxn ~ Axx'
+global.devnum = 'ʙʏ ᴀxx.ᴏғᴄ'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
