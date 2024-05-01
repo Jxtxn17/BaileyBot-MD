@@ -7,16 +7,16 @@ if (args.length >= 1) {
 text = args.slice(0).join(' ')
 } else if (m.quoted && m.quoted.text) {
 text = m.quoted.text
-} else return conn.reply(m.chat, `*🎌 Este comando genera imagenes apartir de textos*\n\nEjemplo, !dalle Estrella naciente`, m, fake, )
+} else return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ gᥱᥒᥱrᥲ іmᥲgᥱᥒᥱs ᥲ⍴ᥲr𝗍іr ძᥱ 𝗍ᥱ᥊𝗍᥆s*\n\nEjemplo, !dalle Estrella naciente`, m, fake, )
 
 try {
 
 conn.reply(m.chat, '⏰ Espere un momento', m, fake, )
 await Draw(text).then((img) => {
-conn.sendFile(m.chat, img, text, `*🍧 Resultado de* ${text}\n\n`, m)
+conn.sendFile(m.chat, img, text, `*🍧 rᥱsᥙᥣ𝗍ᥲძ᥆ ძᥱ* ${text}\n\n`, m)
 })
 } catch (e) {
-return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*`, m, fake, )
 }
 
 }
