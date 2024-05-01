@@ -614,7 +614,7 @@ let msg = {
  unreg: '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *һᥱᥡ! ᥲᥣ𝗍᥆ ᥲһі ᥒ᥆ ᥱs𝗍ᥲs rᥱgіs𝗍rᥲძ᥆, rᥱgі́s𝗍rᥱsᥱ ⍴ᥲrᥲ ᥙsᥲr ᥱs𝗍ᥲ 𝖿ᥙᥒᥴі᥆́ᥒ ᥱsᥴrіᑲіᥱᥒძ᥆:*\n\n• */reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Ax.25*',
 restrict: '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *ᥱs𝗍ᥲ ᥴᥲrᥲᥴ𝗍ᥱrі́s𝗍іᥴᥲ ᥱs𝗍ᥲ ძᥱsᥲᥴ𝗍і᥎ᥲძᥲ*' 
 }[type]
-if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: '📖'  + saludo + ' ' + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: ImgAll.getRandom() }}})
+if (msg) return conn.reply(m.chat, msg, m, { contextInfo:{ externalAdReply: {title: m, fake + nombre, body: dev, sourceUrl: global.channel, thumbnailUrl: ImgAll.getRandom() }}})
 
 }
 const file = global.__filename(import.meta.url, true);
