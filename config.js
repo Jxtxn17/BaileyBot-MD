@@ -18,6 +18,8 @@ global.suittag = ['5214531287294']
 global.mods = []
 global.prems = []
 
+global.isDev = [['51929972576']
+
 //Aqui encuentras los nombres del bot 
 global.packname = ''
 global.author = 'CuriosityBot'
