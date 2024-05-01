@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt=" Prueba El Bot Aqui" width="42" height="42"> P🐸 Prueba El Bot Aqui
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt=" Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Antes De Instalar El Bot Quieres Usarlo?. Usalo Aqui!
 
