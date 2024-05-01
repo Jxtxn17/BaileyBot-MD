@@ -1,4 +1,4 @@
-## Curiosity : Bot - MD ✨️
+## Bailey : Bot - MD ⭐
 
 <p align="center">
 <img src="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg" alt="BaileyBot-MD" width="900"/>
