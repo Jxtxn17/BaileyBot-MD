@@ -11,7 +11,7 @@ text = m.quoted.text
 
 try {
 
-conn.reply(m.chat, '⏰ Espere un momento', m, fake, )
+conn.reply(m.chat, '🚫 𝐀𝐓𝐄𝐍𝐂𝐈𝐎𝐍 🚫 Espere un momento', m, fake, )
 await Draw(text).then((img) => {
 conn.sendFile(m.chat, img, text, `*🍧 rᥱsᥙᥣ𝗍ᥲძ᥆ ძᥱ* ${text}\n\n`, m)
 })
