@@ -328,16 +328,7 @@ _${usedPrefix + command} *autoread*_
 _${usedPrefix + command} *modejadibot*_`, m, fake, )
 throw false
 }
-await conn.reply(m.chat, `╭╼〔 ${packname} 〕
-┃֪࣪ꨄ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
-┃֪࣪–––––––☆–––––––
-┃֪࣪ꨄ 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-┃֪࣪–––––––☆–––––––
-┃֪࣪ꨄ 𝙿𝙰𝚁𝙰: ${isAll ? '𝙱𝙰𝙸𝙻𝙴𝚈𝙱𝙾𝚃-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${saludo} ⊱━━━━╯`, fkontak, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: `${wm}`,
-body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: gp2}}})} 
+conn.reply(m.chat, `*${isEnable ? '❕' : '❗'} La función ${type} se a ${isEnable ? 'activado' : 'desactivado'} en ${isAll ? 'bot' : isUser ? '' : 'este chat.'}*`, m, fake, )
 
 }
 handler.help = ['en', 'dis'].map(v => v + 'able')
