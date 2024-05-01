@@ -10,14 +10,14 @@ let autor = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 
-if (!/webp|image|video/g.test(mime) && !text) return m.reply(`*⚠️ RESPONDE A UNA IMAGEN O VIDEO CON ${usedPrefix + command}*`)
-if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('*⚠️ EL VÍDEO NO PUEDE DURAR MAS DE 7 SEGUNDOS*')
+if (!/webp|image|video/g.test(mime) && !text) return m.reply(`*🚫 𝐄𝐑𝐑𝐎𝐑 🚫*\n *rᥱs⍴᥆ᥒძᥱ ᥲ ᥙᥒᥲ іmᥲgᥱᥒ ᥆ ᥎іძᥱ᥆ ᥴ᥆ᥒ ${usedPrefix + command}*`)
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 10) return m.reply('*🚫 𝐄𝐑𝐑𝐎𝐑 🚫*\n *ᥱᥣ ᥎іძᥱ᥆ ᥒ᥆ ⍴ᥙᥱძᥱ ძᥙrᥲr mᥲ́s ძᥱ 7 sᥱgᥙᥒძ᥆s*')
 
 if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
 let out
 stiker = await sticker(img, false, global.packname, global.author)
-await conn.reply(m.chat, `_Calma crack estoy haciendo tu sticker 👏_\n\n_*Recuerda los stickersgif son de 6 segundos*_\n\n_*by CuriosityBot*_`, m)
+await conn.reply(m.chat, `_Calmᥲ ᥴrᥲᥴk ᥱs𝗍᥆ᥡ haciendo 𝗍ᥙ s𝗍іᥴkᥱrs 👏_\n\n_*Recuerdᥲ ᥣ᥆s s𝗍іᥴkᥱrsgі𝖿 s᥆ᥒ ძᥱ 6 sᥱgᥙᥒძ᥆s*_\n\n_*by BaileyBot*_`, m)
 
 if (!stiker) {
 if (/webp/g.test(mime)) out = await webp2png(img)
@@ -29,7 +29,7 @@ stiker = await sticker(false, out, global.packname, global.author)
 if (!stiker) errorMessage = 'ERROR'
 }} else if (args[0]) {
 if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
-else return m.reply('*⚠️ EL ENLACE / URL / LINK NO ES VÁLIDO*')}
+else return m.reply('*🚫 𝐄𝐑𝐑𝐎𝐑 🚫\n ᥱᥣ ᥱᥒᥣᥲᥴᥱ / ᥙrᥣ / ᥣіᥒk ᥒ᥆ ᥱs ᥎ᥲᥣіძ᥆*')}
 
 if (stiker) {
 conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
