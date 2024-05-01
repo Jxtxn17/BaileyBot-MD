@@ -108,6 +108,7 @@ global.enlaces = linkSity.getRandom()
  global.nombre = conn.getName(m.sender) 
  global.taguser = '@' + m.sender.split("@s.whatsapp.net")[0] 
  global.fake = { contextInfo: { externalAdReply: {title: saludo + ` ${m.name}`, body: dev, sourceUrl: enlaces, thumbnailUrl: fotos }}
+}
 global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363167110224268@newsletter', serverMessageId: '', newsletterName: saludo + ` ${m.name}` }, externalAdReply: { title: wm + ` 💫`, body: dev, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: fotos, thumbnail: imagen1, sourceUrl: enlaces }}}, { quoted: fkontak } //fake con reenviado de canal
  }   
  export default handler
