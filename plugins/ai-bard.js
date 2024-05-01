@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 var handler = async (m, { text,  usedPrefix, command }) => {
 
-if (!text) return conn.reply(m.chat, `🎌 *Ingresé una petición*\n\nEjemplo, !bard Conoces CuriosityBot-MD?`, m, fake, )
+if (!text) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥙᥒᥲ ⍴ᥱ𝗍іᥴі᥆́ᥒ*\n\n[ ❕ ]Ejemplo, !bard ᥴ᥆ᥒ᥆ᥴᥱs BaileyBot-MD?`, m, fake, )
 
 try {
 
@@ -13,7 +13,7 @@ await m.reply(res.result)
 
 } catch (error) {
 console.error(error)
-return conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*`, m, fake, )
 }
 
 }
