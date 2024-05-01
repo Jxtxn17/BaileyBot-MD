@@ -1,60 +1,60 @@
-𝐢𝐦𝐩𝐨𝐫𝐭 { 𝐰𝐚𝐭𝐜𝐡𝐅𝐢𝐥𝐞, 𝐮𝐧𝐰𝐚𝐭𝐜𝐡𝐅𝐢𝐥𝐞 } 𝐟𝐫𝐨𝐦 '𝐟𝐬'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐜𝐡𝐚𝐥𝐤 𝐟𝐫𝐨𝐦 '𝐜𝐡𝐚𝐥𝐤'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐟𝐬 𝐟𝐫𝐨𝐦 '𝐟𝐬'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐜𝐡𝐞𝐞𝐫𝐢𝐨 𝐟𝐫𝐨𝐦 '𝐜𝐡𝐞𝐞𝐫𝐢𝐨'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐟𝐞𝐭𝐜𝐡 𝐟𝐫𝐨𝐦 '𝐧𝐨𝐝𝐞-𝐟𝐞𝐭𝐜𝐡'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐚𝐱𝐢𝐨𝐬 𝐟𝐫𝐨𝐦 '𝐚𝐱𝐢𝐨𝐬'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐩𝐚𝐭𝐡, { 𝐣𝐨𝐢𝐧 } 𝐟𝐫𝐨𝐦 '𝐩𝐚𝐭𝐡'
-𝐢𝐦𝐩𝐨𝐫𝐭 { 𝐟𝐢𝐥𝐞𝐔𝐑𝐋𝐓𝐨𝐏𝐚𝐭𝐡, 𝐩𝐚𝐭𝐡𝐓𝐨𝐅𝐢𝐥𝐞𝐔𝐑𝐋 } 𝐟𝐫𝐨𝐦 '𝐮𝐫𝐥'
-𝐢𝐦𝐩𝐨𝐫𝐭 𝐦𝐨𝐦𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 '𝐦𝐨𝐦𝐞𝐧𝐭-𝐭𝐢𝐦𝐞𝐳𝐨𝐧𝐞' 
-𝐢𝐦𝐩𝐨𝐫𝐭 { 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦 } 𝐟𝐫𝐨𝐦 '𝐩𝐫𝐨𝐜𝐞𝐬𝐬'
-𝐠𝐥𝐨𝐛𝐚𝐥.__𝐟𝐢𝐥𝐞𝐧𝐚𝐦𝐞 = 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐟𝐢𝐥𝐞𝐧𝐚𝐦𝐞(𝐩𝐚𝐭𝐡𝐔𝐑𝐋 = 𝐢𝐦𝐩𝐨𝐫𝐭.𝐦𝐞𝐭𝐚.𝐮𝐫𝐥, 𝐫𝐦𝐏𝐫𝐞𝐟𝐢𝐱 = 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦 !== '𝐰𝐢𝐧𝟑𝟐') { 𝐫𝐞𝐭𝐮𝐫𝐧 𝐫𝐦𝐏𝐫𝐞𝐟𝐢𝐱 ? /𝐟𝐢𝐥𝐞:\/\/\//.𝐭𝐞𝐬𝐭(𝐩𝐚𝐭𝐡𝐔𝐑𝐋) ? 𝐟𝐢𝐥𝐞𝐔𝐑𝐋𝐓𝐨𝐏𝐚𝐭𝐡(𝐩𝐚𝐭𝐡𝐔𝐑𝐋) : 𝐩𝐚𝐭𝐡𝐔𝐑𝐋 : 𝐩𝐚𝐭𝐡𝐓𝐨𝐅𝐢𝐥𝐞𝐔𝐑𝐋(𝐩𝐚𝐭𝐡𝐔𝐑𝐋).𝐭𝐨𝐒𝐭𝐫𝐢𝐧𝐠() }; 𝐠𝐥𝐨𝐛𝐚𝐥.__𝐝𝐢𝐫𝐧𝐚𝐦𝐞 = 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐝𝐢𝐫𝐧𝐚𝐦𝐞(𝐩𝐚𝐭𝐡𝐔𝐑𝐋) { 𝐫𝐞𝐭𝐮𝐫𝐧 𝐩𝐚𝐭𝐡.𝐝𝐢𝐫𝐧𝐚𝐦𝐞(𝐠𝐥𝐨𝐛𝐚𝐥.__𝐟𝐢𝐥𝐞𝐧𝐚𝐦𝐞(𝐩𝐚𝐭𝐡𝐔𝐑𝐋, 𝐭𝐫𝐮𝐞)) }; 𝐠𝐥𝐨𝐛𝐚𝐥.__𝐫𝐞𝐪𝐮𝐢𝐫𝐞 = 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐫𝐞𝐪𝐮𝐢𝐫𝐞(𝐝𝐢𝐫 = 𝐢𝐦𝐩𝐨𝐫𝐭.𝐦𝐞𝐭𝐚.𝐮𝐫𝐥) { 𝐫𝐞𝐭𝐮𝐫𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐑𝐞𝐪𝐮𝐢𝐫𝐞(𝐝𝐢𝐫) }
-𝐜𝐨𝐧𝐬𝐭 __𝐝𝐢𝐫𝐧𝐚𝐦𝐞 = 𝐠𝐥𝐨𝐛𝐚𝐥.__𝐝𝐢𝐫𝐧𝐚𝐦𝐞(𝐢𝐦𝐩𝐨𝐫𝐭.𝐦𝐞𝐭𝐚.𝐮𝐫𝐥)
+import { watchFile, unwatchFile } from 'fs'
+import chalk from 'chalk'
+import fs from 'fs'
+import cheerio from 'cheerio'
+import fetch from 'node-fetch'
+import axios from 'axios'
+import path, { join } from 'path'
+import { fileURLToPath, pathToFileURL } from 'url'
+import moment from 'moment-timezone' 
+import { platform } from 'process'
+global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') { return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString() }; global.__dirname = function dirname(pathURL) { return path.dirname(global.__filename(pathURL, true)) }; global.__require = function require(dir = import.meta.url) { return createRequire(dir) }
+const __dirname = global.__dirname(import.meta.url)
 
-//𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐚𝐠𝐞𝐧𝟏 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐥𝐨𝐠𝐨𝐬/𝐌𝐞𝐧𝐮𝟏.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐚𝐠𝐞𝐧𝟐 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐥𝐨𝐠𝐨𝐬/𝐌𝐞𝐧𝐮𝟐.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐚𝐠𝐞𝐧𝟑 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐥𝐨𝐠𝐨𝐬/𝐌𝐞𝐧𝐮𝟑.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐚𝐠𝐞𝐧𝟒 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐥𝐨𝐠𝐨𝐬/𝐌𝐞𝐧𝐮𝟒.𝐣𝐩𝐠')
+//Imagenes
+global.imagen1 = fs.readFileSync('./storage/logos/Menu1.jpg')
+global.imagen2 = fs.readFileSync('./storage/logos/Menu2.jpg')
+global.imagen3 = fs.readFileSync('./storage/logos/Menu3.jpg')
+global.imagen4 = fs.readFileSync('./storage/logos/Menu4.jpg')
 
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐜𝐨𝐧𝐟𝐢𝐠 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐜𝐢𝐨𝐧𝐞𝐬.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐬𝐮𝐞𝐫𝐭𝐞 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐬𝐮𝐞𝐫𝐭𝐞.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐨𝐫𝐚𝐜𝐢𝐨𝐧 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐨𝐫𝐚𝐜𝐢𝐨𝐧.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐫𝐨𝐬𝐚𝐬 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐫𝐨𝐬𝐚𝐬.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐫𝐞𝐟𝐫𝐚𝐧 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐫𝐞𝐟𝐫𝐚𝐧.𝐣𝐩𝐠')
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐥𝐢𝐧𝐤𝐬𝐣𝐩𝐠 = 𝐟𝐬.𝐫𝐞𝐚𝐝𝐅𝐢𝐥𝐞𝐒𝐲𝐧𝐜('./𝐬𝐭𝐨𝐫𝐚𝐠𝐞/𝐢𝐦𝐚𝐠𝐞𝐧𝐞𝐬/𝐋𝐢𝐧𝐤𝐬.𝐣𝐩𝐠')
+global.config = fs.readFileSync('./storage/imagenes/configuraciones.jpg')
+global.suerte = fs.readFileSync('./storage/imagenes/suerte.jpg')
+global.oracion = fs.readFileSync('./storage/imagenes/oracion.jpg')
+global.rosas = fs.readFileSync('./storage/imagenes/rosas.jpg')
+global.refran = fs.readFileSync('./storage/imagenes/refran.jpg')
+global.linksjpg = fs.readFileSync('./storage/imagenes/Links.jpg')
 
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟖𝟏𝟒𝐞𝟔𝟒𝐟𝟓𝟕𝟖𝐝𝟗𝟖𝐞𝟒𝟐𝟒𝟒𝐚𝟑𝐝.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟕𝟒𝐛𝟕𝐜𝟎𝟎𝟑𝐝𝟎𝟒𝐝𝐞𝐜𝟓𝟖𝟕𝟓𝐛𝐚𝟎.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟐 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟗𝟐𝟐𝟑𝐜𝐚𝐞𝐜𝐜𝟑𝐞𝟕𝐛𝟕𝟑𝟏𝟎𝟕𝟑𝐞𝟐.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟑 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟕𝐝𝐞𝐞𝐟𝟔𝟓𝐟𝟔𝐚𝟓𝟑𝐞𝐜𝐝𝐝𝟓𝟏𝐜𝐝𝐝.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟒 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟒𝐟𝟎𝟐𝟑𝐟𝟗𝟏𝟖𝐚𝐟𝟐𝐛𝐝𝐞𝟕𝟐𝐜𝟖𝟑𝟗.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟓 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝐚𝟑𝟒𝐞𝐛𝐚𝐝𝟒𝐜𝟗𝐛𝟓𝟗𝟔𝟑𝐜𝟖𝟐𝐟𝟏𝐚.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟔 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟒𝐞𝟔𝟗𝐟𝟔𝐜𝟒𝟖𝐝𝟗𝟗𝐟𝟔𝐜𝟏𝟏𝟕𝟒𝐚𝟗.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟕 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟗𝟓𝟏𝟐𝟕𝟓𝟖𝟎𝟑𝐟𝐚𝐚𝟕𝟓𝟒𝐚𝐟𝐟𝟎𝟏𝟎.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟖 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟗𝐟𝟕𝟔𝟓𝐞𝐚𝟑𝟖𝟔𝐚𝟗𝐝𝐝𝟏𝐚𝟓𝐟𝟖𝐞𝟓.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟗 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟎𝟏𝟏𝐛𝐞𝟗𝟕𝐟𝟖𝟎𝐟𝟏𝟗𝟐𝟖𝟔𝐞𝐞𝟒𝐜𝟕.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏𝟎 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟗𝟖𝐛𝐞𝐜𝟑𝐜𝟔𝟔𝟏𝟒𝟗𝐟𝐞𝐞𝟎𝟗𝟑𝐚𝟑𝐟.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏𝟏 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝐝𝟑𝐜𝟒𝟏𝟓𝟎𝟐𝟎𝟎𝐟𝐜𝐛𝐚𝟔𝐟𝐛𝟏𝟓𝐚𝐟.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏𝟐 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝐟𝐝𝟕𝟕𝟓𝐞𝟒𝟕𝟓𝟑𝟏𝟕𝟑𝐞𝐜𝐝𝐟𝟗𝟓𝟎𝐚.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏𝟑 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟎𝟒𝟕𝟔𝐟𝟓𝐝𝐚𝟑𝟑𝟏𝐞𝟏𝐚𝟏𝟕𝟏𝟐𝐝𝐟𝟗.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐦𝐠𝟏𝟒 = '𝐡𝐭𝐭𝐩𝐬://𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡/𝐟𝐢𝐥𝐞/𝟐𝐛𝐝𝐚𝟏𝟗𝐝𝐜𝐟𝐚𝟕𝟒𝟕𝟐𝟎𝟖𝟗𝐚𝟑𝐚𝟑.𝐣𝐩𝐠'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐈𝐦𝐠𝐀𝐥𝐥 = [𝐢𝐦𝐠, 𝐢𝐦𝐠𝟏, 𝐢𝐦𝐠𝟐, 𝐢𝐦𝐠𝟑, 𝐢𝐦𝐠𝟒, 𝐢𝐦𝐠𝟓, 𝐢𝐦𝐠𝟔, 𝐢𝐦𝐠𝟕, 𝐢𝐦𝐠𝟖, 𝐢𝐦𝐠𝟗, 𝐢𝐦𝐠𝟏𝟎, 𝐢𝐦𝐠𝟏𝟏, 𝐢𝐦𝐠𝟏𝟐, 𝐢𝐦𝐠𝟏𝟑, 𝐢𝐦𝐠𝟏𝟒]
+global.img = 'https://telegra.ph/file/814e64f578d98e4244a3d.jpg'
+global.img1 = 'https://telegra.ph/file/74b7c003d04dec5875ba0.jpg'
+global.img2 = 'https://telegra.ph/file/9223caecc3e7b731073e2.jpg'
+global.img3 = 'https://telegra.ph/file/7deef65f6a53ecdd51cdd.jpg'
+global.img4 = 'https://telegra.ph/file/4f023f918af2bde72c839.jpg'
+global.img5 = 'https://telegra.ph/file/a34ebad4c9b5963c82f1a.jpg'
+global.img6 = 'https://telegra.ph/file/4e69f6c48d99f6c1174a9.jpg'
+global.img7 = 'https://telegra.ph/file/951275803faa754aff010.jpg'
+global.img8 = 'https://telegra.ph/file/9f765ea386a9dd1a5f8e5.jpg'
+global.img9 = 'https://telegra.ph/file/011be97f80f19286ee4c7.jpg'
+global.img10 = 'https://telegra.ph/file/98bec3c66149fee093a3f.jpg'
+global.img11 = 'https://telegra.ph/file/d3c4150200fcba6fb15af.jpg'
+global.img12 = 'https://telegra.ph/file/fd775e4753173ecdf950a.jpg'
+global.img13 = 'https://telegra.ph/file/0476f5da331e1a1712df9.jpg'
+global.img14 = 'https://telegra.ph/file/2bda19dcfa7472089a3a3.jpg'
+global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 
-//𝐄𝐧𝐥𝐚𝐜𝐞𝐬
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐲𝐭 = '𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐲𝐨𝐮𝐭𝐮𝐛𝐞.𝐜𝐨𝐦/@𝐀𝐳𝐚𝐦𝐢_𝐌𝐨𝐝𝐬'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐢𝐠 = '𝐡𝐭𝐭𝐩𝐬://𝐰𝐰𝐰.𝐢𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦.𝐜𝐨𝐦/𝐛.𝐣𝐱𝐭𝐱𝐧𝟏𝟕'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐦𝐝 = '𝐡𝐭𝐭𝐩𝐬://𝐠𝐢𝐭𝐡𝐮𝐛.𝐜𝐨𝐦/𝐉𝐱𝐭𝐱𝐧𝟏𝟕/𝐁𝐚𝐢𝐥𝐞𝐲𝐁𝐨𝐭-𝐌𝐃'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐩𝐚𝐲𝐩𝐚𝐥 = '+𝟓𝟏𝟗𝟐𝟗𝟗𝟕𝟐𝟓𝟕𝟔'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐠𝐢𝐭 = '𝐡𝐭𝐭𝐩𝐬://𝐠𝐢𝐭𝐡𝐮𝐛.𝐜𝐨𝐦/𝐉𝐱𝐭𝐱𝐧𝟏𝟕'
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐧𝐧 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐈𝐀𝟒𝐏𝐎𝐎𝐱𝐟𝐰𝐅𝐍𝟗𝐢𝐎𝟏𝐞𝟗𝐈𝟐𝐐𝐧𝐬' //𝐆𝐫𝐮𝐩𝐨 𝐨𝐟𝐜
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐂𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐋𝐂𝐀𝐔𝐛𝐤𝐟𝟓𝐤𝐔𝐳𝟕𝐣𝐒𝐱𝐎𝟔𝐅𝐀𝐃𝐌𝐔' //𝐂𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲 𝐎𝐅𝐂
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐡𝐚𝐜𝐡𝐢𝐤𝐨 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐋𝐑𝐐𝐝𝐭𝐒𝟕𝐧𝐊𝐭𝟖𝟗𝐍𝐁𝐔𝐏𝐖𝐉𝐃𝐣𝐳𝐡' //𝐇𝐚𝐜𝐡𝐢𝐤𝐨 𝐎𝐅𝐂
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐋𝐨𝐛𝐨 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐋𝐢𝟒𝟔𝐄𝐔𝐐𝐡𝐀𝟓𝐭𝐉𝐪𝐗𝐄𝐄𝐍𝐟𝐊𝐏𝐉𝐝' //𝐋𝐨𝐛𝐨 𝐎𝐅𝐂
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐧𝐧𝐧 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐄𝐍𝐏𝟎𝟐𝟏𝐱𝟎𝐚𝐑𝟓𝐇𝐖𝐯𝐆𝟏𝐇𝐩𝐯𝐥𝐂𝐨' //𝐁𝐚𝐢𝐥𝐞𝐲 𝐠𝐥𝐨𝐛𝐚𝐥
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐜𝐡𝐚𝐧𝐧𝐞𝐥 = '𝐡𝐭𝐭𝐩𝐬://𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐜𝐡𝐚𝐧𝐧𝐞𝐥/𝟎𝟎𝟐𝟗𝐕𝐚𝐃𝐑𝐃𝐤𝟐𝐂𝐁𝐭𝐱𝐁𝐕𝐞𝐱𝟐𝐯𝐁𝟎𝐘' //𝐁𝐚𝐢𝐥𝐞𝐲𝐁𝐨𝐭-𝐌𝐃
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐧𝐧𝐧𝐧 = '𝐡𝐭𝐭𝐩𝐬://𝐜𝐡𝐚𝐭.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐜𝐨𝐦/𝐊𝐋𝐩𝐘𝐅𝐬𝐢𝐭𝐤𝐠𝐳𝐉𝟏𝟓𝐘𝐐𝐱𝐙𝐫𝐁𝐪𝐎' //𝐜𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐜𝐢𝐨́𝐧 𝐦𝐮𝐥𝐭𝐢 𝐛𝐨𝐭𝐬
-𝐠𝐥𝐨𝐛𝐚𝐥.𝐥𝐢𝐧𝐤𝐒𝐢𝐭𝐲 = [𝐲𝐭, 𝐢𝐠, 𝐦𝐝, 𝐩𝐚𝐲𝐩𝐚𝐥, 𝐠𝐢𝐭, 𝐧𝐧]
+//Enlaces
+global.yt = 'https://www.youtube.com/@Azami_Mods'
+global.ig = 'https://www.instagram.com/b.jxtxn17'
+global.md = 'https://github.com/Jxtxn17/BaileyBot-MD'
+global.paypal = '+51929972576'
+global.git = 'https://github.com/Jxtxn17'
+global.nn = 'https://chat.whatsapp.com/IA4POOxfwFN9iO1e9I2Qns' //Grupo ofc
+global.Curiosity = 'https://chat.whatsapp.com/LCAUbkf5kUz7jSxO6FADMU' //Curiosity OFC
+global.hachiko = 'https://chat.whatsapp.com/LRQdtS7nKt89NBUPWJDjzh' //Hachiko OFC
+global.Lobo = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd' //Lobo OFC
+global.nnn = 'https://chat.whatsapp.com/ENP021x0aR5HWvG1HpvlCo' //Bailey global
+global.channel = 'https://whatsapp.com/channel/0029VaDRDk2CBtxBVex2vB0Y' //BaileyBot-MD
+global.nnnn = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //colaboración multi bots
+global.linkSity = [yt, ig, md, paypal, git, nn]
 
 //Raíz
 global.raiz = './'
