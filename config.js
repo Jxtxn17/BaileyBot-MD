@@ -29,6 +29,8 @@ global.suittag = ['5214531287294']
 global.mods = []
 global.prems = []
 
+
+
 //Aqui encuentras los nombres del bot 
 global.packname = ''
 global.author = 'CuriosityBot'
