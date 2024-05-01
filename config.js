@@ -32,23 +32,20 @@ global.prems = []
 //Solo desarrolladores aprobados
 global.isdev = [ /* ['5217294888993'], */ ['5214434703586'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['5492964650915'], ['50558124470']]
 
-//Aqui encuentras los nombres del bot 
-global.packname = ''
-global.author = 'CuriosityBot'
-global.wm = '© CuriosityBot-MD'
-global.wm2 = 'Curiosity : Bot'
+global.packname = 'ᥫ᭡𝘽𝙖𝙞𝙡𝙚𝙮𝘽𝙤𝙩-𝙈𝘿ꨄ'
+global.author = 'Jxtxn17'
+global.wm = '𓆩𝐁𝐚𝐢𝐥𝐞𝐲𝐁𝐨𝐭-𝐌𝐃𓆪'
+global.wm2 = '✦𝘽𝙖𝙞𝙡𝙚𝙮-𝗯𝗼𝘁-𝗠𝗗✦'
 global.jxtxn = 'Jxtxn'
-global.cb = 'CuriosityBot'
+global.cb = '⏤͟͟͞͞ＢａｉｌｅｙＢｏｔ-ＭＤ'
 
-
-//Las Versiones Y Entre Otros
 global.vs = 'V2'
 global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '¿Jxtxn ~ Axx?'
-global.devnum = '+ʙʏ ᴀxx.ᴏғᴄ'
+global.dev = 'ʙʏ ᴀxx.ᴏғᴄ'
+global.devnum = '+51929972576'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
