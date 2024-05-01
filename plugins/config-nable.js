@@ -337,7 +337,7 @@ await conn.reply(m.chat, `╭╼〔 ${packname} 〕
 ╰━━━⊰ ${saludo} ⊱━━━━╯`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: gp2}}})} 
+body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: ${channel}}}})} 
 }
 handler.help = ['en', 'dis'].map(v => v + 'able')
 handler.tags = ['nable', 'owner']
