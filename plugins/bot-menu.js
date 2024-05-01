@@ -32,18 +32,10 @@ const fload = { key : { message: `CuriosityBot-MD 🍧` + `\nAzami`, thumbnail: 
 
 m.react('🏷️')
   
-let menu = `*👋 Hola, ${user}*
+let menu = `*👋 _¿Hola, ${nombre} como estas?_ 
 
-_${formatDate}_
-
-*País*: ${nombreLugar} 
-*Ciudad*: ${ciudad}
-
-!allmenu
-_(Para ver el menú completo)_
-
-!menu2
-_(Para ver el menu audios)_`
+use .menu2
+  _(Para ver el menú completo)_`
 
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 
