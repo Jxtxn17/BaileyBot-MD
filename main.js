@@ -124,14 +124,28 @@ const question = (texto) => new Promise((resolver) => rl.question(texto, resolve
 
 let opcion
 if (!fs.existsSync(`./${authFile}/creds.json`) && !methodCodeQR && !methodCode) {
-while (true) {
-opcion = await question(colores('Seleccione una opción:\n') + opcionQR('1. Con código QR\n') + opcionTexto('2. Con código de texto de 8 dígitos\n--> '))
-if (opcion === '1' || opcion === '2') {
-break
-} else {
-console.log(chalk.bgYellow.black.bold('Por favor, seleccione solo 1 o 2.'))
-}}
-opcion = opcion
+do {
+let lineM = '━━━━━━━━━━━━━━━━━━━━'
+opcion = await question(`╭${lineM}╮  
+┃ ${chalk.greenBright('╭━━━━━━━━━━━━━━━━━━━')}
+┃ ${chalk.greenBright('┃')} ${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
+┃ ${chalk.greenBright('╰━━━━━━━━━━━━━━━━━━━')}   
+┃ ${chalk.greenBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
+┃ ${chalk.greenBright('┃')} ${chalk.blue.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
+┃ ${chalk.greenBright('┃')} ${chalk.bold.redBright('»  Opción 1:')} ${chalk.yellowBright('Código QR.')}
+┃ ${chalk.greenBright('┃')} ${chalk.bold.redBright('»  Opción 2:')} ${chalk.yellowBright('Código de 8 digitos.')}
+┃ ${chalk.greenBright('╰━━━━━━━━━━━━━━━━━━━')}
+┃ ${chalk.greenBright('╭━━━━━━━━━━━━━━━━━━━ ')}     
+┃ ${chalk.greenBright('┃')} ${chalk.italic.magenta('Escriba sólo el número de')}
+┃ ${chalk.greenBright('┃')} ${chalk.italic.magenta('la opción para conectarse.')}
+┃ ${chalk.greenBright('╰━━━━━━━━━━━━━━━━━━━ ')} 
+╰${lineM}╯\n${chalk.bold.magentaBright('---> ')}`)
+//if (fs.existsSync(`./${authFile}/creds.json`)) {
+//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
+//process.exit()
+if (!/^[1-2]$/.test(opcion)) {
+console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
+}} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
 console.info = () => {}
