@@ -149,10 +149,6 @@ para usuarios del heroku
 <a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Azami19"/></a>
 
 - #### CCOLABORADORES
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
  
   <td align="center"><a 
   href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png?size=100" width="100px;" alt=""/><br /><sub><b>HACHEJOTA</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
