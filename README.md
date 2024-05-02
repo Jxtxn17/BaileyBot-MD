@@ -26,7 +26,7 @@
 
 
 - #### 🐢 Instalacion Automatica Por Termux
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
+[![blog](https://img.shields.io/badge/Instalacion-Automatica-008F39?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
 > Comandos Para Instalar BaileyBot Forma Automatica Por Termux.
 
