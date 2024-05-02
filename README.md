@@ -2,6 +2,10 @@
 
 ## Bailey : Bot - MD ⭐
 
+<p align="center"> 
+<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶/𝑨; 𝑮𝑹𝑨𝑪𝑰𝑨𝑺+𝑷𝑶𝑹+𝑼𝑺𝑨𝑹+𝑬𝑳+𝑩𝑶𝑻;𝑨𝑽𝑬𝑹𝑵𝑼𝑺𝑩𝑶𝑻-𝑴𝑫" height="90px"></a> 
+</p>
+
 <p align="center">
 <img src="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg" alt="BaileyBot-MD" width="900"/>
 </p>
