@@ -9,7 +9,7 @@ m.react ('✅')
 use .menu2 / .allmenu
   _(Para ver el menú completo)_`
  
- await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, fkontak, fake)} 
+ await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, m, fake)} 
  handler.tags = ['main'] 
  handler.command = /^menu$/i 
  handler.exp = 35 
