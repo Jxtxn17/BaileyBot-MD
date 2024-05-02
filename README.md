@@ -6,22 +6,13 @@
 <a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  𝘼𝙥𝙤𝙮𝙖𝙧𝙞𝙖𝙨+𝙙𝙚𝙟𝙖𝙣𝙙𝙤+𝙪𝙣𝙖+𝙀𝙨𝙩𝙧𝙚𝙡𝙡𝙖+:𝙳" height="90px"></a> 
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-
-
 <p align="center">
 <img src="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg" alt="BaileyBot-MD" width="900"/>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-
-
 <a href="https://github.com/Jxtxn17/BaileyBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Jxtxn17/BaileyBot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Jxtxn17/BaileyBot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jxtxn17/BaileyBot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-
 
 <a href="https://www.youtube.com/@Jxtxn17">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
@@ -30,7 +21,6 @@
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt=" Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
