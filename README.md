@@ -79,7 +79,8 @@ npm start
 
 > [!IMPORTANT]
 > <a
-href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar En Caso De Detenerse En Termux
+href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar 
+En Caso De Detenerse En Termux
 Escribe Estos Comandos Uno Por Uno**</a>
 ```bash
 > cd
