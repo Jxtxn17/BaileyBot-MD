@@ -3,7 +3,7 @@
 ## Bailey : Bot - MD ⭐
 
 <p align="center"> 
-<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  𝘼𝙥𝙤𝙮𝙖𝙧𝙞𝙖𝙨 𝙙𝙚𝙟𝙖𝙣𝙙𝙤 𝙪𝙣𝙖 𝙀𝙨𝙩𝙧𝙚𝙡𝙡𝙖 :𝙳" height="90px"></a> 
+<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  𝘼𝙥𝙤𝙮𝙖𝙧𝙞𝙖𝙨+𝙙𝙚𝙟𝙖𝙣𝙙𝙤+𝙪𝙣𝙖+𝙀𝙨𝙩𝙧𝙚𝙡𝙡𝙖+:𝙳" height="90px"></a> 
 </p>
 
 <p align="center">
