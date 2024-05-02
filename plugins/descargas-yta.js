@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core'
 
 var handler = async (m, { text, conn, args, usedPrefix, command }) => {
 
-if (!args[0]) conn.reply(m.chat, '🎌 *Ingrese el comando mas un enlace de youtube*',  m, fake, )
+if (!args[0]) conn.reply(m.chat, '*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 іᥒgrᥱsᥱ ᥙᥒ ᥴ᥆mᥲᥒძ᥆ + ᥙᥒ ᥱᥒᥣᥲᥴᥱ ძᥱ ᥡ᥆ᥙ𝗍ᥙᑲᥱ*',  m, fake, )
 
 let youtubeLink = ''
 if (args[0].includes('you')) {
@@ -19,13 +19,13 @@ if (matchingItem) {
 if (index < matchingItem.urls.length) {
 youtubeLink = matchingItem.urls[index]
 } else {
-return conn.reply(m.chat, `🚩 *No se encontro un enlace para ese numero ingresa un numero del 1 al ${matchingItem.urls.length}*`,  m, fake, )
+return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥒ᥆ sᥱ ᥱᥒᥴ᥆ᥒ𝗍r᥆ ᥙᥒ ᥱᥒᥣᥲᥴᥱ ⍴ᥲrᥲ ᥱsᥱ ᥒᥙmᥱr᥆ іᥒgrᥱsᥲ ᥙᥒ ᥒᥙ́mᥱr᥆ ძᥱᥣ 1 ᥲᥣ ${matchingItem.urls.length}*`,  m, fake, )
 }} else {
-return conn.reply(m.chat, `🎌 *Para poder usar este comando de la manera (${usedPrefix + command} <numero>), realiza la busqueda de videos con ${usedPrefix}playlist <texto>*`,  m, fake, )
+return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ⍴ᥲrᥲ ⍴᥆ძᥱr ᥙsᥲr ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ ძᥱ ᥣᥲ mᥲᥒᥱrᥲ${usedPrefix + command} <numero>), rᥱᥲᥣіzᥲ ᥣᥲ ᑲᥙs𝗊ᥙᥱძᥲ ძᥱ ᥎іძᥱ᥆s ᥴ᥆ᥒ ${usedPrefix}playlist <texto>*`,  m, fake, )
 }} else {
-return conn.reply(m.chat, `🎌 *Para poder usar este comando de la manera (${usedPrefix + command} <numero>), realiza la busqueda de videos con ${usedPrefix}playlist <texto>*`,  m, fake, )
+return conn.reply(m.chat, `*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ⍴ᥲrᥲ ᥙsᥲr ᥱs𝗍ᥱ ᥴ᥆mᥲᥒძ᥆ ძᥱ ᥣᥲ mᥲᥒᥱrᥲ ${usedPrefix + command} <numero>), rᥱᥲᥣіzᥲ ᥣᥲ ᑲᥙ́s𝗊ᥙᥱძᥲ ᥴ᥆ᥒ ${usedPrefix}playlist <texto>*`,  m, fake, )
 }}} 
-await conn.reply(m.chat, `⏰ Espere un momento`, m, fake, )
+await conn.reply(m.chat, `*🚀 ᴄᴀʀɢᴀɴᴅᴏ ᴇsᴘᴇʀᴇ..`, m, fake, )
 
 try {
 
@@ -57,7 +57,7 @@ m.react(done)
 conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })
 } catch {
 m.react(error)
-await conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, )}
+await conn.reply(m.chat, '*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥱrr᥆r, ᥒ᥆ sᥱ ⍴ᥙძ᥆ ᥱᥒ᥎іᥲr ᥱᥣ ᥲᥙძі᥆*', m, fake, )}
 }}
 
 }
