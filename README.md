@@ -1,3 +1,5 @@
+> Los Desarrolladores de BaileyBot-MD no se responsabilizan del uso del bot
+
 ## Bailey : Bot - MD ⭐
 
 <p align="center">
