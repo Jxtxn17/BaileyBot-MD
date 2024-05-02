@@ -4,7 +4,7 @@ import path from 'path'
 
 var handler = async (m, { text, conn, usedPrefix, command }) => {
 
-if (!text) { return conn.reply(m.chat, `🎌 *Ingresa el enlace de una página*\n\nEjemplo, !get https://github.com`, m, fakes, )}
+if (!text) { return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥲ ᥱᥣ ᥱᥒᥣᥲᥴᥱ ძᥱ ᥙᥒᥲ ⍴ᥲgіᥒᥲ*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆, !get https://github.com`, m, fakes, )}
 
 if (!/^https?:\/\//.test(text)) {
 text = 'http://' + text
@@ -62,7 +62,7 @@ break
 }
 }
 if (redirectCount >= maxRedirects) {
-return conn.reply(m.chat, `🚩 *Demasiadas redirecciones*\n_(máx: ${maxRedirects})_`, m, fake, )
+return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *ძᥱmᥲsіᥲძᥲs rᥱძіrᥱᥴᥴі᥆ᥒᥱs*\n_(mᥲ᥊: ${maxRedirects})_`, m, fake, )
 }
 
 }
