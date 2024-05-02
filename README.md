@@ -148,10 +148,22 @@ para usuarios del heroku
 ### EDITOR Y PROPIETARIO DEL BOT
 <a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Azami19"/></a>
 
-- #### COLABORADORES 
-<a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Jxtxn17/BaileyBot-MD" /> 
-</a>
+- #### CCOLABORADORES
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+ 
+  <td align="center"><a 
+  href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png?size=100" width="100px;" alt=""/><br /><sub><b>HACHEJOTA</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+    <td align="center"><a 
+       <td align="center"><a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png?size=100" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+    <td align="center"><a 
+       <td align="center"><a href="https://github.com/WOTCHITO"><img src="https://github.com/WOTCHITO.png?size=100" width="100px;" alt=""/><br /><sub><b>Eder</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+    <td align="center"><a 
+ <td align="center"><a href="https://github.com/AzamiJS"><img src="https://github.com/AzamiJS.png?size=100" width="100px;" alt=""/><br /><sub><b>Alexis</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+    <td align="center"><a
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
