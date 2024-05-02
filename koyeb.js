@@ -5,11 +5,11 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
 sudo dnf clean all -y
 
-RUN git clone https://github.com/AzamiJs/CuriosityBot-MD
+RUN git clone https://github.com/Jxtxn17/BaileyBot-MD
 
-WORKDIR /root/CuriosityBot-MD
+WORKDIR /root/BaileyBot-MD
 
-COPY ./root/CuriosityBot-MD
+COPY ./root/BaileyBot-MD
 
 RUN yarn install
 
