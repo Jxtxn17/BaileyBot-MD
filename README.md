@@ -77,8 +77,8 @@ npm update
 npm start
 ```
 
-> [!NOTE]
-> <a href="https://telegra.ph/INFO---TERMUX-04-16">**Activar En Caso De Detenerse En Termux
+> [!IMPORTANT]
+> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar En Caso De Detenerse En Termux
 Escribe Estos Comandos Uno Por Uno**</a>
 ```bash
 > cd
