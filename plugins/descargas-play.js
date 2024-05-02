@@ -6,7 +6,7 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 
 var handler = async (m, { conn, command, args, text, usedPrefix }) => {
 
-if (!text) return conn.reply(m.chat, `🎌 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} New West - Those Eyes`,  m, fake, )
+if (!text) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥱᥣ ᥒ᥆mᑲrᥱ ძᥱ ᥙᥒ ᥎іძᥱ᥆ ძᥱ ᥡ᥆ᥙ𝗍ᥙᑲᥱ*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆, !${command} New West - Those Eyes`,  m, fake, )
 m.react(rwait)
 
 try {
@@ -115,10 +115,10 @@ let n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*Titulo:* ${n}\n*Peso:* ${n3}`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 m.react(error)
-await conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, ) }}}    
+await conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*', m, fake, ) }}}    
 }} catch {
 m.react(error)
-return conn.reply(m.chat, '🚩 *Inténtelo de nuevo*', m, fake, )}
+return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒ𝗍ᥱ́ᥒ𝗍ᥱᥣ᥆ ძᥱ ᥒᥙᥱ᥎᥆*', m, fake, )}
 
 }
 handler.help = ['play', 'play2']
