@@ -77,7 +77,8 @@ npm update
 npm start
 ```
 
-- #### 🚩 Activar En Caso De Detenerse En Termux
+> [!Warning]
+> 🚩 Activar En Caso De Detenerse En Termux
 > Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
