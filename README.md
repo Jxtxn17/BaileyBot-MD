@@ -1,5 +1,5 @@
 > [!NOTE]
-> <a href="https://telegra.ph/INFO---TERMUX-04-16">**DESCUBRA TODA LA INFORMACION SOBRE TERMUX**</a>
+> <a href="https://telegra.ph/INFO---TERMUX-04-16">**Los Desarrolladores de BaileyBot-MD no se responsabilizan del uso del bot**</a>
 
 
 ## Bailey : Bot - MD ⭐
