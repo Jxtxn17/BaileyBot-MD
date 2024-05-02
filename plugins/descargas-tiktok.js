@@ -3,8 +3,8 @@ import { tiktokdl } from '@bochilteam/scraper'
 
 var handler = async (m, { conn, text, args, usedPrefix, command}) => {
 
-if (!args[0]) return conn.reply(m.chat, `🎌 *Ingrese un enlace de tiktok*\n\nEjemplo, !${command} https://vm.tiktok.com/ZMYG92bUh/`, m, fake, )
-if (!args[0].match(/tiktok/gi)) return conn.reply(m.chat, `🚩 *Verifica que el enlace sea correcto*`, m, fake, )
+if (!args[0]) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥙᥒ ᥱᥒᥣᥲᥴᥱ ძᥱ 𝗍іk𝗍᥆k*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆, !${command} https://vm.tiktok.com/ZMYG92bUh/`, m, fake, )
+if (!args[0].match(/tiktok/gi)) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥎ᥱrі𝖿іᥴᥲ 𝗊ᥙᥱ ᥱᥣ ᥱᥒᥣᥲᥴᥱ sᥱᥲ ᥴ᥆rrᥱᥴ𝗍᥆*`, m, fake, )
 
 m.react(rwait)
 
@@ -32,12 +32,12 @@ const { author: { nickname }, video, description } = await tiktokdl(args[0])
 const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd
 
 m.react(error)
-if (!url) return conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m, fake, )
+if (!url) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*`, m, fake, )
 conn.sendFile(m.chat, url, 'fb.mp4', `*Nombre:* ${nickname}\n*Descripción:* ${description}`, m)
 m.react(done)
 } catch {
 m.react(error)
-conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m, fake, )
+conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*`, m, fake, )
 }}
     
 }
