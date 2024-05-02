@@ -101,7 +101,7 @@ Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respa
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 - #### ❕ Para Activar 24/7 (Termux)
-> Este Comando Deve Ir En La Carpeta BaileyBot-MD
+> Este Comando Debe Ir En La Carpeta BaileyBot-MD
 ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
