@@ -6,7 +6,7 @@ m.react ('✅')
 
  let menu = `👋 _¿Hola, ${nombre} como estas?_ 
 
-use .menu2
+use .menu2 / .allmenu
   _(Para ver el menú completo)_`
  
  await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, fkontak)} 
