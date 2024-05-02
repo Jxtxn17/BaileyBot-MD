@@ -78,7 +78,8 @@ npm start
 ```
 
 > [!IMPORTANT]
-> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar En Caso De Detenerse En Termux
+> <a
+href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar En Caso De Detenerse En Termux
 Escribe Estos Comandos Uno Por Uno**</a>
 ```bash
 > cd
@@ -95,8 +96,9 @@ Escribe Estos Comandos Uno Por Uno**</a>
 ```
 
 - ### 🚩 Actualizar BaileyBot 
-[!NOTE]
-> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Comandos para actualizar BaileBot-MD de forma automática**</a>
+> [!NOTE]
+> <a
+href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Comandos para actualizar BaileBot-MD de forma automática**</a>
 
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/update.sh | bash
