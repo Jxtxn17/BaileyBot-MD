@@ -3,7 +3,7 @@
 ## Bailey : Bot - MD ⭐
 
 <p align="center"> 
-<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶/𝑨; 𝑮𝑹𝑨𝑪𝑰𝑨𝑺+𝑷𝑶𝑹+𝑼𝑺𝑨𝑹+𝑬𝑳+𝑩𝑶𝑻;𝑨𝑽𝑬𝑹𝑵𝑼𝑺𝑩𝑶𝑻-𝑴𝑫" height="90px"></a> 
+<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶/𝑨;𝐁𝐚𝐢𝐥𝐞𝐲𝐁𝐨𝐭-𝐌𝐃 𝑮𝑹𝑨𝑪𝑰𝑨𝑺+𝑷𝑶𝑹+𝑼𝑺𝑨𝑹+𝑬𝑳+𝑩𝑶𝑻;𝑨𝑽𝑬𝑹𝑵𝑼𝑺𝑩𝑶𝑻-𝑴𝑫" height="90px"></a> 
 </p>
 
 <p align="center">
