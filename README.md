@@ -78,10 +78,8 @@ npm start
 ```
 
 > [!NOTE]
-> <a href="https://telegra.ph/INFO---TERMUX-04-16">** Activar En Caso De Detenerse En Termux
+> <a href="https://telegra.ph/INFO---TERMUX-04-16">**Activar En Caso De Detenerse En Termux
 Escribe Estos Comandos Uno Por Uno**</a>
-🚩 Activar En Caso De Detenerse En Termux
-Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
 > cd BaileyBot-MD
