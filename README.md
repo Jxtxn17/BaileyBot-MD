@@ -95,7 +95,9 @@ Escribe Estos Comandos Uno Por Uno**</a>
 ```
 
 - ### 🚩 Actualizar BaileyBot 
-> Note Comandos para actualizar BaileyBot-MD de forma automática
+[!NOTE]
+> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Comandos para actualizar BaileBot-MD de forma automática**</a>
+
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/update.sh | bash
 ```
