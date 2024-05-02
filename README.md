@@ -105,7 +105,7 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 ```
 Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
-> [!WARNING]> [!NOTE]
+> [!WARNING]
 > <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Estos comandos solo funcionan para TERMUX, REPORTAN, LINUX</a**
 
 - #### ❕ Para Activar 24/7 (Termux)
