@@ -20,18 +20,20 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `*🚀 Velocidad*
-• ${latensi.toFixed(4)}
+let texto = `┏━━━━━━━━━━━${wm}━━━━━━━━━━
+┃ *🚀 𝐕𝐞𝐥𝐨𝐜𝐢𝐝𝐚𝐝*
+┃ • ${latensi.toFixed(4)}
 
-*⏰ Actividad*
-• ${muptime}
+┃ *⏰ 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝*
+┃ • ${muptime}
 
-*💌 Chats*
-• ${chats.length} *Chats privados*
-• ${groups.length} *Grupos*
+┃ *💌 𝐂𝐡𝐚𝐭𝐬*
+┃ • ${chats.length} *Chats privados*
+┃ • ${groups.length} *Grupos*
 
-*💻 Servidor*
-• *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+┃ *💻 𝐒𝐞𝐫𝐯𝐢𝐝𝐨𝐫*
+┃ • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+┗━━━━━━━━━━━━${wm}━━━━━━━━━━━`.trim()
 
 conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'CURIOSITY - BOT - MD', thumbnailUrl: 'https://telegra.ph/file/6cbf9148b572711e9b000.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
