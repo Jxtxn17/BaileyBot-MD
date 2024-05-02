@@ -165,9 +165,6 @@ para usuarios del heroku
  <td align="center"><a href="https://github.com/AzamiJS"><img src="https://github.com/AzamiJS.png?size=100" width="100px;" alt=""/><br /><sub><b>Alexis</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ##### AGRADECIMIENTO ESPECIAL PARA
