@@ -1,9 +1,11 @@
 # Código creado por @gata_dios
 # Modificado por @AzamiJs
+# Editado por @Jxtxn17
+
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/AzamiJs/CuriosityBot-MD\ncd CuriosityBot-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/Jxtxn17/BaileyBot-MD\ncd BaileyBot-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[38;5;183m
 ─█▀▀█ ───░█ ░█─░█ ░█▀▀▀█ ▀▀█▀▀ ░█▀▀▀ 　 ░█─── ─█▀▀█ 　 ░█▀▀█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█─── ░█─── ─█▀▀█ 
@@ -119,7 +121,7 @@ echo -e "\e[38;5;183m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[38;5;188m"
-git clone https://github.com/AzamiJs/CuriosityBot-MD.git
+git clone https://github.com/Jxtxn17/BaileyBot-MD.git
 echo -e "\033[38;5;51m\033[01mLa clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[38;5;188m\033[01mCambiando al directorio del repositorio!!\n\033[0m" 
@@ -148,5 +150,5 @@ echo -e "\e[38;38;5;183m
 ░█▄▄█ ░█▄▄▀ ░█▀▀▀ ░█▀▀▀ ░█▀▀▀ ░█▄▄▀ ░█▀▀▀ ░█░█░█ ░█─── ░█─ ░█▄▄█ 
 ░█─── ░█─░█ ░█▄▄▄ ░█─── ░█▄▄▄ ░█─░█ ░█▄▄▄ ░█──▀█ ░█▄▄█ ▄█▄ ░█─░█\n\e[0m"
     
-echo -e "\033[38;5;188m\033[01m🚀 Iniciando CuriosityBot-MD!!\n\033[0m"
+echo -e "\033[38;5;188m\033[01m🚀 Iniciando BaileyBot-MD!!\n\033[0m"
 npm start
