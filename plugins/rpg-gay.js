@@ -12,7 +12,7 @@ let love = `
 ┃🏳‍🌈 ¿Te gustan los Hombres?
 └─────⊱◈◈◈⊰─────`
 
-conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
+conn.sendMessage(m.chat, {text: gay, mentions: [m.sender]}, {quoted: m})
 
 //conn.reply(m.chat, `*🚩 Error Del Sistema*`, m, fake, )
 
