@@ -4,7 +4,7 @@ let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
 let love = `
-┏━━━━━━━━━━━━━━┓
+┏──────────────┓
 ┃ *BaileyBot-MD*
 ┌─────⊱◈◈◈⊰─────
 ┃🏳‍🌈 ${name} es: *${Math.floor(Math.random() * 100)}%* Gay
