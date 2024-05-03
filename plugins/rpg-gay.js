@@ -7,7 +7,7 @@ let love = `
 ┌─────⊱◈◈◈⊰─────
 ┃🚩 Nombre: ${name} 
 ┃🏳‍🌈: *${Math.floor(Math.random() * 100)}%* Gay
-└─────⊱◈◈◈⊰─────`, fake)}
+└─────⊱◈◈◈⊰─────`m , fake)}
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
