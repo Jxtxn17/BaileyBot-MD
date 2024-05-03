@@ -347,7 +347,7 @@ let menu = `╭─ - ＵＳＵＡＲＩＯ ----- •♫•♬••♬•♫•
 │○ 💻 .banchat
 │○ 💻 .cleartmp
 │○ 💻 .restart
-╰─ დ.•* 🦦 *””*.დ ╴╴╴╴╴დ.•* 🍇 *””*.დ ---`.trim()
+╰─ დ.•* 🦦 *””*.დ ╴╴╴╴╴დ.•* 🍇 *””*.დ ---`.trim(), fake)}
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
 let img = await (await fetch(`https://telegra.ph/file/7981c55ad62c4344530e2.jpg`)).buffer()  
 await conn.sendMessage(m.chat, {
