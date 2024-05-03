@@ -9,7 +9,7 @@ let love = `
 ┌─────⊱◈◈◈⊰─────
 ┃🏳‍🌈 ${name} es: *${Math.floor(Math.random() * 100)}%* Gay
 ┃
-┃ ¿Te gustan los Hombres?
+┃🏳‍🌈 ¿Te gustan los Hombres?
 └─────⊱◈◈◈⊰─────`
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
