@@ -2,7 +2,7 @@ var handler = async (m, { conn, command }) => {
 
 let str = `Hola, Eres gay`
 
-conn.fakeReply(m.chat, ${wm}, '0@s.whatsapp.net', '🏳‍🌈 *Que Gay Eres 🏳‍🌈 - 🌳 BaileyBot* 🌳', 'status@broadcast' )
+conn.fakeReply(m.chat, m, fake '0@s.whatsapp.net', '🏳‍🌈 *Que Gay Eres 🏳‍🌈 - 🌳 BaileyBot* 🌳', 'status@broadcast' )
 m.react('🏳‍🌈')
 
 }
