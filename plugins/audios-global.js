@@ -13,14 +13,6 @@ const join = `🚩 *Une un bot a tu grupo*\n\n*Hola @${m.sender.split('@')[0]}, 
 this.sendMessage(m.chat, {text: join.trim(), mentions: [...join.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...join.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": fs.readFileSync("./storage/logos/Menu1.jpg"), "mediaUrl": fs.readFileSync("./storage/logos/Menu1.jpg"), "sourceUrl": 'https://github.com/AzamiJs/CuriosityBot-MD'}}}, {quoted: m})
 }
 
-if (/^hola$/i.test(m.text) && !chat.isBanned) {
-if (!db.data.chats[m.chat].audios) return
-let vn = 'https://qu.ax/HPeS.mp3'
-conn.sendPresenceUpdate('recording', m.chat)
-conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fkontak})
-}
-
-
 if (!chat.isBanned && m.text.match(/(anadieleimporta|a nadie le importa)/gi)) {
 if (!db.data.chats[m.chat].audios) return
 let vn = 'https://qu.ax/JocM.mp3'
