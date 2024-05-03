@@ -7,7 +7,7 @@ let love = `
 ┌─────⊱◈◈◈⊰─────
 ┃🚩 Nombre: ${name} 
 ┃🏳‍🌈: *${Math.floor(Math.random() * 100)}%* Gay
-└─────⊱◈◈◈⊰─────`m, fake)}
+└─────⊱◈◈◈⊰─────`
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
@@ -16,7 +16,7 @@ conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 }
 handler.help = ['love']
 handler.tags = ['juegos']
-handler.command = /^(gei|gay|Gay)$/i
+handler.command = /^(gei|gay2|Gay)$/i
 
 handler.register = true
 
