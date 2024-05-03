@@ -347,7 +347,7 @@ let menu = `╭─ - ＵＳＵＡＲＩＯ ----- •♫•♬••♬•♫•
 │○ 💻 .banchat
 │○ 💻 .cleartmp
 │○ 💻 .restart
-╰─ დ.•* 🦦 *””*.დ ╴╴╴╴╴დ.•* 🍇 *””*.დ ---`.trim(), fake)}
+╰─ დ.•* 🦦 *””*.დ ╴╴╴╴╴დ.•* 🍇 *””*.დ ---`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
 let img = await (await fetch(`https://telegra.ph/file/7981c55ad62c4344530e2.jpg`)).buffer()  
 await conn.sendMessage(m.chat, {
@@ -357,6 +357,7 @@ mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
 title: '✰【𝐁𝐚𝐢𝐥𝐞𝐲-𝐁𝐨𝐭-𝐌𝐃】✰',
+body: 'fake',
 //body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
 thumbnail: img,
 sourceUrl: 'https://whatsapp.com/channel/0029VaDRDk2CBtxBVex2vB0Y',
