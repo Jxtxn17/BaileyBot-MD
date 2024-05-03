@@ -3,6 +3,7 @@ var handler = async (m, { conn, command }) => {
 let str = `Hola, Eres gay`
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🏳‍🌈 *Que Gay Eres 🏳‍🌈 - 🌳 BaileyBot* 🌳', 'status@broadcast' )
+m.react('🏳‍🌈')
 
 }
 handler.help = ['donar', 'donate', 'donasi']
