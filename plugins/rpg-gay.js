@@ -5,9 +5,9 @@ const pp = './storage/logos/Menu2.jpg'
 
 let love = `
 
-┌─────⊱{wm}⊰─────
+┌─────⊱${wm}⊰─────
 ┃🏳‍🌈 ${name} es: *${Math.floor(Math.random() * 100)}%* Gay
-└─────⊱{wm}⊰─────`
+└─────⊱${wm}⊰─────`
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
