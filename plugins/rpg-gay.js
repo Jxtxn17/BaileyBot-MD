@@ -4,9 +4,10 @@ let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
 let love = `
+
 ┌─────⊱◈◈◈⊰─────
 ┃🚩 Nombre: ${name} 
-┃🏳‍🌈: *${Math.floor(Math.random() * 100)}%* Gay
+┃🏳‍🌈 ${name} es: *${Math.floor(Math.random() * 100)}%* Gay
 └─────⊱◈◈◈⊰─────`
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
