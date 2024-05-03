@@ -357,7 +357,6 @@ mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
 title: '✰【𝐁𝐚𝐢𝐥𝐞𝐲-𝐁𝐨𝐭-𝐌𝐃】✰',
-body: 'fake',
 //body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
 thumbnail: img,
 sourceUrl: 'https://whatsapp.com/channel/0029VaDRDk2CBtxBVex2vB0Y',
