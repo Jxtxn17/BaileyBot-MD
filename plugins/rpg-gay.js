@@ -3,7 +3,7 @@ let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.m
 let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
-let love = `
+let gay = `
 ┌─────⊱◈◈◈⊰─────
 ┃🚩 Nombre: ${name} 
 ┃🏳‍🌈: *${Math.floor(Math.random() * 100)}%* Gay
@@ -16,7 +16,7 @@ conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 }
 handler.help = ['love']
 handler.tags = ['juegos']
-handler.command = /^(love|amor|Love)$/i
+handler.command = /^(gei|gay|Gay)$/i
 
 handler.register = true
 
