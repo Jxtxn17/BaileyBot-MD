@@ -6,10 +6,10 @@ let str = `🚩 *Donar*
 ${paypal}
 
 ⬡ *Creador del bot*
-wa.me/5217294888993
+wa.me/51929972576
 
 _Puedes apoyar el bot dando tu estrellita en nuestro repositorio_
-${md}`
+https://github.com/Jxtxn17/BaileyBot-MD`
 
 conn.reply(m.chat, str, m, fake, )
 
