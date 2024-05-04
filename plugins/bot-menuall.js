@@ -31,7 +31,7 @@ import { xpRange } from '../lib/levelling.js'
   'ai': 'Ai',
   'rpg': 'Rpg',
   'jadibot': 'Sub Bot',
-  'menu': 'menu',
+  'menu': 'Menu',
   'own': 'Owner',
 } 
 
