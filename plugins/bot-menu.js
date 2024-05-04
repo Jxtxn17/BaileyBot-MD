@@ -11,6 +11,6 @@ use .menu2 / .allmenu
  
 await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, fkontak, m, fake)} 
  handler.tags = ['main'] 
- handler.command = /^menu$/i 
+ handler.command = /^botsito$/i 
  handler.exp = 35 
  export default handler
