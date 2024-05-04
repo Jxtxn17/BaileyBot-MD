@@ -370,7 +370,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
 const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-await conn.reply(m.chat, '✰ 𝐄𝐧𝐯𝐚𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 ✰', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐁𝐚𝐢𝐥𝐞𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰', body: '👋 Hola ' + name, sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+//await conn.reply(m.chat, '✰ 𝐄𝐧𝐯𝐚𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮 ✰', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐁𝐚𝐢𝐥𝐞𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰', body: '👋 Hola ' + name, sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 
 await conn.sendMessage(m.chat, { react: { text: '💫', key: m.key } })
