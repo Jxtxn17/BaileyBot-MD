@@ -167,7 +167,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
 
 await conn.reply(m.chat, '✰【𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌𝐞𝐧𝐮】✰ . . .*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '✰ 𝐁𝐚𝐢𝐥𝐞𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰', body: '👋 Hola ' + name, sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-
+    
+    let pp1 = 'https://telegra.ph/file/37a95abc27aabd0a17bd7.mp4'
     let pp2 = 'https://telegra.ph/file/90bb82004e38e25e72934.mp4'
 
     m.react('🪷') 
