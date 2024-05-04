@@ -164,26 +164,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     } 
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]) 
 
-    let pp = 'https://telegra.ph/file/db5013cfde4edc87b86b0.mp4' 
-    let pp2 = 'https://telegra.ph/file/90bb82004e38e25e72934.mp4' 
-    let pp3 = 'https://telegra.ph/file/0d577492b775e9bc0655e.mp4' 
-    let pp4 = 'https://telegra.ph/file/a93526e2cec4c7fa92cbf.mp4' 
-    let pp5 = 'https://telegra.ph/file/a0666882afc04ffe05f8c.mp4' 
-    let pp6 = 'https://telegra.ph/file/7ac3bde746aeb986c2aa6.mp4' 
-    //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
-   //await m.react('🪷') 
-
-//await conn.sendAi(m.chat, botname, text.trim(), img, img, canal, estilo) 
+    let pp1 = 'https://telegra.ph/file/db5013cfde4edc87b86b0.mp4' 
+    let pp2 = 'https://telegra.ph/file/90bb82004e38e25e72934.mp4'
 
     m.react('🪷') 
-    conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo }) 
-
-   //let img = await (await fetch('https://tinyurl.com/242jfywv')).buffer() 
-
-//conn.sendFile(m.chat, img, 'out.png', text.trim(), m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': true, externalAdReply:{ showAdAttribution: false, title: gcname, body: `h`, mediaType: 2, sourceUrl: canal, thumbnail: miniurl}, mentions: [m.sender]}}, { quoted: m }) 
+    conn.sendMessage(m.chat, { video: { url: [pp1, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m }) 
 
   } catch (e) { 
-    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m) 
+    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m, fake, ) 
     throw e 
   } 
 } 
