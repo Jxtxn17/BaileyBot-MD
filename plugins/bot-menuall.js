@@ -225,4 +225,4 @@ switch(hour){
   case 22: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌙'; break; 
   case 23: hour = 'Bᴜᴇɴᴀs Nᴏᴄʜᴇs 🌃'; break; 
 } 
-  var greeting = hour;/*
+  var greeting = hour;*/
