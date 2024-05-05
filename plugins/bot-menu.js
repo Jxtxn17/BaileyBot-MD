@@ -40,10 +40,7 @@ _${formatDate}_
 *Ciudad*: ${ciudad}
 
 !allmenu
-_(Para ver el menú completo)_
-
-!menu2
-_(Para ver el menu audios)_`
+_(Para ver el menú completo)_`
 
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 
