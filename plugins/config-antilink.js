@@ -1,5 +1,5 @@
 //let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
-let linkRegex = /whatsapp.com\/([0-9A-Za-z]{20,24})/i
+let linkRegex = /whatsapp.com.channel\/([0-9A-Za-z]{20,24})/i
 
 export async function before(m, { isAdmin, isBotAdmin }) {
 if (m.isBaileys && m.fromMe)
