@@ -14,7 +14,7 @@ if (isAdmin && chat.antiLink && m.text.includes(grupo)) return conn.reply(m.chat
 if (chat.antiLink && isGroupLink && !isAdmin) {
 if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-const linkThisGroup2 = `https://whatsapp.com/channel/`
+const linkThisGroup2 = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return !0
 if (m.text.includes(linkThisGroup2)) return !0
 }
