@@ -37,7 +37,6 @@ let menu = `*👋 Hola, ${user}*
 _${formatDate}_
 
 *País*: ${nombreLugar} 
-*Ciudad*: ${ciudad}
 
 !allmenu
 _(Para ver el menú completo)_
