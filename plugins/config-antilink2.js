@@ -10,13 +10,13 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const bang = m.key.id;
   const bot = global.db.data.settings[this.user.jid] || {};
   const user = `@${m.sender.split`@`[0]}`;
-  const isGroupLink = linkRegex.exec(m.text);
-  const grupo = `https://whatsapp.com/channel`;
-  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('☄️ *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
-  if (chat.antiChannel && isGroupLink && !isAdmin) {
+  const isGroupChannel = linkRegex.exec(m.text);
+  const channel = `https://whatsapp.com/channel`;
+  if (isAdmin && chat.antiLink && m.text.includes(channel)) return m.reply('☄️ *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
+  if (chat.antiChannel && isGroupChannel && !isAdmin) {
     if (isBotAdmin) {
-      const linkThisGroup = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`;
-      if (m.text.includes(linkThisGroup)) return !0;
+      const linkThisChannel = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`;
+      if (m.text.includes(linkThisChannel)) return !0;
     }
     await this.sendMessage(m.chat, {text: `*¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('🛑 *No soy admin, no puedo eliminar intrusos*');
