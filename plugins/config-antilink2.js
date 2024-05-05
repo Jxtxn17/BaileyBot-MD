@@ -1,4 +1,4 @@
-const channel = /https/i;
+const channel = /https:/i;
 export async function before(m, {conn, isAdmin, isBotAdmin}) {
   if (m.isBaileys && m.fromMe) {
     return !0;
