@@ -182,7 +182,7 @@ await conn.reply(m.chat, '✰【𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐄𝐥 𝐌�
 
 handler.help = ['menu'] 
 handler.tags = ['main'] 
-handler.command = ['menu', 'help', 'menú'] 
+handler.command = ['menu', 'help', 'allmenu'] 
 handler.register = true 
 export default handler 
 
