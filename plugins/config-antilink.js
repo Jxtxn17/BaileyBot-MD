@@ -1,29 +1,29 @@
-//let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
-let linkRegex = /whatsapp.com.channel\/([0-9A-Za-z]{20,24})/i
+let linkRegex = /whatsapp.com|wa.me|whatsapp.com\/channel/i
 
-export async function before(m, { isAdmin, isBotAdmin }) {
-if (m.isBaileys && m.fromMe)
-return !0
+let handler = m => m
+handler.before = async function (m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }) {
+if (isAdmin || isOwner || isROwner || m.fromMe) return
+if (m.isBaileys && m.fromMe) return
 if (!m.isGroup) return !1
 let chat = global.db.data.chats[m.chat]
 let delet = m.key.participant
 let bang = m.key.id
+const user = `@${m.sender.split`@`[0]}`
+//const groupAdmins = participants.filter(p => p.admin)
+//const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]}*`).join('\n')
 let bot = global.db.data.settings[this.user.jid] || {}
 const isGroupLink = linkRegex.exec(m.text)
-const grupo = `https://whatsapp.com/channel`
-if (isAdmin && chat.antiLink && m.text.includes(grupo)) return conn.reply(m.chat, `🎌 *Hey!! el anti link esta activo pero eres admin, ¡salvado!*`, m, fake, )
-if (chat.antiLink && isGroupLink && !isAdmin) {
+const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
+if (chat.antiLink && isGroupLink) {
+if (!isBotAdmin) return m.reply(mid.mAdvertencia + mid.mAdmin)
+if (chat.delete) return m.reply(mid.mAdvertencia + mid.mAntiDelete)   
 if (isBotAdmin) {
-const linkThisGroup = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`
-if (m.text.includes(linkThisGroup)) return !0
-}
-await conn.reply(m.chat, `🚩 *¡Enlace detectado!*\n\n*${await this.getName(m.sender)} mandaste un enlace prohibido por lo cual seras eliminado*`, m, fake, )
-if (!isBotAdmin) return conn.reply(m.chat, `🚩 *No soy admin, no puedo eliminar intrusos*`, m, fake, )
-if (isBotAdmin) {
+if (m.text.includes(linkThisGroup)) return
+await conn.sendMessage(m.chat, { text: `${wm} *${nombre}*`, mentions: [m.sender] }, { quoted: m })    
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
-await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-} else if (!bot.restrict) return conn.reply(m.chat, `*¡Esta característica esta desactivada!*`, m, fake, )
-}
+let remove = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+if (remove[0].status === '404') return
+}}
 return !0
-
 }
+export default handler
