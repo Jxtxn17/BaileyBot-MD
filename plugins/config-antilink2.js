@@ -13,7 +13,7 @@ let bot = global.db.data.settings[this.user.jid] || {}
 const isGroupLink = linkRegex.exec(m.text)
 const grupo = `https://whatsapp.com/channel`
 if (isAdmin && chat.antiLink && m.text.includes(grupo)) return conn.reply(m.chat, `🎌 *Hey!! el anti link esta activo pero eres admin, ¡salvado!*`, m, fake, )
-if (chat.antiLink2 && isGroupLink && !isAdmin) {
+if (chat.antiChannel && isGroupLink && !isAdmin) {
 if (isBotAdmin) {
 const linkThisGroup = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return !0
