@@ -25,4 +25,4 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
     } else if (!bot.restrict) return m.reply('*¡Esta característica esta desactivada!*');
   }
   return !0;
-}
+}/*
