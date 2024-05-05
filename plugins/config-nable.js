@@ -130,13 +130,13 @@ throw false
 }}
 chat.antiLink = isEnable
 break
-case 'antichannel':
+case 'antilink2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
-chat.antichannel = isEnable
+chat.antilink2 = isEnable
 break
 case 'antitraba':
 if (m.isGroup) {
