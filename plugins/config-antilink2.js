@@ -1,4 +1,4 @@
-let linkRegex = /https:/i;
+const linkRegex = /whatsapp.com.channel\/([0-9A-Za-z]{20,24})/i;
 
 export async function before(m, {conn, isAdmin, isBotAdmin}) {
   if (m.isBaileys && m.fromMe) {
