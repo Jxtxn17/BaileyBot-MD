@@ -9,7 +9,6 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const bang = m.key.id;
   const bot = global.db.data.settings[this.user.jid] || {};
   const user = `@${m.sender.split`@`[0]}`;
-  const isGroupChannel = channel.exec(m.text);
   const channel = `https://whatsapp.com/channel`;
   if (isAdmin && chat.antiLink2 && m.text.includes(grupo)) return m.reply('☄️ *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
   if (chat.antiLink2 && isGroupChannel && !isAdmin) {
