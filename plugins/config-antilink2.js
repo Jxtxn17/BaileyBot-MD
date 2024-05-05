@@ -10,7 +10,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const bot = global.db.data.settings[this.user.jid] || {};
   const user = `@${m.sender.split`@`[0]}`;
   const channel = `https://whatsapp.com/channel`;
-  if (isAdmin && chat.antiLink2 && m.text.includes(grupo)) return m.reply('☄️ *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
+  if (isAdmin && chat.antiLink2 && m.text.includes(group)) return m.reply('☄️ *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
   if (chat.antiLink2 && isGroupChannel && !isAdmin) {
     if (isBotAdmin) {
       const linkThisChannel = `https://whatsapp.com/channel/${await this.groupInviteCode(m.chat)}`;
