@@ -21,7 +21,7 @@ let info = ` *😎 Enlace:*\n${link}\n
 *☄️ Expiración:*\n ${isTele ? '📱 No Expira' : '🌀 Desconocido'}\n
 *🌻 Acortado:*\n${await shortUrl(link)}`
 
-conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: yt, mediaType: 2, title: wm, body: team, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}})
+conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: md, mediaType: 2, title: wm, body: nombre, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}})
 
 }
 handler.help = ['tourl']
