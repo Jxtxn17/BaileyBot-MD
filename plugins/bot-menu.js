@@ -42,9 +42,6 @@ _${formatDate}_
 !allmenu
 _(Para ver el menú completo)_
 
-!menu2
-_(Para ver el menu audios)_`
-
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '📱 ¡Saludo!', body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
