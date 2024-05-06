@@ -4,7 +4,7 @@ let user = db.data.users[m.sender]
 let multi = `🌳 Es Mi Creador ⚡️`
 await conn.sendButton(m.chat, multi, `🌼 ¡Hello! ` + nombre, foto, [
 ['☄️ Comoleto Menú', '!allmenu'],
-['💚 LoboBot', '!sc'],
+['💚 BaileyBot', '!sc'],
 ['⌨️ Creador', '#owner'],
 ['🛑 Hola Bot', '!bot Hey Wue Mas']], m)}
 handler.customPrefix = /axx|Axx|ax|Ax/i;
