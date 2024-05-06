@@ -2,7 +2,7 @@ let foto = imagen4
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
 let multi = `🌳 Es Mi Creador ⚡️`
-await conn.sendButton(m.chat, multi, `🌼 ¡Hello! ` + nombre, foto, [
+await conn.sendMessage(m.chat, multi, `🌼 ¡Hello! ` + nombre, foto, [
 ['☄️ Menu Completo', '!allmenu'],
 ['💚 Script', '!sc'],
 ['⌨️ Creador', '#owner'],
