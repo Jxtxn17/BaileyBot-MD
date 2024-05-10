@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let resp = `🚩 *Retos*\n\n⬡ *Reto:* ${pickRandom(global.bucin)}`
+let resp = `🚫 𝐀𝐓𝐄𝐍𝐂𝐈𝐎𝐍 🚫 *Retos*\n\n⬡ *Reto:* ${pickRandom(global.bucin)}`
 let txt = ''
 let count = 0
 for (const c of resp) {
