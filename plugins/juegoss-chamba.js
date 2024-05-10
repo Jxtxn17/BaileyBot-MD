@@ -26,7 +26,7 @@ if (command == "chambear4") {
 }
 
   if (command == "chambear2") {
-    var play = `*CHAMBEANDO..*\n\n*Estuviste chambeando y 5 negros se corrieron en tu boca*..`.trim();
+    var play = `*CHAMBEANDO..*\n\n*Estuviste chambeando y 5 negros se corrieron en tu boca*...`.trim();
     m.reply(play);
   }
 };
