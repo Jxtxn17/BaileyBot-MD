@@ -8,6 +8,6 @@ await conn.sendButton(m.chat, text, `👋🏻 ¡Hola! ` + nombre, foto, [
 ['❤️ Axx', '#owner'],
 ['🌼 BaileyBot', '!bot Hola']], null, [
 ['🌹 Canal Oficial', `${channel}`]], m)}
-handler.customPrefix = /Diego|diego/i;
+handler.customPrefix = /Axx|Ax/i;
 handler.command = new RegExp;
 export default handler;
