@@ -4,7 +4,7 @@ let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
 let love = `╭━━━━━━━◇x◇━━━━━━━╮
-┃ • *LOVE - CURIOSITYBOT* 🪷
+┃ • *LOVE - BAILEYBOT* 🪷
 ┣━━━━━━━◇x◇━━━━━━━╯
 ┃ ┌─────⊱◈◈◈⊰─────
 ┃ ┃🚩 Nombre: ${name}
