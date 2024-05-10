@@ -7,7 +7,7 @@ await conn.sendButton(m.chat, text, `🧸 ¿Comó estás? ` + nombre, foto, [
 ['ꨄ BaileyBot-MD', '!sc'],
 ['ꨄ Desarrolladores', '#owner'],
 ['ꨄ BaileyBot', '!bot Hola']], null, [
-['ꨄ Canal Oficial', `${channel}`]], m)}
+['ꨄ Canal Oficial', `${channel}`]], m, fake )}
 handler.customPrefix = /Axx|Ax/i;
 handler.command = new RegExp;
 export default handler;
