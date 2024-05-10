@@ -3,7 +3,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
 conn.math = conn.math ? conn.math : {}
     
 if (args.length < 1) return conn.reply(m.chat, `
-*CURIOSITY - MATES*
+*BAILEY - MATES*
 🧮 Dificultades disponibles : 
   
 ${Object.keys(modes).join(' | ')} 
@@ -12,7 +12,7 @@ _Ejemplo : ${usedPrefix+command} normal_
 `, m, fake, )
 let mode = args[0].toLowerCase()
 if (!(mode in modes)) return conn.reply(m.chat, `
-*CURIOSITY - MATES*
+*BAILEY - MATES*
 🧮 Dificultades disponibles : 
   
 ${Object.keys(modes).join(' | ')}
