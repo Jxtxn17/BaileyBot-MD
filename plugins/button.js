@@ -1,12 +1,12 @@
-let foto = imagen4
+let foto = imagen1
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
-let multi = `MI creador`
+let multi = `🌳 Es Mi Creador ⚡️`
 await conn.sendButton(m.chat, multi, `🌼 ¡Hello! ` + nombre, foto, [
-['☄️ Menu Completo', '!allmenu'],
-['💚 Script', '!sc'],
+['☄️ Completo Menú', '!allmenu'],
+['💚 BaileyBot', '!sc'],
 ['⌨️ Creador', '#owner'],
-['🛑 Hola Bot', '!bot Hey Wue Mas']], m, fake)}
-handler.customPrefix = /axx|Axx|ax|Ax/i;
-handler.command = new Regxp;
+['🛑 Hola Bot', '!bot como estás']], m)}
+handler.customPrefix = /Axx|axx|ax|Ax/i;
+handler.command = new RegExp;
 export default handler;
