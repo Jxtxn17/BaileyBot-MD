@@ -4,14 +4,14 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js' 
 
   let tags = { 
-  'main': 'Info', 
-  'bot': 'Bot', 
-  'juegos': 'Juegos', 
-  'imagenes': 'Imagenes', 
-  'grupo': 'Grupos', 
-  'frases': 'Frases', 
-  'descargas': 'Descargas', 
-  'nable': 'On / Off', 
+  'main': 'ＩＮＦＯ', 
+  'bot': 'ＢＯＴ', 
+  'juegos': 'ＪＵＥＧＯＳ', 
+  'imagenes': 'ＩＭＡＧＥＮＥＳ', 
+  'grupo': 'ＧＲＵＰＯＳ', 
+  'frases': 'ＦＲＡＳＥＳ', 
+  'descargas': 'ＤＥＳＣＡＲＧＡＳ', 
+  'nable': 'ＯＮ / ＯＦＦ', 
   'internet': 'Internet', 
   'anime': 'Anime', 
   'nable': 'ON - OFF', 
