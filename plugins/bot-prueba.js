@@ -13,7 +13,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         ≡ ${wm}
 > ┌──────────────
 > 📌 *Título* : ${title}
-> 📆 *Publicado:* ${ago}
+> 📆 *Publicado:* ${vid.ago}
 > ⌚ *Duración:* ${timestamp}
 > 👀 *Vistas:* ${views}
 > └──────────────`
