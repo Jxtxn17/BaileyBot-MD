@@ -7,7 +7,7 @@ import fg from 'api-dylux';
  let handler = async (m, { conn, text, args, usedPrefix, command}) => { 
  if (!text) throw `*✘error✘*\n\n_. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/kandndbwldnig/🍁_` 
  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*✘error✘* _. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁_` 
- let texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._` 
+ let texto = `_🍁 @${m.sender.split"@"[0]}  ᩭ✎Enviando Video, espere un momento...._`
  try { 
   conn.sendMessage(m.chat, { text: texto, mentions: [m.sender]}, {quoted: m})
  await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })     
