@@ -1,4 +1,4 @@
-case 'play':
+
 if (!text) return m.reply('Ejemplo, play photograph')
 const search = await yts(`${text}`)
 const ytMsg = `Título: ${search.all[0].title}\nVistas: ${search.all[0].views}\nUrl: ${search.videos[0].url}`
