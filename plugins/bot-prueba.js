@@ -20,7 +20,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
  await conn.sendButton(m.chat, play, fkontak, thumbnail, [
     ['🎶 MP3', `${usedPrefix}fgmp3 ${url}`],
     ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
-  ], m, rpl)
+  ], m, fake)
 }
 handler.help = ['bot']
 handler.tags = ['prueba']
