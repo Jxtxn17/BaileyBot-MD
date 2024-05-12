@@ -22,7 +22,7 @@ client.relayMessage(testZ.key.remoteJid, testZ.message, { messageId: testZ.key.i
 
 handler.help = ['play', 'play2']
 handler.tags = ['descargas']
-handler.command = /^play2?$/i
+handler.command = /^qqq?$/i
 
 handler.register = true
 handler.limit = true
