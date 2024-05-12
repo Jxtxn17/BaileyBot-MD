@@ -18,8 +18,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 > 👀 *Vistas:* ${views}
 > └──────────────`
  await conn.sendButton(m.chat, play, fkontak, thumbnail, [
-    ['🎶 MP3', `${usedPrefix}fgmp3 ${url}`],
-    ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
+    ['🍧 MP3', `${usedPrefix}fgmp3 ${url}`],
+    ['🍿 MP4', `${usedPrefix}fgmp4 ${url}`]
   ], m, fake)
 }
 handler.help = ['bot']
