@@ -1,5 +1,5 @@
 
-import yts from 'yt-search'
+/*import yts from 'yt-search'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 
         if (!text) throw `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 іᥒgrᥱsᥲ ᥱᥣ 𝗍і́𝗍ᥙᥣ᥆ ძᥱ ᥙᥒᥲ ᥴᥲᥒᥴі᥆́ᥒ\n\n[ 📌 ] ᥱȷᥱm⍴ᥣ᥆ *${usedPrefix + command}* Lil Peep hate my life`
@@ -27,4 +27,4 @@ handler.tags = ['prueba']
 handler.command = ['prueba3', 'playqq']
 //handler.disabled = true
 
-export default handler
+export default handler*/
