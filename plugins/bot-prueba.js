@@ -22,8 +22,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
   ], m, rpl)
 }
-handler.help = ['play']
-handler.tags = ['dl']
+handler.help = ['bot']
+handler.tags = ['prueba']
 handler.command = ['prueba2000', 'playqq']
 handler.disabled = true
 
