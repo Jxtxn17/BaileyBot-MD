@@ -16,7 +16,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 > 📆 *Publicado:* ${ago}
 > ⌚ *Duración:* ${timestamp}
 > 👀 *Vistas:* ${views}
-> └──────────────`
+> └──────────────`, m, fake)}
  await conn.sendButton(m.chat, play, fgig, thumbnail, [
     ['🍧 MP3', `${usedPrefix}fgmp3 ${url}`],
     ['🍿 MP4', `${usedPrefix}fgmp4 ${url}`]
