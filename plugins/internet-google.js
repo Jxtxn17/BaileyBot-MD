@@ -4,9 +4,9 @@ import axios from 'axios';
 let handler = async (m, { conn, command, args, usedPrefix }) => {
 const fetch = (await import('node-fetch')).default;
 const text = args.join` `;
-if (!text) return conn.reply(m.chat, '*Ingresa lo que deseas buscar en Google.*', m, fake,);
+if (!text) return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *Ingresa lo que deseas buscar en Google.*', m, fake,);
 await conn.sendMessage(m.chat, {
-        text: ` *↻ Espera @${m.sender.split`@`[0]}, soy lenta. . .*.`,
+        text: ` *𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾́𝙽 𝙻𝙸𝚂𝚃𝙰 🍿*.`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
