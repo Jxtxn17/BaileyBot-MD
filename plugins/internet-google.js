@@ -13,9 +13,9 @@ await conn.sendMessage(m.chat, {
       }, { quoted: m }).then(_ => m.react('⏰'))
 const url = 'https://google.com/search?q=' + encodeURIComponent(text);
 google({'query': text}).then(res => {
-let teks = `*🔎 Resultado de* : ${text}\n\n`
+let teks = `*🧸 Resultado de* : ${text}\n\n`
 for (let g of res) {
-teks += `*Titulo💌*: ${g.title}\n*Link📎*: ${g.link}\n*Info🧿*: ${g.snippet}\n\n`
+teks += `*Titulo 🍧*: ${g.title}\n*Link 🍿*: ${g.link}\n*Info 🍫*: ${g.snippet}\n\n`
 }
 conn.reply(m.chat, teks, m, fake,).then(_ => m.react('✅'))
 })
