@@ -31,7 +31,7 @@ import fetch from 'node-fetch';
    } 
  }; 
  handler.help = ['xnxxsearch'].map((v) => v + ' <query>'); 
- handler.tags = ['downloader', 'premium']; 
+ handler.tags = ['descargas', 'premium']; 
  handler.premium = true 
  handler.command = /^xnxxsearch|xnxxs$/i; 
  export default handler; 
