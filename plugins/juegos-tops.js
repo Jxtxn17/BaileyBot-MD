@@ -36,7 +36,7 @@ import util from 'util';
      ptt: true}); 
  } 
  handler.help = handler.command = ['top']; 
- handler.tags = ['fun']; 
+ handler.tags = ['juegos']; 
  handler.group = true; 
  handler.limit = 2; 
  export default handler; 
