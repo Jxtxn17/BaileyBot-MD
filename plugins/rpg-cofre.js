@@ -19,7 +19,7 @@ const handler = async (m, {isPrems, conn}) => {
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║✒ *${dia} 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨* 💎
 ║✒ *${tok} 𝙏𝙤𝙠𝙚𝙣𝙨* 🪙
-║✒ *$mystic} 𝘽𝙖𝙞𝙡𝙮𝙘𝙤𝙞𝙣𝙨
+║✒ *${mystic} 𝘽𝙖𝙞𝙡𝙮𝙘𝙤𝙞𝙣𝙨
 ║✒ *${expp} 𝙀𝙭𝙥* ⚡
 ╚═════════════════⬣`;
 
@@ -56,7 +56,7 @@ renderLargerThumbnail: true
 handler.help = ['daily'];
 handler.tags = ['xp'];
 handler.command = ['coffer', 'cofre', 'abrircofre', 'cofreabrir'];
-handler.level = 5;
+handler.level = 1;
 export default handler;
 
 function pickRandom(list) {
