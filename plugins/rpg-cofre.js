@@ -56,7 +56,7 @@ renderLargerThumbnail: true
 handler.help = ['daily'];
 handler.tags = ['xp'];
 handler.command = ['coffer', 'cofre', 'abrircofre', 'cofreabrir'];
-handler.level = 1;
+handler.level = 0;
 export default handler;
 
 function pickRandom(list) {
