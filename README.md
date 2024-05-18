@@ -1,7 +1,7 @@
 ## Curiosity : Bot - MD ✨️
 
 <p align="center">
-<img src="https://telegra.ph/file/04b7a17f4f7aaa302b2d8.jpg" alt="CuriosityBot-MD" width="900"/>
+<img src="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg" alt="BaileyBot-MD" width="900"/>
 </p>
 
 <a href="https://github.com/azamijs/CuriosityBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
@@ -151,9 +151,20 @@ para usuarios del heroku
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ***
+
+
+### `🍐 EDITOR & PROPIETARIO DEL BOT`
+<a href="https://github.com/Jxtxn17 "><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
+
+#### COLABORADORES 
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+ 
   <td align="center"><a 
   href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png?size=100" width="100px;" alt=""/><br /><sub><b>HACHEJOTA</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
-    <td align="center"><a href="https://github.com/EnderJs-CreatorGl"><img src="https://github.com/EnderJs-CreatorGl.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
+    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
        <td align="center"><a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png?size=100" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
     <td align="center"><a 
