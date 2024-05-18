@@ -104,18 +104,14 @@ Escribe Estos Comandos Uno Por Uno**
 <a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Actualizar+BaileyBot" height="50px"></a> 
 </p>
 
-> [!NOTE]
-> <a
-href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Comandos para actualizar BaileBot-MD de forma automática**</a>
+**Comandos para actualizar BaileBot-MD de forma automática**
 
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/update.sh | bash
 ```
-> [!NOTE]
-> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente**</a>
+**Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente**
 
-> [!WARNING]
-> <a href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Estos comandos solo funcionan para TERMUX, REPORTAN, LINUX**</a>
+**Estos comandos solo funcionan para TERMUX, REPORTAN, LINUX**
 
 - #### ❕ Para Activar 24/7 (Termux)
 > Este Comando Debe Ir En La Carpeta BaileyBot-MD
