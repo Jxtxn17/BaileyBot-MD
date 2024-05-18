@@ -81,12 +81,10 @@ npm update
 ```bash
 npm start
 ```
-
-> [!IMPORTANT]
-> <a
-href="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg">**Activar 
+**Activar 
 En Caso De Detenerse En Termux
-Escribe Estos Comandos Uno Por Uno**</a>
+Escribe Estos Comandos Uno Por Uno**
+
 ```bash
 > cd
 > cd BaileyBot-MD
