@@ -30,13 +30,13 @@
 
 <a href="https://chat.whatsapp.com/IA4POOxfwFN9iO1e9I2Qns"><img alt="🐧 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot-0000FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-<a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Clona+el+repositorio+aquí" height="50px"></a> 
+- #### <a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Clona+el+repositorio+aquí" height="50px"></a> 
 </p>
 
- Clonar BaileyBot [Aqui](https://github.com/Jxtxn17/BaileyBot-MD/fork)
+ ## Clonar BaileyBot [Aqui](https://github.com/Jxtxn17/BaileyBot-MD/fork)
 
 
-<a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  🐢+Instalacion+Automatica+Por+Termux" height="50px"></a> 
+- #### <a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  🐢+Instalacion+Automatica+Por+Termux" height="50px"></a> 
 </p>
 
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-008F39?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
@@ -50,7 +50,8 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/bailey.sh | bash
 ```
 
-- #### 🦝 Instalacion Manual Por Termux
+- #### <a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Instalación+Manual+Por+Termux" height="50px"></a> 
+</p>
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FFFF00?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
 > Escribe Estos Comandos Uno Por Uno
 
