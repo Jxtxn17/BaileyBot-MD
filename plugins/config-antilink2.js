@@ -1,4 +1,4 @@
-/*const channel = /https:/i;
+const channel = /https:/i;
 export async function before(m, {conn, isAdmin, isBotAdmin}) {
   if (m.isBaileys && m.fromMe) {
     return !0;
@@ -25,4 +25,4 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
     } else if (!bot.restrict) return m.reply('*¡Esta característica esta desactivada!*');
   }
   return !0;
-/*}
+}
