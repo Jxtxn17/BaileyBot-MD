@@ -1,7 +1,7 @@
 ## Curiosity : Bot - MD ✨️
 
 <p align="center">
-<img src="https://telegra.ph/file/3baddb6a33e14e1b59e83.jpg" alt="BaileyBot-MD" width="900"/>
+<img src="https://telegra.ph/file/04b7a17f4f7aaa302b2d8.jpg" alt="CuriosityBot-MD" width="900"/>
 </p>
 
 <a href="https://github.com/azamijs/CuriosityBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
@@ -21,94 +21,94 @@
 
 <a href="https://chat.whatsapp.com/GrcXB1NINsDAPp4fCVgwfX"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-CuriosityBot🎌-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-- #### 🚩 Clonar El Repositorio
+- #### `🚩 Clonar El Repositorio`
  Clonar CuriosityBot [Aqui](https://github.com/AzamiJs/CuriosityBot-MD/fork)
 
-*
+***
 
-### ⚙️ Configuraciones ⚙️
+### `⚙️ Configuraciones ⚙️`
 - Cambiar Los Numeros De Los Owner [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
 - Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/package.json#L42)
-*
+***
 
 - #### 🚩 Instalacion Automatica Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
 > Comandos Para Instalar CuriosityBot Forma Automatica Por Termux.
 
-bash
+```bash
 termux-setup-storage
-
-bash
+```
+```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
-
+```
 
 - #### 🚩 Instalacion Manual Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
 > Escribe Estos Comandos Uno Por Uno
 
-bash
+```bash
 termux-setup-storage
+```
 
-
-bash
+```bash
 apt-get update -y && apt-get upgrade -y
+```
 
-
-bash
+```bash
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+```
 
-
-bash
+```bash
 git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install
+```
 
-
-bash
+```bash
 ls
-
-bash
+```
+```bash
 npm update
+```
 
-
-bash
+```bash
 npm start
-
+```
 
 - #### 🚩 Activar En Caso De Detenerse En Termux
 > Escribe Estos Comandos Uno Por Uno
-bash
+```bash
 > cd
 > cd CuriosityBot-MD
 > npm start
-
+```
 
 - #### 🚩 Obtener Otro Codigo Qr
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
-bash
+```bash
 > cd CuriosityBot-MD
 > rm -rf sessions
 > npm start
-
+```
 
 - ### 🚩 Actualizar CuriosityBot 
 > Note Comandos para actualizar CuriosityBot-MD de forma automática
-bash
+```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/update.sh | bash
-
-Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un respaldo de su database.json y se agregará a la versión más reciente.
+```
+Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 - #### 🎌 Para Activar 24/7 (Termux)
 > Este Comando Deve Ir En La Carpeta CuriosityBot-MD
-bash
+```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-
+```
 ----
 - ### 🎌 Instalacion Por Code Dpace
 
-[CREAR SERVIDOR](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
-*
+[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
+***
 
 - ### Activar En Replit
 
@@ -129,14 +129,14 @@ bash
 <a href="https://vortexuscloud.com"><img src="https://telegra.ph/file/4bd3d8d14e5683073d4f3.jpg" height="125px"></a>
 ### vortexus cloud
 
-- *Pagina Oficial De Vortexus:* [Vortexuscloud](https://vortexuscloud.com)
-- *Crear cuenta en la Dashboard:* [Dashboard](https://youtu.be/JUg7DWUY6_Y?si=DHwk9dwjvWdPEIBJ)
-- *Dashboard:* [Dash](https://dash.vortexuscloud.com)
-- *Panel:* [Aquí](https://panel.vortexuscloud.com)
-- *Contacto:* [Aquí](https://wa.me/258858119033) 
-- *Canal de WhatsApp:* [Aquí](https://whatsapp.com/channel/0029Va8ZD6O3mFXxTPl1m13A)
+- **Pagina Oficial De Vortexus:** [`Vortexuscloud`](https://vortexuscloud.com)
+- **Crear cuenta en la Dashboard:** [`Dashboard`](https://youtu.be/JUg7DWUY6_Y?si=DHwk9dwjvWdPEIBJ)
+- **Dashboard:** [`Dash`](https://dash.vortexuscloud.com)
+- **Panel:** [`Aquí`](https://panel.vortexuscloud.com)
+- **Contacto:** [`Aquí`](https://wa.me/258858119033) 
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va8ZD6O3mFXxTPl1m13A)
 
-- [x] *Configuración* <details><summary>*Ajustes del Servidor - CuriosityBot-MD*</summary><img src="https://telegra.ph/file/524ab6e15b912d9cdb777.jpg"></details>
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - CuriosityBot-MD**</summary><img src="https://telegra.ph/file/524ab6e15b912d9cdb777.jpg"></details>
 ------------------
 
 - ### ☂️ Activar En Heroku ☂️
@@ -147,25 +147,30 @@ para usuarios del heroku
 #### Heroku Buildpack
 | BuildPack | LINK |
 |--------|--------|
-| *FFMPEG* |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| *IMAGEMAGICK* | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
-### 🍐 EDITOR & PROPIETARIO DEL BOT
-<a href="https://github.com/Jxtxn17 "><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
+***
 
-#### COLABORADORES 
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
- 
-  <td align="center"><a 
-  href="https://github.com/HACHEJOTA"><img src="https://github.com/HACHEJOTA.png?size=100" width="100px;" alt=""/><br /><sub><b>HACHEJOTA</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
-    <td align="center"><a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png?size=100" width="100px;" alt=""/><br /><sub><b>Ender GB</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
-       <td align="center"><a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png?size=100" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
-       <td align="center"><a href="https://github.com/WOTCHITO"><img src="https://github.com/WOTCHITO.png?size=100" width="100px;" alt=""/><br /><sub><b>Eder</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a 
- <td align="center"><a href="https://github.com/AzamiJS"><img src="https://github.com/AzamiJS.png?size=100" width="100px;" alt=""/><br /><sub><b>Alexis</b></sub></a><br /><sub><i>Desarrollador Oficial</i>
-    <td align="center"><a
+
+### EDITOR Y PROPIETARIO DEL BOT
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
+
+- #### COLABORADORES 
+<a href="https://github.com/AzamiJs/CuriosityBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=AzamiJs/CuriosityBot-MD" /> 
+</a>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+##### AGRADECIMIENTO ESPECIAL PARA
+<!--[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
+[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
+[![adiwajshing/Baileys](https://github.com/adiwajshing.png?size=100)](https://github.com/adiwajshing)-->
+<a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=100" width="100" height="100"></a> | [![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
+---|---
+[Bochilgaming](https://github.com/BochilGaming)  | [Nurutomo](https://github.com/Nurutomo)
+games-wabot | wabot-q |
