@@ -1,4 +1,4 @@
-/*import db from '../lib/database.js'
+import db from '../lib/database.js'
 import { canLevelUp } from '../lib/levelling.js'
 
 export async function before(m, { conn }) {
@@ -20,4 +20,4 @@ export async function before(m, { conn }) {
 *╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*`.trim())
     }
 } 
-/*
+
