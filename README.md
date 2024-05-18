@@ -30,11 +30,13 @@
 
 <a href="https://chat.whatsapp.com/IA4POOxfwFN9iO1e9I2Qns"><img alt="🐧 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot-0000FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-- #### `🐳 Clona el repositorio aquí!!`
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Clona el repositorio aquí" height="50px"></a> 
+</p>
  Clonar BaileyBot [Aqui](https://github.com/Jxtxn17/BaileyBot-MD/fork)
 
 
-- #### 🐢 Instalacion Automatica Por Termux
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  🐢 Instalacion Automatica Por Termux" height="50px"></a> 
+</p>
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-008F39?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
 > Comandos Para Instalar BaileyBot Forma Automatica Por Termux.
