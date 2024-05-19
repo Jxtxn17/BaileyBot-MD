@@ -8,7 +8,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-<a href="https://github.com/Jxtxn17/BaileyBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/azamijs/CuriosityBot-MD?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/Jxtxn17/BaileyBot-MD"><img title="Stars" src="https://img.shields.io/github/stars/Jxtxn17/BaileyBot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Jxtxn17/BaileyBot-MD?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jxtxn17/BaileyBot-MD?label=watchers&color=ff4500&style=flat-square" /></a> <br>
 
