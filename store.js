@@ -44,7 +44,7 @@ global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img1
 //Enlaces
 global.yt = 'https://www.youtube.com/@Azami_Mods'
 global.ig = 'https://www.instagram.com/b.jxtxn17'
-global.md = 'https://github.com/Jxtxn17/BaileyBot-MD'
+global.md = 'https://github.com/EnzoVaselevich/DIABLABOT-MD-OFC-'
 global.paypal = '+51929972576'
 global.git = 'https://github.com/Jxtxn17'
 global.nn = 'https://chat.whatsapp.com/IA4POOxfwFN9iO1e9I2Qns' //Grupo ofc
