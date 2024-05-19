@@ -22,12 +22,12 @@ global.prems = []
 //Solo desarrolladores aprobados
 global.isdev = [ /* ['5217294888993'], */ ['5214434703586'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['5492964650915'], ['50558124470'], ['573012482597']]
 
-global.packname = 'HanabiBot-MD'
+global.packname = '🌸 ᴰⁱᵃᵇˡⁱᵗᵃᴮᵒᵗ⁻ᴹᴰ 🐼'
 global.author = 'Enzito'
-global.wm = 'Hanabi-Bot-MD'
-global.wm2 = 'Hanabi - Bot - MD'
+global.wm = '🌼 𝕯𝖎𝖆𝖇𝖑𝖆-𝕭𝖔𝖙-𝕸𝕯 🍧'
+global.wm2 = '🍁 𝒟𝒾𝒶𝒷𝓁𝒶 - 𝐵𝑜𝓉 - 𝑀𝒟 🌸'
 global.jxtxn = 'Enzito'
-global.cb = 'HanabiBot-MD'
+global.cb = '🌸 ᴅɪᴀʙʟᴀʙᴏᴛ-ᴍᴅ 💖'
 
 global.vs = '1.0.2'
 global.library = 'Baileys'
