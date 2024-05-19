@@ -8,19 +8,7 @@ import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
-['51929972576', '🍧𝙹𝚇𝚃𝚇𝙽¹⁷🍧', true],
-['51955918117', 'Daniel', true],
-['50558124470'],
-['573106040746', '𝙴𝙳𝙴𝚁', true],
-['51992004117', 'HJ', true],
-['5214434703586'],
-['50499698072'],
-['5492215034412'],
-['5217294888993'],
-['5214437863111'],
-['51971959440'],
-['595992667005'],
-['573012482597']]
+['5491130182250', 'EnzitoOFC', true]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
@@ -34,12 +22,12 @@ global.prems = []
 //Solo desarrolladores aprobados
 global.isdev = [ /* ['5217294888993'], */ ['5214434703586'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['5492964650915'], ['50558124470'], ['573012482597']]
 
-global.packname = 'ᥫ᭡𝘽𝙖𝙞𝙡𝙚𝙮𝘽𝙤𝙩-𝙈𝘿ꨄ'
-global.author = 'Jxtxn17'
-global.wm = '𓆩𝐁𝐚𝐢𝐥𝐞𝐲𝐁𝐨𝐭-𝐌𝐃𓆪'
-global.wm2 = '✦𝘽𝙖𝙞𝙡𝙚𝙮-𝗯𝗼𝘁-𝗠𝗗✦'
-global.jxtxn = 'Jxtxn'
-global.cb = '⏤͟͟͞͞ＢａｉｌｅｙＢｏｔ-ＭＤ'
+global.packname = 'HanabiBot-MD'
+global.author = 'Enzito'
+global.wm = 'Hanabi-Bot-MD'
+global.wm2 = 'Hanabi - Bot - MD'
+global.jxtxn = 'Enzito'
+global.cb = 'HanabiBot-MD'
 
 global.vs = '1.0.2'
 global.library = 'Baileys'
