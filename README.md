@@ -162,7 +162,7 @@ para usuarios del heroku
 
 - #### COLABORADORES 
 <a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=AzamiJs/CuriosityBot-MD" /> 
+<img src="https://contrib.rocks/image?repo=Jxtxn17/BaileyBot-MD" /> 
 </a>
 
 <!-- markdownlint-restore -->
