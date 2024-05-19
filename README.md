@@ -81,6 +81,7 @@ npm update
 ```bash
 npm start
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### 🚩 Activar En Caso De Detenerse En Termux
 > Escribe Estos Comandos Uno Por Uno
@@ -89,6 +90,7 @@ npm start
 > cd CuriosityBot-MD
 > npm start
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### 🚩 Obtener Otro Codigo Qr
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
@@ -97,12 +99,15 @@ npm start
 > rm -rf sessions
 > npm start
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - ### 🚩 Actualizar CuriosityBot 
 > Note Comandos para actualizar CuriosityBot-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/update.sh | bash
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
@@ -112,6 +117,8 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 ----
 - ### 🎌 Instalacion Por Code Dpace
 
