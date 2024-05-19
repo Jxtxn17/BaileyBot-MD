@@ -17,7 +17,7 @@ if (/webp|image|video/g.test(mime)) {
 let img = await q.download?.()
 let out
 stiker = await sticker(img, false, global.packname, global.author)
-await conn.reply(m.chat, `_Calmᥲ ᥴrᥲᥴk ᥱs𝗍᥆ᥡ haciendo 𝗍ᥙ s𝗍іᥴkᥱrs 👏_\n\n_*Recuerdᥲ ᥣ᥆s s𝗍іᥴkᥱrsgі𝖿 s᥆ᥒ ძᥱ 6 sᥱgᥙᥒძ᥆s*_\n\n_*by BaileyBot*_`, m)
+await conn.reply(m.chat, `_Calmᥲ ᥴrᥲᥴk ᥱs𝗍᥆ᥡ haciendo 𝗍ᥙ s𝗍іᥴkᥱrs 👏_\n\n_*Recuerdᥲ ᥣ᥆s s𝗍іᥴkᥱrsgі𝖿 s᥆ᥒ ძᥱ 6 sᥱgᥙᥒძ᥆s*_\n\n_*by DiablaBot*_`, m)
 
 if (!stiker) {
 if (/webp/g.test(mime)) out = await webp2png(img)
