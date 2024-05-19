@@ -34,7 +34,7 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = 'ʙʏ ᴀxx.ᴏғᴄ'
+global.dev = 'ʙʏ ᴱⁿᶻᵒ.ᴏғᴄ'
 global.devnum = '+51929972576'
 
 let file = fileURLToPath(import.meta.url)
