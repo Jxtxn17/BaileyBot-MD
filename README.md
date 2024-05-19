@@ -25,15 +25,18 @@
 
 <a href="https://chat.whatsapp.com/GrcXB1NINsDAPp4fCVgwfX"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot🎌-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 - #### `🚩 Clonar El Repositorio`
  Clonar CuriosityBot [Aqui](https://github.com/AzamiJs/CuriosityBot-MD/fork)
 
-***
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ### `⚙️ Configuraciones ⚙️`
 - Cambiar Los Numeros De Los Owner [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
 - Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/package.json#L42)
-***
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### 🚩 Instalacion Automatica Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
@@ -46,6 +49,7 @@ termux-setup-storage
 ```bash
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
 ```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### 🚩 Instalacion Manual Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
