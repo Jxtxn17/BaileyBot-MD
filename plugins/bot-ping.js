@@ -35,7 +35,7 @@ let texto = `┏━━━━━━━━━━━${wm}━━━━━━━━�
 ┃ • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 ┗━━━━━━━━━━━━${wm}━━━━━━━━━━━`.trim()
 
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: '𝐁𝐀𝐈𝐋𝐄𝐘 - 𝐁𝐎𝐓 - 𝐌𝐃', thumbnailUrl: 'https://telegra.ph/file/55b128a6037a8b0033be4.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'HANABI - BOT - MD', thumbnailUrl: 'https://telegra.ph/file/55b128a6037a8b0033be4.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['ping']
