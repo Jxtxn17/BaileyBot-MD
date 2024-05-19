@@ -19,35 +19,35 @@
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> 🎌 Prueba El Bot Aqui
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="🍧 Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Antes De Instalar El Bot Quieres Usarlo?. Usalo Aqui!
 
-<a href="https://chat.whatsapp.com/GrcXB1NINsDAPp4fCVgwfX"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot🎌-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/GrcXB1NINsDAPp4fCVgwfX"><img alt="🧸 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### `🚩 Clonar El Repositorio`
- Clonar CuriosityBot [Aqui](https://github.com/AzamiJs/CuriosityBot-MD/fork)
+ Clonar BaileyBot [Aqui](https://github.com/Jxtxn17/BaileyBot-MD/fork)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ### `⚙️ Configuraciones ⚙️`
 - Cambiar Los Numeros De Los Owner [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
-- Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/package.json#L42)
+- Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/Jxtxn17/BaileyBot-MD/blob/main/package.json#L42)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### 🚩 Instalacion Automatica Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/smoWgg28wPk?si=ck-t9tvKrJQ0yZbS?feature=share)
 
-> Comandos Para Instalar CuriosityBot Forma Automatica Por Termux.
+> Comandos Para Instalar BaileyBot Forma Automatica Por Termux.
 
 ```bash
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Bailey/BaileyBot-MD/master/bailey.sh | bash
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -68,7 +68,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install
+git clone https://github.com/Jxtxn/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install
 ```
 
 ```bash
@@ -87,7 +87,7 @@ npm start
 > Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
-> cd CuriosityBot-MD
+> cd BaileyBot-MD
 > npm start
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
@@ -95,16 +95,16 @@ npm start
 - #### 🚩 Obtener Otro Codigo Qr
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
 ```bash
-> cd CuriosityBot-MD
+> cd BaileyBot-MD
 > rm -rf sessions
 > npm start
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- ### 🚩 Actualizar CuriosityBot 
-> Note Comandos para actualizar CuriosityBot-MD de forma automática
+- ### 🚩 Actualizar BaileyBot 
+> Note Comandos para actualizar BaileyBot-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Jxtxn/BaileyBot-MD/master/update.sh | bash
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -127,32 +127,19 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 
 - ### Activar En Replit
 
-[![Run on Repl.it](https://repl.it/badge/github/AzamiJs/CuriosityBot-MD)](https://repl.it/github/AzamiJs/CuriosityBot-MD) 
-----  
+[![Run on Repl.it](https://repl.it/badge/github/AzamiJs/CuriosityBot-MD)](https://repl.it/github/Jxtxn17/BaileyBot-MD) 
+---- 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - ### Activar En Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/AzamiJs/CuriosityBot-MD&branch=master&name=curiositybot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Jxtxn17/BaileyBot-MD&branch=master&name=baileybot)
 ----  
 - ### Activar En Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FAzamiJs%2FCuriosityBot-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FJxtxn17%2FBaileyBot-MD) 
 ----  
-- ### ☁️ Vortexus Cloud - Host
-> Integra CuriosityBot-MD en un servicio de alojamiento 24/7 online 
-
-<a href="https://vortexuscloud.com"><img src="https://telegra.ph/file/4bd3d8d14e5683073d4f3.jpg" height="125px"></a>
-### vortexus cloud
-
-- **Pagina Oficial De Vortexus:** [`Vortexuscloud`](https://vortexuscloud.com)
-- **Crear cuenta en la Dashboard:** [`Dashboard`](https://youtu.be/JUg7DWUY6_Y?si=DHwk9dwjvWdPEIBJ)
-- **Dashboard:** [`Dash`](https://dash.vortexuscloud.com)
-- **Panel:** [`Aquí`](https://panel.vortexuscloud.com)
-- **Contacto:** [`Aquí`](https://wa.me/258858119033) 
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va8ZD6O3mFXxTPl1m13A)
-
-- [x] **Configuración** <details><summary>**Ajustes del Servidor - CuriosityBot-MD**</summary><img src="https://telegra.ph/file/524ab6e15b912d9cdb777.jpg"></details>
-------------------
 
 - ### ☂️ Activar En Heroku ☂️
 para usuarios del heroku
@@ -169,7 +156,7 @@ para usuarios del heroku
 
 
 ### EDITOR Y PROPIETARIO DEL BOT
-<a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
 
 - #### COLABORADORES 
 <a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
