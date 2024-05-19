@@ -158,10 +158,10 @@ para usuarios del heroku
 
 
 ### EDITOR Y PROPIETARIO DEL BOT
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="Azami19"/></a>
+<a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Azami19"/></a>
 
 - #### COLABORADORES 
-<a href="https://github.com/AzamiJs/CuriosityBot-MD/graphs/contributors">
+<a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=AzamiJs/CuriosityBot-MD" /> 
 </a>
 
