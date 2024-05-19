@@ -113,7 +113,7 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 - #### 🎌 Para Activar 24/7 (Termux)
-> Este Comando Deve Ir En La Carpeta CuriosityBot-MD
+> Este Comando Deve Ir En La Carpeta BaileyBot-MD
 ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
@@ -123,23 +123,27 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 - ### 🎌 Instalacion Por Code Dpace
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
-***
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - ### Activar En Replit
 
 [![Run on Repl.it](https://repl.it/badge/github/AzamiJs/CuriosityBot-MD)](https://repl.it/github/Jxtxn17/BaileyBot-MD) 
----- 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - ### Activar En Koyeb
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Jxtxn17/BaileyBot-MD&branch=master&name=baileybot)
-----  
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 - ### Activar En Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FJxtxn17%2FBaileyBot-MD) 
-----  
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 
 - ### ☂️ Activar En Heroku ☂️
 para usuarios del heroku
