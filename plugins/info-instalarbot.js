@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de CuriosityBot*
+let texto = `🚩 *Instalación de DiablaBot-MD*
 
 *Requisitos para la instalación*
 ⬡ Dudas: wa.me/5217294888993
