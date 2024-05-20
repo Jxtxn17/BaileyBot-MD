@@ -7,7 +7,7 @@ let texto = `🚩 *Instalación de CuriosityBot*
 ⬡ Tutoríal: https://youtu.be/qRb9ElGT8mM
 ⬡ 1 GB de almacenamiento
 ⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
-⬡ GitHub: https://github.com/AzamiJs/CuriosityBot-MD
+⬡ GitHub: https://github.com/EnzoVaselevich/DiablaBot-MD-oficial
 ⬡ Un whatsapp inmune (secundario)
 ⬡ Un número 
 ⬡ Dispositivo o una PC para escanear
@@ -20,7 +20,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install 
+git clone https://github.com/EnzoVaselevich/DiablaBot-MD-oficial && cd DiablaBot-MD-oficial && yarn install && npm install 
 
 ls
 
@@ -43,7 +43,7 @@ m.reply('apt-get update -y && apt-get upgrade -y')
 await delay(1000 * 1)
 m.reply('pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn')
 await delay(1000 * 1)
-m.reply('git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install ')
+m.reply('git clone https://github.com/EnzoVaselevich/DiablaBot-MD-oficial && cd DiablaBot-MD-oficial && yarn install && npm install ')
 await delay(1000 * 1)
 m.reply('ls')
 await delay(1000 * 1)
