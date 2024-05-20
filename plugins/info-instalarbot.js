@@ -3,8 +3,7 @@ var handler  = async (m, { conn }) => {
 let texto = `🚩 *Instalación de DiablaBot-MD*
 
 *Requisitos para la instalación*
-⬡ Dudas: wa.me/5217294888993
-⬡ Tutoríal: https://youtu.be/qRb9ElGT8mM
+⬡ Dudas: wa.me/5491130182250
 ⬡ 1 GB de almacenamiento
 ⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
 ⬡ GitHub: https://github.com/EnzoVaselevich/DiablaBot-MD-oficial
