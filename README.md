@@ -3,7 +3,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <p align="center">
-<img src="https://telegra.ph/file/162441a545ce4db49ebad.mp4" alt="CuriosityBot-MD" width="900"/>
+<img src="https://telegra.ph/file/a200f0cd17e53516a89ff.jpg" alt="CuriosityBot-MD" width="900"/>
 </p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
