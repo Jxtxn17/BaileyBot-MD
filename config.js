@@ -49,6 +49,20 @@ global.menudi = ['⛶','❏','⫹⫺']
 global.dev = 'ʙʏ ᴀxx.ᴏғᴄ'
 global.devnum = '+51929972576'
 
+global.cmenut = '❖––––––『';
+global.cmenub = '┊✦ ';
+global.cmenuf = '╰━═┅═━––––––๑\n';
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
+global.dmenut = '*❖─┅──┅〈*';
+global.dmenub = '*┊»*';
+global.dmenub2 = '*┊*';
+global.dmenuf = '*╰┅────────┅✦*';
+global.htjava = '⫹⫺';
+global.htki = '*⭑•̩̩͙⊱•••• ☪*';
+global.htka = '*☪ ••••̩̩͙⊰•⭑*';
+global.comienzo = '• • ◕◕════';
+global.fin = '════◕◕ • •';
+
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
 console.log(chalk.yellow('Se actualizo el archivo config.js'))
