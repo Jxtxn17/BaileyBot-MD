@@ -21,7 +21,7 @@ let ct = ['AF','AX','AL','DZ','AS','AD','AO','AI','AQ','AG','AR','AM','AW','AU',
 
 let ke = await fetch(`https://api.worldbank.org/v2/country/${ct.getRandom()}?format=json`)
 let kt = await ke.json()
-let imgr = imgAll.getRandom()
+let imgr = ImgAll.getRandom()
     let user = global.db.data.users[m.sender]
     let timers = (cooldown - (new Date - user.lastadventure))
 if (user.health < 80) return conn.sendButton(m.chat,`${htki} 𝑩𝒂𝒋𝒂 𝒔𝒂𝒍𝒖𝒅 ${htka}`,
