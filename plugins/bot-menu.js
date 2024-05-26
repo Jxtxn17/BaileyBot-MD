@@ -44,7 +44,7 @@ _(Para ver el menú completo)_`
 
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 
-} catch {
+} catch (e) {
 conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
 console.log(e)
 }}
