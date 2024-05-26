@@ -1,8 +1,6 @@
 var handler = async (m, { conn, command }) => {
 
-let str = `🚩 *Donar*
-
-⬡ *Creador del bot*
+let str = `⬡ *Creador del bot*
 wa.me/51929972576
 
 _Puedes apoyar el bot dando tu estrellita en nuestro repositorio_
