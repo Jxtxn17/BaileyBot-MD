@@ -63,7 +63,7 @@ await conn.reply(m.chat, '*🚫 𝐄𝐑𝐑𝐎𝐑 🚫 ᥱrr᥆r, ᥒ᥆ sᥱ
 }
 handler.help = ['yta']
 handler.tags = ['descargas']
-handler.command = /^audio|fgmp3|dlmp3|getaud|yt(a|mp3)$/i
+handler.command = /^audio|ytmp3|dlmp3|getaud|yt(a|mp3)$/i
 
 handler.register = true
 handler.limit = true
