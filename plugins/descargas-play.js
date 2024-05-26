@@ -7,7 +7,7 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 var handler = async (m, { conn, command, args, text, usedPrefix }) => {
 
 if (!text) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥱᥣ ᥒ᥆mᑲrᥱ ძᥱ ᥙᥒ ᥎іძᥱ᥆ ძᥱ ᥡ᥆ᥙ𝗍ᥙᑲᥱ*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆, !${command} New West - Those Eyes`,  m, fake, )
-m.react ('rwait')
+m.react ('✅')
 
 try {
 
