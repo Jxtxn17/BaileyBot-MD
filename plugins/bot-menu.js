@@ -46,7 +46,7 @@ await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '�
 
 } catch {
 conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
-console.log(e)
+console.log
 }}
 handler.help = ['menu']
 handler.tags = ['bot']
