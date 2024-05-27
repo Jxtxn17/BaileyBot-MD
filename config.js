@@ -5,6 +5,7 @@
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
+import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.js"
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
