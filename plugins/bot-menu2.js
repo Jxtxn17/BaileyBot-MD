@@ -1,1 +1,0 @@
-Borrar plugin
