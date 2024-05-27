@@ -241,7 +241,7 @@ async function clearTmp() {
 
 setInterval(async () => {
 await clearTmp()
-console.log(chalk.cyan(`AUTOCLEAR │ BASURA ELIMINADA\n`))
+console.log(chalk.cyan(`\n╭» ♨️ BaileyBot-MD ♨️\n│→ AUTOCLEAR │ BASURA ELIMINADA \n╰― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ― ━ ― ━ ― ━ 🗑️♻️`))
 }, 30000) //1 munto
 
 function purgeSession() {
