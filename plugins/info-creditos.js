@@ -1,26 +1,15 @@
 var handler = async (m) => {
 
 let tqto = `🚩 *Desarrollador*
-⬡ *Azami*
-https://github.com/AzamiJs
+⬡ *Jxtxn17*
+https://github.com/Jxtxn17
 
 🎌 *Colaboradores*
-⬡ *Mario* 
-⬡ *GataDios*
-⬡ *Endymion*
 ⬡ *Wotchito*
 ⬡ *HJ*
 ⬡ *Ender*
-⬡ *Ax*
-⬡ *Wilmer*
-⬡ *Jose*
-⬡ *Katashi*
 ⬡ *Daniel*
-⬡ *X_Arumiii*
-⬡ *Wilson*
-⬡ *Cpw*
 ⬡ *Diego*
-⬡ *Edwardofc*
 
 _Envie "colaboradores" para obtener el enlace del perfil de GitHub de los colaboradores_`
 
@@ -31,22 +20,10 @@ handler.before = async m => {
 if (/^colaboradores|Colaboradores$/i.test(m.text) ) {
 let texto = `🚩 *GitHub - Colaboradores*
 
-⬡ https://github.com/elrebelde21
-⬡ https://github.com/GataNina-Li
-⬡ https://github.com/ReyEndymion
 ⬡ https://github.com/WOTCHITO
 ⬡ https://github.com/HACHEJOTA
 ⬡ https://github.com/EnderLB
-⬡ https://github.com/Jxtxn17
-⬡ https://github.com/Wilsmac
-⬡ https://github.com/KimdanBot-MD
-⬡ https://github.com/KatashiFukushima
-⬡ https://github.com/MoonContentCreator
-⬡ https://github.com/ArizzVal
-⬡ https://github.com/WilsonWaoz
-⬡ https://github.com/WorkCwp
 ⬡ https://github.com/Diego-YL-177
-⬡ https://github.com/Edwardofc
 
 _Envie "cc" Para Obtener El Contacto De Los Colaboradores_`
 
