@@ -8,10 +8,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
         //const url = 'https://www.youtube.com/watch?v=' + videoId
         m.react('🎧')
-        let play = `
-        ≡ ${wm}
-┏━━━━━━━━━━━━━━━━━━━┓
+        let play = `┏━━━━━━━━━━━━━━━━━━━┓
  📌 *Título* : ${title}
+
 ┃ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ 
 📎 ᥣіᥒk* 
   ${url}
