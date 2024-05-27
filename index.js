@@ -18,7 +18,7 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Bailey\nBot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['BlueBright', 'cyan']
+colors: ['BlueBright', 'redBright']
 })
 say(`BaileyBot-MD Hecho por Jxtxn17 / Contact: 51929972576`, {
 font: 'console',
