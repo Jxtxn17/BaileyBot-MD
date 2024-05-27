@@ -15,7 +15,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
  - - - - - - - - - - 
 📎 ᥣіᥒk* 
   ${url}
- - - - - - - - - - -
+ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━
  👤 ᥲᥙ𝗍᥆r* 
 ${author.name} 
 - - - - - - - - - - 
