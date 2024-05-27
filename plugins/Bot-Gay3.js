@@ -36,3 +36,6 @@ handler.command = ['play', 'playqq']
 //handler.disabled = true
 
 export default handler
+
+
+let v = yt_play[0].url
