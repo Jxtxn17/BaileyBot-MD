@@ -18,12 +18,12 @@ let result = await translate(`${text}`, { to: lang, autoCorrect: true })
 await conn.reply(m.chat, '*Traducción:* ' + result.text, m, fake, )
 } catch {
 try {
-let lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=${lolkeysapi}&text=${text}`)
+let lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=85faf717d0545d14074659ad&text=${text}`)
 let loll = await lol.json()
 let result2 = loll.result.translated
 await conn.reply(m.chat, '*Traducción:* ' + result2, m, fake, )
 } catch {
-await conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, )
+await conn.reply(m.chat, '❗️*OCCURIO UN ERROR*', m, fake, )
 }}}
 
 if (command == 'codesidioma') {
