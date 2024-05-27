@@ -12,6 +12,12 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         ≡ ${wm}
 ┌──────────────
  📌 *Título* : ${title}
+ - - - - - - - - - - 
+📎 ᥣіᥒk* 
+ ${yt_play[0].url} 
+ - - - - - - - - - -
+ 👤 ᥲᥙ𝗍᥆r* 
+ ${yt_play[0].author.name} 
 - - - - - - - - - - 
  📆 *Publicado:* ${ago}
 - - - - - - - - - - 
