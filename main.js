@@ -310,7 +310,7 @@ if (opcion == '1') {
 console.log(chalk.yellow('⚠️ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'))
  }}
 if (connection == 'open') {
-console.log(chalk.bold.cyan('\n╭───────────────────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰───────────────────────────◉\n'))}
+console.log(chalk.bold.cyan('\n╭────────────── • BaileyBot-MD 🍂 • ─────────────◉\n│\n│Conectado correctamente al WhatsApp.\n│\n╰────────────── • BaileyBot-MD 🍂 • ─────────────◉\n'))}
 //if (conn.user.connect) {
 //conn.fakeReply('5217294888993@s.whatsapp.net', '😃', '0@s.whatsapp.net', '😅 Soy CuriosityBot\nRecientemente me e conectado', '0@s.whatsapp.net')
 //conn.user.connect = true;
