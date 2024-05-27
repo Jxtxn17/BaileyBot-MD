@@ -493,21 +493,21 @@ Object.freeze(global.support)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 const a = await clearTmp()
-console.log(chalk.cyanBright(`\nAUTOCLEAR │ BASURA ELIMINADA\n`))
+console.log(chalk.cyanBright(`\n╭» ♨️ BaileyBot-MD ♨️\n│→ AUTOCLEAR │ BASURA ELIMINADA \n╰― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ― ━ ― ━ ― ━ 🗑️♻️`))
 }, 180000)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeSession()
-console.log(chalk.cyanBright(`\nAUTOPURGESESSIONS │ BASURA ELIMINADA\n`))
+console.log(chalk.cyanBright(`\n╭» ♨️ BaileyBot-MD ♨️\n│→ AUTOPURGESESSIONS │ BASURA ELIMINADA \n╰― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― 🗑️♻️`))
 }, 100000)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return;
 await purgeSessionSB()
-console.log(chalk.cyanBright(`\nAUTO_PURGE_SESSIONS_SUB-BOTS │ BASURA ELIMINADA\n`))
+console.log(chalk.cyanBright(`\n╭» ♨️ BaileyBot-MD ♨️\n│→ AUTO_PURGE_SESSIONS_SUB-BOTS │ BASURA ELIMINADA \n╰― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ― ━ 🗑️♻️`))
 }, 1000 * 60 * 60)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
-console.log(chalk.cyanBright(`\nAUTO_PURGE_OLDFILES │ BASURA ELIMINADA\n`))
+console.log(chalk.cyanBright(`\n╭» ♨️ BaileyBot-MD ♨️\n│→ AUTO_PURGE_OLDFILES │ BASURA ELIMINADA \n╰― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― ━ ― 🗑️♻️`))
 }, 1000 * 60 * 60)
 _quickTest().catch(console.error)
