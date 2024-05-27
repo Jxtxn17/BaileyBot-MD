@@ -14,10 +14,10 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
  📌 *Título* : ${title}
  - - - - - - - - - - 
 📎 ᥣіᥒk* 
- ${yt_play[0].url} 
+  ${url}
  - - - - - - - - - -
  👤 ᥲᥙ𝗍᥆r* 
- ${yt_play[0].author.name} 
+${author.name} 
 - - - - - - - - - - 
  📆 *Publicado:* ${ago}
 - - - - - - - - - - 
@@ -36,6 +36,3 @@ handler.command = ['play', 'playqq']
 //handler.disabled = true
 
 export default handler
-
-
-let v = yt_play[0].url
