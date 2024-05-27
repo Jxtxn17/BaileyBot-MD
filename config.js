@@ -5,7 +5,6 @@
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
-import { es as esDefault, en as enDefault } from "./lib/multi-languaje/_default.js"
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
@@ -31,21 +30,6 @@ global.confirmCode = ''
 global.suittag = ['5214531287294']
 global.mods = []
 global.prems = []
-
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-GB) ❱❱
-// [ES] > Agregué uno de los idiomas disponibles para el Bot en "mid".
-// [EN] > I added one of the languages available for the Bot in "mid".
-
-// ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
-// Español 👉 es           
-// English 👉 en
-global.mid = esDefault
-global.version_language = '1.0 (MID-GB)'
-
-// [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
-// [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 //Solo desarrolladores aprobados
 global.isdev = [ /* ['5217294888993'], */ ['5214434703586'], ['5492266466080'], ['5492266613038'], ['573012482597'], ['5215610314499'], ['51935531943'], ['33760536110'], ['5492964650915'], ['50558124470'], ['573012482597']]
