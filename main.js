@@ -125,7 +125,6 @@ const question = (texto) => new Promise((resolver) => rl.question(texto, resolve
 let opcion
 if (!fs.existsSync(`./${authFile}/creds.json`) && !methodCodeQR && !methodCode) {
 do {
-//Codigo Adaptado Por "Mario" & "Diego"
 let lineM = '━━━━━━━━━━━━━━━━━━━━'
 opcion = await question(`╭${lineM}╮  
 ┃ ${chalk.greenBright('╭━━━━━━━━━━━━━━━━━━━')}
