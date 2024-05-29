@@ -126,39 +126,6 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- ### Activar En Replit
-
-[![Run on Repl.it](https://repl.it/badge/github/AzamiJs/CuriosityBot-MD)](https://repl.it/github/Jxtxn17/BaileyBot-MD) 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-- ### Activar En Koyeb
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Jxtxn17/BaileyBot-MD&branch=master&name=baileybot)
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-- ### Activar En Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FJxtxn17%2FBaileyBot-MD) 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-
-- ### ☂️ Activar En Heroku ☂️
-para usuarios del heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Azami19/CuriosityBot-MD1)
-
-#### Heroku Buildpack
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-
-***
-
-
 ### EDITOR Y PROPIETARIO DEL BOT
 <a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
 
