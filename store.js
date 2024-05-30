@@ -40,9 +40,10 @@ global.img12 = 'https://telegra.ph/file/fd775e4753173ecdf950a.jpg'
 global.img13 = 'https://telegra.ph/file/0476f5da331e1a1712df9.jpg'
 global.img14 = 'https://telegra.ph/file/2bda19dcfa7472089a3a3.jpg'
 global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
+global.mdk = [img8, img9, img10, img11, img12, img13, img14]
 
 //Enlaces
-global.yt = 'https://www.youtube.com/@Azami_Mods'
+global.yt = 'https://www.youtube.com/@BaileyBotWa'
 global.ig = 'https://www.instagram.com/b.jxtxn17'
 global.md = 'https://github.com/Jxtxn17/BaileyBot-MD'
 global.paypal = '+51929972576'
@@ -54,7 +55,7 @@ global.Lobo = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd' //Lobo OFC
 global.nnn = 'https://chat.whatsapp.com/ENP021x0aR5HWvG1HpvlCo' //Bailey global
 global.channel = 'https://whatsapp.com/channel/0029VaDRDk2CBtxBVex2vB0Y' //BaileyBot-MD
 global.nnnn = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //colaboración multi bots
-global.fgig = 'Sigue nuestro Canal apretando las mini letras azules!!'
+global.fgig = '*_BAILEYBOT-MD : BY AXX_*'
 global.linkSity = [yt, ig, md, paypal, git, nn]
 
 //Raíz
@@ -74,10 +75,10 @@ global.done = '✅'
 global.error = '❌'
 
 //Cargando
-global.wait = '*■□□□□ 20%*'
-global.waitt = '*■■■□□ 60%*'
-global.waittt = '*■■■■□ 90%*'
-global.waitttt = '*■■■■■ 100%*'
+global.wait = '*▬▭▭▭ 20%*'
+global.waitt = '*▬▬▭▭ 60%*'
+global.waittt = '*▬▬▬▭ 90%*'
+global.waitttt = '*▬▬▬▬ 100%*'
 
 //fake
 global.fsizedoc = '999999'
