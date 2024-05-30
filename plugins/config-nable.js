@@ -328,7 +328,7 @@ _${usedPrefix + command} *autoread*_
 _${usedPrefix + command} *modejadibot*_`, m, fake, )
 throw false
 }
-  conn.sendMessage(m.chat, {text: `*◇ OPCION:* ${type}\n*◇ ESTADO:* ${isEnable ? 'ACTIVADO' : 'DESACTIVADO/A'}\n*◇ PARA: ${isAll ? 'ESTE BOT' : isUser ? '' : 'ESTE CHAT'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `*◇ OPCION:* ${type}\n*◇ ESTADO:* ${isEnable ? 'ACTIVADO' : 'DESACTIVADO/A'}\n*◇ PARA:* ${isAll ? 'ESTE BOT' : isUser ? '' : 'ESTE CHAT'}`}, {quoted: m});
 }
 handler.help = ['en', 'dis'].map(v => v + 'able')
 handler.tags = ['nable', 'owner']
