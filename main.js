@@ -215,7 +215,7 @@ rl.close()
 conn.isInit = false
 conn.well = false
 //conn.user.connect = true;
-conn.logger.info(`🔵 H E C H O\n`)
+conn.logger.info(`✨️ L I S T O ✨️\n`)
 
 if (!opts['test']) {
 if (global.db) {
