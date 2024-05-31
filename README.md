@@ -141,5 +141,6 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 
 ##### AGRADECIMIENTO ESPECIAL PARA
 <a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="AzamiJs"/></a>
----|---
+
+
 > By BaileyBot-MD
