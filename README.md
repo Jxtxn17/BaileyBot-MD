@@ -140,7 +140,7 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ##### AGRADECIMIENTO ESPECIAL PARA
-<!--[![Nurutomo](https://github.com/AzamiJs.png?size=100)](https://github.com/AzamiJs) [![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="AzamiJs"/></a>
 ---|---
 [Bochilgaming](https://github.com/BochilGaming)  | [Nurutomo](https://github.com/Nurutomo)
 games-wabot | wabot-q |
