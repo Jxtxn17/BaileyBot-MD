@@ -48,7 +48,7 @@ _(Para ver el menú completo)_`
     ['🍿 BaileyBot-MD', `${usedPrefix}sc ${url}`]
   ], m)
 }
-} catch (e) {
+catch (e) {
 conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
 console.log(e)
 }}
