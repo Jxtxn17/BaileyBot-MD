@@ -21,7 +21,7 @@ let texto = `╭─────────────┈⊷
   │> ls 
   │> npm start 
   ╭──────────────────────────────────
-  │ Utilice .comandos para enviar los comandos uno por uno
+  │ Utilice "comandos" para enviar los comandos uno por uno
   ╰────────────┈⊷` 
 
 conn.reply(m.chat, texto, m, fake, )
