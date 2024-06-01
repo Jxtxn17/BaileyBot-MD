@@ -43,7 +43,7 @@ _${formatDate}_
 !allmenu
 _(Para ver el menú completo)_`
 
- await conn.sendButton(m.chat, play, fgig, thumbnail, [
+ await conn.sendButton(m.chat, play, fgig, fake, thumbnail, [
     ['🍧 menucompleto', `${usedPrefix}allmenu ${url}`],
     ['🍿 BaileyBot-MD', `${usedPrefix}sc ${url}`]
   ], m)
