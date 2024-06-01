@@ -54,7 +54,7 @@ console.log(e)
 }}
 handler.help = ['menu']
 handler.tags = ['bot']
-handler.command = /^(menu)$/i
+handler.command = /^(yape)$/i
 handler.register = true
 
 export default handler
