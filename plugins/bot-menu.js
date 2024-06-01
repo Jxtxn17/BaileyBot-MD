@@ -1,6 +1,6 @@
 //CÓDIGO ADAPTADO POR https://github.com/GataNina-Li | @gata_dios & https://github.com/AzamiJs | @Azami
 
-/*import fs from 'fs'
+import fs from 'fs'
 import { parsePhoneNumber } from 'libphonenumber-js'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
@@ -46,15 +46,15 @@ _(Para ver el menú completo)_`
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch (e) {
-conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake , )
+conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
 console.log(e)
 }}
 handler.help = ['menu']
 handler.tags = ['bot']
-//handler.command = /^(menu)$/i
+handler.command = /^(menu)$/i
 handler.register = true
 
-//export default handler
+export default handler
 
 function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
@@ -63,4 +63,4 @@ let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
 
 function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}*/
+return list[Math.floor(Math.random() * list.length)]}
