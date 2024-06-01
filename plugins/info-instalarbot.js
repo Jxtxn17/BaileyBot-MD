@@ -33,7 +33,7 @@ m.reply('apt-get update -y && apt-get upgrade -y')
 await delay(1000 * 1)
 m.reply('pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn')
 await delay(1000 * 1)
-m.reply('git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install ')
+m.reply('git clone https://github.com/Jxtxn17/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install ')
 await delay(1000 * 1)
 m.reply('ls')
 await delay(1000 * 1)
@@ -44,7 +44,7 @@ conn.reply(m.chat, `🚩 *Instalación automática*\n\nTutoríal: https://youtu.
 await delay(2000 * 1)
 m.reply('termux-setup-storage')
 await delay(1000 * 1)
-m.reply('apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash')
+m.reply('apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Jxtxn17/BaileyBot-MD/master/bailey.sh | bash')
 }
 
 if (/^vortexus$/i.test(m.text) ) {
