@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
    const res = await fetch('https://api.github.com/repos/Jxtxn17/BaileyBot-MD');
    const json = await res.json();
-   let txt = `           *乂  B O T S C R I P T  乂*\n\n`;
+   let txt = `           *乂  B O T - S C R I P T  乂*\n\n`;
       txt += `◦  *Nombre:* ${json?.name || 'BaileyBot-MD'}\n`;
       txt += `◦  *Visitantes:* ${json?.watchers_count || '-'}\n`;
       txt += `◦  *Tamaño:* ${(json?.size / 1024).toFixed(2) || '-'} MB\n`;
