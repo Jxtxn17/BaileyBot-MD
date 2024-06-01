@@ -46,15 +46,15 @@ _(Para ver el menú completo)_`
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch (e) {
-conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
+conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake , )
 console.log(e)
 }}
 handler.help = ['menu']
 handler.tags = ['bot']
-handler.command = /^(menu)$/i
+//handler.command = /^(menu)$/i
 handler.register = true
 
-export default handler
+//export default handler
 
 function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
