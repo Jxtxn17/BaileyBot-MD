@@ -20,6 +20,8 @@ let texto = `╭─────────────┈⊷
   │> git clone https://github.com/Jxtxn17/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install 
   │> ls 
   │> npm start 
+  ╭──────────────────────────────────
+  │ Utilice .comandos para enviar los comandos uno por uno
   ╰────────────┈⊷` 
 
 conn.reply(m.chat, texto, m, fake, )
