@@ -1,36 +1,26 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de CuriosityBot*
-
-*Requisitos para la instalación*
-⬡ Dudas: wa.me/51929972576
-⬡ Tutoríal: https://youtu.be/qRb9ElGT8mM
-⬡ 1 GB de almacenamiento
-⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
-⬡ GitHub: https://github.com/Jxtxn17/BaileyBot-MD
-⬡ Un whatsapp inmune (secundario)
-⬡ Un número 
-⬡ Dispositivo o una PC para escanear
-
-*Comandos de instalación via Termux*
-
-termux-setup-storage
-
-apt-get update -y && apt-get upgrade -y
-
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
-
-git clone https://github.com/Jxtxn17/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install 
-
-ls
-
-npm start
-
-_Utilice "comandos" para enviarle los comandos uno por uno_
-
-_Utilice "instalar2" para ver los otros tipos de instalación_
-
-_Utilice "vortexus" para instalar el bot mediante el hosting vortexus_`
+let texto = `╭─────────────┈⊷
+│ *INSTALACIÓN DE BAILEYBOT-MD*
+╰┬────────────┈⊷
+┌┤ *REQUISITOS PARA LAS INSTALACION*
+┌┤➳ _Dudas: wa.me/51929972576
+┌┤➳ _Tutoríal: https://youtu.be/qRb9ElGT8mM_
+┌┤➳ _1 GB de almacenamiento_
+┌┤➳ _Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file_
+┌┤➳ _GitHub: https://github.com/Jxtxn17/BaileyBot-MD_
+┌┤➳ _un whatsapp inmune (secundario)_
+┌┤➳ _un número victual_
+┌┤➳ _2 dispositivo o una PC para escanear_
+╰┬────────────┈⊷
+  │ *COMANDO DE INSTALACION TERMUX*
+  │> termux-setup-storage
+  │> apt-get update -y && apt-get upgrade -y
+  │> pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+  │> git clone https://github.com/Jxtxn17/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install 
+  │> ls 
+  │> npm start 
+  ╰────────────┈⊷` 
 
 conn.reply(m.chat, texto, m, fake, )
 
