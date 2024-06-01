@@ -3,11 +3,11 @@ var handler  = async (m, { conn }) => {
 let texto = `🚩 *Instalación de CuriosityBot*
 
 *Requisitos para la instalación*
-⬡ Dudas: wa.me/5217294888993
+⬡ Dudas: wa.me/51929972576
 ⬡ Tutoríal: https://youtu.be/qRb9ElGT8mM
 ⬡ 1 GB de almacenamiento
 ⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
-⬡ GitHub: https://github.com/AzamiJs/CuriosityBot-MD
+⬡ GitHub: https://github.com/Jxtxn17/BaileyBot-MD
 ⬡ Un whatsapp inmune (secundario)
 ⬡ Un número 
 ⬡ Dispositivo o una PC para escanear
@@ -20,7 +20,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install 
+git clone https://github.com/Jxtxn17/BaileyBot-MD && cd BaileyBot-MD && yarn install && npm install 
 
 ls
 
