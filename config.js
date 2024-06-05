@@ -1,27 +1,12 @@
-/* ⚙️ Credits to:
-* AzamiJs
-* Elrebelde21
-* GataNina-Li */
-
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
 ['51929972576', '🍧𝙹𝚇𝚃𝚇𝙽¹⁷🍧', true],
-['51955918117', 'Daniel', true],
-['50558124470'],
-['573106040746', '𝙴𝙳𝙴𝚁', true],
-['51992004117', 'HJ', true],
-['5214434703586'],
-['50499698072'],
+['5493795319022'],
 ['5493794297363'],
-['5492215034412'],
-['5217294888993'],
-['5214437863111'],
-['51971959440'],
-['595992667005'],
-['573012482597']]
+['5493795319022']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
