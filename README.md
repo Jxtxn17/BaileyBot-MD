@@ -130,7 +130,7 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 <a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
 
 - #### COLABORADORES 
-<a href="https://github.com/Jxtxn17/BaileyBot-Mgraphs/contributors">
+<a href="https://github.com/Jxtxn17/Bot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Jxtxn17/BaileyBot-MD" /> 
 </a>
 
