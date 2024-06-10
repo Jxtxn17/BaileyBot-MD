@@ -18,7 +18,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
     }
 
     if (user === ownerBot) {
-        return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 No puedo eliminar al propietario del bot (' + OwnerBot +')', m);
+        return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 No puedo eliminar al propietario del bot', m);
     }
 
     await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
@@ -30,5 +30,4 @@ handler.command = /^(kick|echar|hechar|sacar|ban)$/i;
 handler.admin = true;
 handler.group = true;
 handler.botAdmin = true;
-
 export default handler;
