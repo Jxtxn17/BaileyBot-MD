@@ -1,4 +1,4 @@
-b// COMBINACIÓN DE MENSAJES
+// COMBINACIÓN DE MENSAJES
 // Adaptar el simple.js
 let handler = async (m, { conn, usedPrefix, command, text }) => {
 
