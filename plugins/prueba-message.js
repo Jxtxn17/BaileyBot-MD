@@ -45,7 +45,7 @@ const messages = [[ // CARRUSEL 1
 [['Enlace1', 'https://example.com/link1'], ['Enlace2', 'https://example.com/link2']],
 [['Botón Lista 1', sections], ['Botón Lista 2', sections]]
 ]] /* etc... */
-await conn.Button(m.chat, 'Texto', 'Footer', 'BaileyBot-MD', messages, m)            
+await conn.sendButton(m.chat, 'Texto', 'Footer', 'BaileyBot-MD', messages, m)            
 
 }
 handler.command = /^(prueba234)$/i
