@@ -48,5 +48,5 @@ const messages = [[ // CARRUSEL 1
 await conn.sendCarousel(m.chat, 'Texto', 'Footer', 'Titulo de Carrusel', messages, m)            
 
 }
-handler.command = /^(carousel)$/i
+handler.command = /^(prueba234)$/i
 export default handler
