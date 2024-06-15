@@ -120,7 +120,7 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ----
-- ### 🎌 Instalacion Por Code Dpace
+- ### 📱 Instalacion Por Code Dpace
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
 
