@@ -51,7 +51,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- #### 🚩 Instalacion Manual Por Termux
+- #### 💠 Instalacion Manual Por Termux
 [![blog](https://img.shields.io/badge/Instalacion-Manual-800080?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qRb9ElGT8mM?si=XxSt-Y8CTQs1Imzl?feature=share)
 > Escribe Estos Comandos Uno Por Uno
 
@@ -83,7 +83,7 @@ npm start
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- #### 🚩 Activar En Caso De Detenerse En Termux
+- #### 🚩🚀 Activar En Caso De Detenerse En Termux
 > Escribe Estos Comandos Uno Por Uno
 ```bash
 > cd
@@ -101,7 +101,7 @@ npm start
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- ### 🚩 Actualizar BaileyBot 
+- ### ✅ Actualizar BaileyBot 
 > Note Comandos para actualizar BaileyBot-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Jxtxn/BaileyBot-MD/master/update.sh | bash
