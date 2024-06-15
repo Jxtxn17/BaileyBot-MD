@@ -18,11 +18,6 @@
 
 <a href="https://chat.whatsapp.com/GrcXB1NINsDAPp4fCVgwfX"><img alt="🧸 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-BaileyBot-FF0080?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-### ❗ Instalación de Termux aquí
-> Antes de instalar BaileyBot-MD descarga Termuxens su versión más reciente!! 👇
-
-[`Instalar Termux aquí`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 - #### `🚩 Clonar El Repositorio`
@@ -33,6 +28,13 @@
 ### `⚙️ Configuraciones ⚙️`
 - Cambiar Los Numeros De Los Owner [aqui](https://github.com/AzamiJs/CuriosityBot-MD/blob/main/config.js#L6)
 - Puede Cambiar A La Última Versión De Baileys Editando El package.json [aqui](https://github.com/Jxtxn17/BaileyBot-MD/blob/main/package.json#L42)
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
+### ❗ Instalación de Termux aquí
+> Antes de instalar BaileyBot-MD descarga Termuxens su versión más reciente!! 👇
+
+[`Instalar Termux aquí`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
