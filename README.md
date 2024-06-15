@@ -32,7 +32,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ### ❗ Instalación de Termux aquí
-> Antes de instalar BaileyBot-MD descarga Termuxens su versión más reciente!! 👇
+> Antes de instalar BaileyBot-MD descarga Termux ens su versión más reciente!! 👇
 
 [`Instalar Termux aquí`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
