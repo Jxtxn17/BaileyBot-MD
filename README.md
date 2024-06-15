@@ -85,7 +85,7 @@ npm start
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-- #### 🚩 Obtener Otro Codigo Qr
+- #### 🌻 Obtener Otro Codigo Qr
 > 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
 ```bash
 > cd BaileyBot-MD
@@ -105,7 +105,7 @@ Para que no pierda su progreso en CuriosityBot, estos comandos realizarán un re
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-- #### 🎌 Para Activar 24/7 (Termux)
+- #### 💡 Para Activar 24/7 (Termux)
 > Este Comando Deve Ir En La Carpeta BaileyBot-MD
 ```bash
 > npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
