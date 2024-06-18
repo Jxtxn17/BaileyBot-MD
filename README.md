@@ -127,7 +127,7 @@ Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respa
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ### EDITOR Y PROPIETARIO DEL BOT
-<a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="250" alt="Jxtxn17"/></a>
+<a href="https://github.com/Jxtxn17"><img src="https://github.com/Jxtxn17.png" width="250" height="100" alt="Jxtxn17"/></a>
 
 - #### COLABORADORES 
 <a href="https://github.com/Jxtxn17/BaileyBot-MD/graphs/contributors">
@@ -140,7 +140,7 @@ Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respa
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ##### AGRADECIMIENTO ESPECIAL PARA
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="250" alt="AzamiJs"/></a>
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="250" height="70" alt="AzamiJs"/></a>
 
 
 > By BaileyBot-MD
