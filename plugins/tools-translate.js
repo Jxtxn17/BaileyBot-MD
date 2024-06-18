@@ -13,15 +13,15 @@ const handler = async (m, {args, usedPrefix, command}) => {
   if (!text && m.quoted && m.quoted.text) text = m.quoted.text;
   try {
     const result = await translate(`${text}`, {to: lang, autoCorrect: true});
-    await m.reply('*TRADUCCIÓN:* ' + result.text);
+    await m.reply('*TRADUCCION:* ' + result.text);
   } catch {
     try {
       const lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=${lolkeysapi}&text=${text}`);
       const loll = await lol.json();
       const result2 = loll.result.translated;
-      await m.reply('*Traducción:* ' + result2);
+      await m.reply('*TRADUCCION:* ' + result2);
     } catch {
-      await m.reply('✨️ *Ocurrió Un Error*');
+      await m.reply('💥 Errro De Api.');
     }
   }
 };
