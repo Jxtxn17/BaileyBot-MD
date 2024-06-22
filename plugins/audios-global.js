@@ -303,5 +303,5 @@ conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'au
 return !0
 }
 
-export default handler/*
+export default handler*/
   
