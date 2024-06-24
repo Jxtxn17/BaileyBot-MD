@@ -1,5 +1,4 @@
 import Axios from "Axios";
-import Country-Emoji from "country-emoji";
 
 let handler = async function (m, { conn, text, usedPrefix }) {
   if (text.length != 6)
