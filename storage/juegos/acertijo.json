@@ -1,218 +1,338 @@
 [
     {
-        "question": "¿Qué es lo que tiene un corazón que no late?",
-        "response": "Un artefacto"
+        "question": "¿Qué le dice un pingüino a otro pingüino?",
+        "response": "Te quiero como a ningüino"
     },
     {
-        "question": " ¿Qué tiene boca pero no puede hablar?",
-        "response": "Una botella"
+        "question": "¿Qué le dice un ciego a otro ciego?",
+        "response": "Después nos vemos"
     },
     {
-        "question": "¿Qué tiene ojos pero no puede ver",
-        "response": "Una aguja"
+        "question": "¿En qué se parece un alfiler a un policía?",
+        "response": "En que los dos prenden"
     },
     {
-        "question": "Si lo tienes, quieres compartirlo; si lo compartes, ya no lo tienes. ¿Qué es?",
-        "response": "Un secreto"
+        "question": "¿Qué se congela cuando se calienta?",
+        "response": "La computadora"
     },
     {
-        "question": "¿Qué se rompe cuando se nombra?",
+        "question": "¿Qué fruta tiene muchos ojos, pero no puede ver?",
+        "response": "La piña"
+    },
+    {
+        "question": "¿En qué idioma se comunican las tortugas?",
+        "response": "En tortugués"
+    },
+    {
+        "question": "¿Cómo llama un policía sevillano a su pistola?",
+        "response": "Mi arma"
+    },
+    {
+        "question": "¿Qué es todo para uno y nada para lo demás?",
+        "response": "La mente"
+    },
+    {
+        "question": "¿Cuál es el colmo de una aspiradora?",
+        "response": "Ser alérgica al polvo"
+    },
+    {
+        "question": "¿Qué es aquello que si nombras, desaparece?",
         "response": "El silencio"
     },
     {
-        "question": "Siempre va hacia adelante, pero nunca llega a su destino. ¿Qué es?",
-        "response": "El horizonte"
+        "question": "¿Qué necesitamos para escribir durmiendo?",
+        "response": "Estar despiertos"
     },
     {
-        "question": "Tiene hojas pero no es un árbol, tiene páginas pero no es un libro. ¿Qué es?",
-        "response": "Un periódico"
+        "question": "¿Qué objeto puede tener cara sin poseer cuerpo?",
+        "response": "Una moneda"
     },
     {
-        "question": "Pesa más que una montaña, pero no ocupa espacio. ¿Qué es?",
-        "response": "El pensamiento"
+        "question": "Alimenta la casa, Gabinete con hielo",
+        "response": "La nevera"
     },
     {
-        "question": "Todos me quieren tener, pero cuando me tienen, me quieren dejar. ¿Qué soy?",
-        "response": "La responsabilidad"
+        "question": "¿Qué tienen las mujeres en medio de las piernas?",
+        "response": "Las rodillas"
     },
     {
-        "question": "Siempre sube y nunca baja, aunque a veces gire en redondo. ¿Qué es?",
-        "response": "El sol"
+        "question": "Entra duro y seco y sale blandito y mojado ¿Qué es?",
+        "response": "Un chicle"
     },
     {
-        "question": "No se puede ver ni tocar, pero sin embargo está presente en todas partes. ¿Qué es?",
-        "response": "El aire"
+        "question": "Estoy en todo y estoy en nada ¿qué soy?",
+        "response": "La letra d"
     },
     {
-        "question": "Tengo ciudades sin gente, ríos sin agua y selvas sin árboles. ¿Qué soy?",
-        "response": "Un mapa"
+        "question": "Continuas en rojo, pero te paras en verde. ¿Qué soy?",
+        "response": "Una sandía"
     },
     {
-        "question": "Soy el principio de todo, el fin de cada lugar. Soy la clave de la vida y la muerte. ¿Qué soy?",
-        "response": "La letra e"
+        "question": "¿Qué es negro cuando lo compras, rojo cuando lo usas, y gris cuando lo tiras?",
+        "response": "El carbón"
     },
     {
-        "question": "Soy una palabra de cinco letras: si me quitas una, todavía suena igual; si me quitas dos, todavía suena igual; si me quitas tres, todavía suena igual; y si me quitas las cinco, todavía suena igual. ¿Qué soy?",
-        "response": "Silencio"
-    },
-    {
-        "question": "Aunque no tengo ojos, siempre estoy llorando. ¿Qué soy? ",
-        "response": "Una nube"
-    },
-    {
-        "question": "Tengo un corazón que no late y corro sin piernas. ¿Qué soy?",
-        "response": "Un reloj"
-    },
-    {
-        "question": "Soy una palabra de siete letras; si me quitas una letra, aún me queda una palabra entera. Si vuelves a quitarme otra letra, aún me queda una palabra completa. Sigue quitando letras y siempre tendré una palabra completa. ¿Qué soy?",
-        "response": "Incorrecto"
-    },
-    {
-        "question": "Tengo un ojo pero no veo. Siempre estoy en movimiento pero nunca salgo de mi sitio. ¿Qué soy?",
-        "response": "Un tornado"
-    },
-    {
-        "question": "Puedo ser leído pero no escrito, puedo ser escuchado pero no hablado. ¿Qué soy?",
-        "response": "Un libro"
-    },
-    {
-        "question": "Puedes verme en la oscuridad, pero nunca en la luz. ¿Qué soy?",
-        "response": "Los ojos cerrados"
-    },
-    {
-        "question": "Siempre corro, pero nunca camino. Tengo una cama, pero nunca duermo. ¿Qué soy?",
-        "response": "Un río"
-    },
-    {
-        "question": "Me rompes cada vez que me nombras. ¿Qué soy?",
-        "response": "El hielo"
-    },
-    {
-        "question": "Soy una palabra de cinco letras: si me quitas una, todavía suena igual; si me quitas dos, todavía suena igual; si me quitas tres, todavía suena igual; si me quitas cuatro, todavía suena igual. ¿Qué soy?",
-        "response": "Quitar"
-    },
-    {
-        "question": "Soy alto cuando soy joven y bajo cuando soy viejo. ¿Qué soy?",
-        "response": "Una vela"
-    },
-    {
-        "question": "Cuanto más se seca, más mojada se pone. ¿Qué es?",
-        "response": "Una toalla"
-    },
-    {
-        "question": "Puedo ser medida, pero no puedo ser vista ni tocada. ¿Qué soy?",
-        "response": "El tiempo"
-    },
-    {
-        "question": "Soy redonda como un plato y siempre giro sin parar. ¿Qué soy?",
-        "response": "Una rueda"
-    },
-    {
-        "question": "Tengo ojos y no puedo ver, tengo una cara y no puedo sonreír. ¿Qué soy?",
-        "response": "Una muñeca"
-    },
-    {
-        "question": " ¿Qué animal tiene cuatro patas y maúlla?",
-        "response": "Un gato"
-    },
-    {
-        "question": "Qué tiene llaves pero no puede abrir ninguna puerta?",
-        "response": "Un piano"
-    },
-    {
-        "question": "Si tienes una manzana y le quitas tres, ¿cuántas manzanas tienes?",
-        "response": "Tres manzanas"
-    },
-    {
-        "question": "Si tienes una vela encendida y un fuego, ¿qué apagas primero?",
-        "response": "La cerilla"
-    },
-    {
-        "question": "Si tienes tres manzanas y cuatro naranjas, ¿cuántas frutas tienes en total?",
-        "response": "Siete frutas"
-    },
-    {
-        "question": "Soy ligero como una pluma, pero incluso el hombre más fuerte no puede sostenerme por mucho tiempo. ¿Qué soy?",
-        "response": "La respiración"
-    },
-    {
-        "question": "Si me miras, no me puedes ver. Si me ves, ya no estoy allí. ¿Qué soy?",
+        "question": "¿Qué hay delante de ti siempre pero que no se puede ver?",
         "response": "El futuro"
     },
     {
-        "question": "Soy un número de dos dígitos que es igual a la suma de mis dígitos multiplicados por sí mismos. ¿Qué número soy?",
-        "response": "El número 49"
+        "question": "¿Qué mes tiene 28 días?",
+        "response": "Todos"
     },
     {
-        "question": "Puedes romperme sin tocar nada, o dejar todo intacto aunque me toques. ¿Qué soy?",
+        "question": "¿Cómo puede estar alguien sin dormir diez días y no tener sueño?",
+        "response": "Durmiendo por las noches"
+    },
+    {
+        "question": "¿De qué llenarías un barril para que pese lo menos posible?",
+        "response": "De agujeros"
+    },
+    {
+        "question": "Si durante una carrera adelantas a quien va segundo, ¿en qué posición estás?",
+        "response": "Segundo"
+    },
+    {
+        "question": "¿En qué lugar el jueves va antes que el miércoles?",
+        "response": "En el diccionario"
+    },
+    {
+        "question": "¿Qué sube y baja pero se queda siempre en el mismo sitio?",
+        "response": "Las escaleras"
+    },
+    {
+        "question": "¿Cómo llaman a un ascensor en China?",
+        "response": "Apretando el botón"
+    },
+    {
+        "question": "¿Qué es lo primero que hace un elefante al salir el sol?",
+        "response": "Sombra"
+    },
+    {
+        "question": "¿Por qué un Tiranosaurus Rex no puede aplaudir?",
+        "response": "Porque se extinguió"
+    },
+    {
+        "question": "¿Qué animal siempre está lleno?",
+        "response": "La ballena"
+    },
+    {
+        "question": "¿Qué es lo primero que todos hacemos al despertar?",
+        "response": "Abrir los ojos"
+    },
+    {
+        "question": "¿Cuál es el número que si le quitas la mitad, vale 0?",
+        "response": "El ocho"
+    },
+    {
+        "question": "¿Qué se necesita para encender una vela?",
+        "response": "Que esté apagada"
+    },
+    {
+        "question": "¿Cuál es el país donde termina todo?",
+        "response": "Finlandia"
+    },
+    {
+        "question": "La respuesta a esta pregunta es #######",
+        "response": "#######"
+    },
+    {
+        "question": "Cuál es el final de todo",
+        "response": "La letra o"
+    },
+    {
+        "question": "¿Dónde se encuentra una pared con otra pared?",
+        "response": "En la esquina"
+    },
+    {
+        "question": "¿Qué tiene muchas palabras, pero nunca habla?",
+        "response": "Un libro"
+    },
+    {
+        "question": "¿Qué cosa te pertenece, pero los demás usan más que tú?",
+        "response": "Tu nombre"
+    },
+    {
+        "question": "¿En qué momento una persona se convierte en fruta?",
+        "response": "Cuando espera"
+    },
+    {
+        "question": "Los padres de José tienen tres hijos: Luis, Raúl y…, ¿cómo se llama el tercero?",
+        "response": "José"
+    },
+    {
+        "question": "¿Qué palabra del diccionario se escribe incorrectamente?",
+        "response": "Incorrectamente"
+    },
+    {
+        "question": "Húmedo por dentro, con pelos por fuera. Comienza por la C. ¿De qué se trata?",
+        "response": "Un coco"
+    },
+    {
+        "question": "David y Fabián están jugando al ajedrez. Llevan 5 partidas, pero ambos han ganado 3. ¿Cómo es posible?",
+        "response": "Porque juegan con más personas"
+    },
+    {
+        "question": "¿Cuántos 9 hay entre el 1 y el 100?",
+        "response": "20"
+    },
+    {
+        "question": "Son dos abanicos que están todo el día sin parar, pero cuando te duermas se paran y quietos se quedarán",
+        "response": "Las pestañas"
+    },
+    {
+        "question": "Oro parece, plata no es y el que no lo adivine un tonto es",
+        "response": "Un platano"
+    },
+    {
+        "question": "Círculo bien redondo al que si le pegas, das un brinco del susto",
+        "response": "Un tambor"
+    },
+    {
+        "question": "Un caballo blanco entró en el Mar Negro. ¿Cómo salió?",
+        "response": "Salió mojado"
+    },
+    {
+        "question": "Si un tren eléctrico va de Norte a Sur, ¿Hacia qué lado echará el humo?",
+        "response": "Es eléctrico, no echa humo"
+    },
+    {
+       "question": "Tiene 4 letras, empieza por C y termina por O y esta en la parte trasera",
+        "response": "El codo"
+    },
+    {
+       "question": "Se estrella un avión y mueren todos, justo en la frontera entre España y Portugal ¿A que Hospital tienen que llevar a los supervivientes? ",
+        "response": "No hay supervivientes"
+    },
+    {
+       "question": "Este banco está ocupado por un padre y por un hijo, el padre se llama Juan y el hijo ya te lo he dicho",
+        "response": "Esteban"
+    },
+    {
+       "question": "Algunos meses tienen 31 días, otros solo 30.¿Cuantos tienen 28 días?",
+        "response": "Todos"
+    },
+    {
+       "question": "No lo puedes ver, pero no puedes vivir sin él. ¿Qué es?",
+       "response": "El aire"
+    },
+    {
+        "question": "¿Qué es lo que siempre está delante de ti, pero no puedes ver?",
+        "response": "El futuro"
+    },
+    {
+        "question": "¿Qué tiene un ojo pero no puede ver?",
+        "response": "Una aguja"
+    },
+    {
+        "question": "¿Qué tiene un corazón que no late?",
+        "response": "Una alcachofa"
+    },
+    {
+        "question": "¿Qué pasa si tiras una piedra roja al mar azul?",
+        "response": "Se moja"
+    },
+    {
+        "question": "¿Qué se puede romper sin tocarlo?",
+        "response": "Una promesa"
+    },
+    {
+        "question": "¿Qué tiene cabeza, cola, pero no tiene cuerpo?",
+        "response": "Una moneda"
+    },
+    {
+        "question": "¿Qué es tan frágil que solo con decir su nombre lo rompes?",
         "response": "El silencio"
     },
     {
-        "question": "Soy un objeto común que se encuentra en todas partes del mundo, pero la gente a menudo no se da cuenta de mi presencia hasta que me necesitan desesperadamente. ¿Qué soy?",
-        "response": "Un candado"
+        "question": "¿Qué es lo que cuanto más crece, más baja?",
+        "response": "La temperatura"
     },
     {
-        "question": "Me das un poco de agua y vivo; dame un poco más y muero. ¿Qué soy?",
-        "response": "El fuego"
+        "question": "¿Qué tiene cuatro patas al amanecer, dos al mediodía y tres al anochecer?",
+        "response": "El ser humano"
     },
     {
-        "question": "Soy tan ligero como una pluma, pero incluso el más fuerte no puede sostenerme por mucho tiempo. ¿Qué soy?",
-        "response": "El aliento"
+        "question": "¿Qué es lo que sube y nunca baja?",
+        "response": "Tu edad"
     },
     {
-        "question": "Soy el único que siempre está contigo desde que naces hasta que mueres, pero nunca me puedes ver directamente. ¿Qué soy?",
-        "response": "El tiempo"
-    },
-    {
-        "question": "Tengo lagunas sin agua, montañas sin tierra y ciudades sin edificios. ¿Qué soy?",
+        "question": "¿Qué tiene una cama pero no duerme, y un río pero no bebe?",
         "response": "Un mapa"
     },
     {
-        "question": "Soy un número de dos dígitos cuyos dígitos suman 10 y se intercambian de lugar. ¿Qué número soy?",
-        "response": "El número 73"
+        "question": "¿Qué es lo que si lo nombras desaparece?",
+        "response": "El silencio"
     },
     {
-        "question": "Tienes que romperme antes de usarme, y cuanto más rompo, más fuerte me vuelvo. ¿Qué soy?",
-        "response": "Un huevo"
+        "question": "¿Qué va hacia arriba y hacia abajo sin moverse?",
+        "response": "Una escalera"
     },
     {
-        "question": "Tengo un corazón que no late y un alma que no vive. ¿Qué soy?",
-        "response": "Una estatua"
+        "question": "¿Qué cosa siempre cae y nunca se lastima?",
+        "response": "La lluvia"
     },
     {
-        "question": "Soy un número misterioso: si me añades a otro número, ese número se duplica; si me divides por la mitad, se convierte en cero. ¿Qué número soy?",
-        "response": "El número 8"
+        "question": "¿Qué palabra se escribe incorrectamente en todos los diccionarios?",
+        "response": "Incorrectamente"
     },
     {
-        "question": "Puedes verme en el agua, pero nunca me mojaré. Si intentas tocarme, desapareceré. ¿Qué soy?",
-        "response": "Tu reflejo"
+        "question": "¿Qué animal lleva siempre una espada?",
+        "response": "El pez espada"
     },
     {
-        "question": "Me encuentras en la oscuridad, pero nunca en la luz. Siempre estoy presente, pero nunca a la vista. ¿Qué soy?",
-        "response": "El miedo"
+        "question": "¿Qué tiene ciudades, pero no casas; bosques, pero no árboles; y ríos, pero no agua?",
+        "response": "Un mapa"
     },
     {
-        "question": "Tengo llaves pero no cerraduras, espacio pero no habitaciones y puedes entrar pero no puedes salir. ¿Qué soy?",
-        "response": "Un teclado"
+        "question": "¿Qué puedes atrapar pero no lanzar?",
+        "response": "Un resfriado"
     },
     {
-       "question": "Soy blanco cuando estoy sucio y negro cuando estoy limpio. ¿Qué soy?",
+        "question": "¿Qué se vuelve más grande cuanto más le quitas?",
+        "response": "Un agujero"
+    },
+    {
+        "question": "¿Qué es negro cuando es limpio y blanco cuando está sucio?",
         "response": "Una pizarra"
     },
     {
-       "question": "Soy redonda como una moneda, pero no tengo oro ni plata. ¿Qué soy?",
-        "response": "Una pizza"
+        "question": "¿Qué tiene dientes pero no puede morder?",
+        "response": "Un peine"
     },
     {
-       "question": "Siempre estoy delante del sol, pero nunca llego al final de un campo. ¿Qué soy?",
-        "response": "La sombra"
+        "question": "¿Qué tiene muchos llaves pero no puede abrir ninguna puerta?",
+        "response": "Un piano"
     },
     {
-       "question": "Soy un agujero sin fondo que puede contener agua. ¿Qué soy?",
-        "response": "Un agujero en el hielo"
+        "question": "¿Qué tiene un cuello pero no una cabeza?",
+        "response": "Una botella"
     },
     {
-       "question": "Tengo ciudades sin gente, ríos sin agua y montañas sin tierra. ¿Qué soy?",
-       "response": "Un mapa en relieve"
-}
+        "question": "¿Qué es lo que mientras más quitas, más grande se hace?",
+        "response": "Un agujero"
+    },
+    {
+        "question": "¿Qué tiene una cara, dos manos, pero no brazos ni piernas?",
+        "response": "Un reloj"
+    },
+    {
+        "question": "¿Qué corre pero nunca camina, tiene una boca pero nunca habla?",
+        "response": "Un río"
+    },
+    {
+        "question": "¿Qué es algo que puedes llenar con más y más, pero siempre cabe en un rincón?",
+        "response": "El bolsillo"
+    },
+    {
+        "question": "¿Qué es lo que tiene un anillo pero no dedos?",
+        "response": "Un teléfono"
+    },
+    {
+        "question": "¿Qué tiene raíces que nadie ve, es más alto que los árboles, sube, sube y nunca crece?",
+        "response": "Una montaña"
+    },
+    {
+        "question": "¿Qué tiene una sola letra y pesa mucho?",
+        "response": "Una tonelada"
+    }
 ]
