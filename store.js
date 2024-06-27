@@ -24,7 +24,7 @@ global.rosas = fs.readFileSync('./storage/imagenes/rosas.jpg')
 global.refran = fs.readFileSync('./storage/imagenes/refran.jpg')
 global.linksjpg = fs.readFileSync('./storage/imagenes/Links.jpg')
 
-global.img = 'https://telegra.ph/file/090e06201e9a33ceeaa18.jpg'
+global.img = 'https://telegra.ph/file/b2a44f9150c1f3c72bf37.jpg'
 global.img1 = 'https://telegra.ph/file/50e46816e2014dbe56a07.jpg'
 global.img2 = 'https://telegra.ph/file/7457eeb33915bc5fce7f0.jpg'
 global.img3 = 'https://telegra.ph/file/abb9f1a214e86a77fed62.jpg'
@@ -34,11 +34,11 @@ global.img6 = 'https://telegra.ph/file/4e69f6c48d99f6c1174a9.jpg'
 global.img7 = 'https://telegra.ph/file/951275803faa754aff010.jpg'
 global.img8 = 'https://telegra.ph/file/9f765ea386a9dd1a5f8e5.jpg'
 global.img9 = 'https://telegra.ph/file/011be97f80f19286ee4c7.jpg'
-global.img10 = 'https://telegra.ph/file/98bec3c66149fee093a3f.jpg'
+global.img10 = 'https://telegra.ph/file/8cfc74b1c7883e0694b21.jpg'
 global.img11 = 'https://telegra.ph/file/d3c4150200fcba6fb15af.jpg'
-global.img12 = 'https://telegra.ph/file/fd775e4753173ecdf950a.jpg'
-global.img13 = 'https://telegra.ph/file/0476f5da331e1a1712df9.jpg'
-global.img14 = 'https://telegra.ph/file/2bda19dcfa7472089a3a3.jpg'
+global.img12 = 'https://telegra.ph/file/2a31f650a909be4ee1bfd.jpg'
+global.img13 = 'https://telegra.ph/file/4256efcc2d5fc6bf5ce52.jpg'
+global.img14 = 'https://telegra.ph/file/cf86553c42c4527fcfcc8.jpg'
 global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 global.mdk = [img8, img9, img10, img11, img12, img13, img14]
 
