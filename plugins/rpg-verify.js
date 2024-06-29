@@ -26,7 +26,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• ${coins}ZeroCoins 🌟
+• ${coins} BailyCoins 🌟
 • ${exp} Experiencia 💸
 • ${tok} Tokens 💰
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
