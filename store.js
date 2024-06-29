@@ -147,6 +147,8 @@ global.APIKeys = {
 
 //Rpg
 global.multiplier = 200 // Cuanto más alto, más difícil subir de nivel
+global.db.data.users[m.sender].money += coins;
+global.db.data.users[m.sender].joincount += tok;
 
 global.rpg = {
 emoticon(string) {
