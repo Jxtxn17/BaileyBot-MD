@@ -16,7 +16,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.age = age
   user.regTime = + new Date
   user.registered = true
-   global.db.data.users[m.sender].money += coins;
+   global.db.data.users[m.sender].money += mystic;
   global.db.data.users[m.sender].joincount += tok;
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
@@ -26,7 +26,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• ${coins} BailyCoins 🌟
+• ${money} BailyCoins 🌟
 • ${exp} Experiencia 💸
 • ${tok} Tokens 💰
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
