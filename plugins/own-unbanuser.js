@@ -1,7 +1,7 @@
 var handler = async (m, {conn, text}) => {
 
 let user = conn.user.jid.split`@`[0] + '@s.whatsapp.net'
-let bant = `🎌 *Etiquete a una persona*`
+let bant = `🍿 *Etiquete a una persona*`
 if (!text) return conn.reply(m.chat, bant, m, fake, )
 let who
 if (m.isGroup) who = m.mentionedJid[0]
