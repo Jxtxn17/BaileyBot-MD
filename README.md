@@ -119,7 +119,20 @@ Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respa
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-----
+
+###  INFINITY-HOST 👑
+<a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/XLCK.jpg" height="125px"></a>
+### Información del Host
+
+- **Página:** [`Click aqui`](https://dashboard.infinitywa.xyz)
+- **Dashboard:** [`Aquí`](https://dashboard.infinitywa.xyz)
+- **Panel:** [`Aquí`](https://live.panel-infinitywa.store)
+- **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
+- **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 - ### 📱 Instalacion Por Code Space
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
