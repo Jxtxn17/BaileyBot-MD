@@ -14,5 +14,5 @@ handler.tags = ['owner']
 handler.command = /^(add|\+)prem$/i
 handler.group = true
 handler.admin = true
-handler.botAdmin = true
+handler.botAdmin = false
 export default handler
