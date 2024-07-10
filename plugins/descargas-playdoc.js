@@ -6,7 +6,7 @@ import {youtubedl, youtubedlv2} from '@bochilteam/scraper'
 
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 
-if (!text) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱs ᥱᥣ nombre ძᥱ ᥙᥒ ᥎іძᥱ᥆ ძᥱ ᥡ᥆ᥙ𝗍ᥙᑲᥱ*\n\n[ 💡 ]ᥱȷᥱm⍴ᥣ᥆, !${command} New West - Those Eyes`,  m, fake, )
+if (!text) return conn.reply(m.chat, `🤍 *Ingres@ el nombre de un vídeo de YouTube*\n\n[ 💡 ] Ejemplo, !${command} New West - Those Eyes`,  m, fake, )
 m.react(rwait)
 
 try {
@@ -34,7 +34,7 @@ ${yt_play[0].author.url}
 ${yt_play[0].url}
 
 *Enviando ${additionalText}*
-🚫 𝐀𝐓𝐄𝐍𝐂𝐈𝐎𝐍 🚫 ᥱs⍴ᥱrᥱ ᥙᥒ m᥆mᥱᥒ𝗍᥆`.trim()
+🍞 Espere un momento`.trim()
 await conn.sendMessage(m.chat, { text: texto1, contextInfo: { externalAdReply: { title: yt_play[0].title, body: dev, thumbnailUrl: yt_play[0].thumbnail, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
 
 if (command == 'play3' || command == 'playdoc') {
@@ -66,7 +66,7 @@ const infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'})
 conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: m})
 } catch {
-await conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆́ ᥙᥒ 𝖿ᥲᥣᥣ᥆*', m, fake, )
+await conn.reply(m.chat, '「👑」 *Ocurrió un falló*', m, fake, )
 }}}}
 
 if (command == 'play4' || command == 'playdoc2') {
@@ -99,11 +99,11 @@ const n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `*∘ Título*\n${n}\n*∘ Peso*\n${n3}`, thumbnail: await fetch(n4)}, {quoted: m})
 } catch {
 
-await conn.reply(m.chat, 🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*', m, fake, )
+await conn.reply(m.chat, 「👑」 *Ocurrio un falló*', m, fake, )
 }}}}
 
 } catch {
-return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒ𝗍ᥱ́ᥒ𝗍ᥱᥣ᥆ ძᥱ ᥒᥙᥱ᥎᥆*', m, fake, )}
+return conn.reply(m.chat, '「👑」 *Intentelo de nuevo*', m, fake, )}
   
 }
 handler.help = ['play3', 'play4']
