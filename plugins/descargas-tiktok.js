@@ -6,33 +6,33 @@ import fg from 'api-dylux';
  import { tiktokdl } from '@bochilteam/scraper';
  let handler = async (m, { conn, text, args, usedPrefix, command}) => { 
  if (!text) throw `*✘error✘*\n\n_. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/kandndbwldnig/🍁_` 
- if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*✘error✘* _. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁_` 
- let texto = `_🍁 @${m.sender.split`@`[0]}  ᩭ✎Enviando Video, espere un momento...._` 
+ if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `「👑」 *Uso correcto\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁_` 
+ let texto = `_🍁 @${m.sender.split`@`[0]} Enviando Video, espere un momento...._` 
  try { 
   conn.sendMessage(m.chat, { text: texto, mentions: [m.sender]}, {quoted: m})
  await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })     
  const dataF = await tiktok.v1(args[0]) 
  //let desc1 =  `*USUARIO:* ${dataF.nickname || 'Indefinido'}` 
- let desc1 =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ let desc1 =  `_🍁 Tiktok sin marca de agua descargado con éxito_` 
  await conn.sendMessage(m.chat, { video: { url: dataF.play }, caption: desc1 }, { quoted: m })   
  } catch (e1) { 
  try { 
  const tTiktok = await tiktokdlF(args[0]) 
  //let desc2 = `🔗 *Url:* ${tTiktok.video}`     
- let desc2 =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ let desc2 =  `_🍁 Tiktok sin marca de agua descargado con éxito_` 
  await conn.sendMessage(m.chat, { video: { url: tTiktok.video }, caption: desc2 }, { quoted: m })       
  } catch (e2) { 
  try { 
  let p = await fg.tiktok(args[0])  
  //let te = `*USUARIO:* ${p.author || 'Indefinido'}` 
- let te =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ let te =  `_🍁 Tiktok sin marca de agua descargado con éxito_` 
  await conn.sendMessage(m.chat, { video: { url: p.nowm}, caption: te }, { quoted: m })   
  } catch (e3) { 
  try {  
  const { author: { nickname }, video, description } = await tiktokdl(args[0]) 
  const url = video.no_watermark2 || video.no_watermark || 'https://tikcdn.net' + video.no_watermark_raw || video.no_watermark_hd 
  //let cap = `*USUARIO:* ${nickname || 'Indefinido'}` 
- let cap =  `_🍁  ᩭ✎Tiktok sin marca de agua descargado con éxito_` 
+ let cap =  `_🍁 Tiktok sin marca de agua descargado con éxito_` 
  await conn.sendMessage(m.chat, { video: { url: url}, caption: cap }, { quoted: m })   
  } catch { 
  throw `_✘error✘ _Vuelve a intentarlo_` 
