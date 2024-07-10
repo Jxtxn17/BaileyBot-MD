@@ -6,8 +6,8 @@ import { instagramdl } from '@bochilteam/scraper'
  
 var handler = async (m, {conn, args, command, usedPrefix}) => {
  
-if (!args[0]) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥙᥒ ᥱᥒᥣᥲᥴᥱ ძᥱ іᥒs𝗍ᥲgrᥲm*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆ ${usedPrefix + command} https://www.instagram.com/reel/CuqAzGRAbZa/?igshid=MzRlODBiNWFlZA==`, m, fake, )
-conn.reply(m.chat, `🚫 𝐀𝐓𝐄𝐍𝐂𝐈𝐎𝐍 🚫 ᥱs⍴ᥱrᥱ ᥙᥒ m᥆mᥱᥒ𝗍᥆`, m, fake, )
+if (!args[0]) return conn.reply(m.chat, `🤍 ꙰ *Ingres@ un enlace de Instagram*\n\n[ 💡 ] Ejemplo: ${usedPrefix + command} https://www.instagram.com/reel/CuqAzGRAbZa/?igshid=MzRlODBiNWFlZA==`, m, fake, )
+conn.reply(m.chat, `🚀 *Espere un momento*`, m, fake, )
 
 try {
 
@@ -50,7 +50,7 @@ let shortUrl1 = await (await fetch(`https://tinyurl.com/api-create.php?url=${arg
 let txt1 = `🍧 *Url:* ${shortUrl1}`.trim()
 await conn.sendFile(m.chat, videoig, 'error.mp4', txt1, m)
 } catch {
-return conn.reply(m.chat, '🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣᥣ*', m, fake, )
+return conn.reply(m.chat, '「👑」 *Ocurrio un falló*', m, fake, )
 }}}}} 
 
 }
