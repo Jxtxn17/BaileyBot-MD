@@ -39,7 +39,7 @@ global.img11 = 'https://telegra.ph/file/d3c4150200fcba6fb15af.jpg'
 global.img12 = 'https://telegra.ph/file/2a31f650a909be4ee1bfd.jpg'
 global.img13 = 'https://telegra.ph/file/4256efcc2d5fc6bf5ce52.jpg'
 global.img14 = 'https://telegra.ph/file/cf86553c42c4527fcfcc8.jpg'
-global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
+global.ImgAll = [img, img1, img2, img3, img4, img5, img6, img7]
 global.mdk = [img8, img9, img10, img11, img12, img13, img14]
 
 //Enlaces
