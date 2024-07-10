@@ -5,8 +5,8 @@ import fg from 'api-dylux';
  import { generateWAMessageFromContent } from '@whiskeysockets/baileys';
  import { tiktokdl } from '@bochilteam/scraper';
  let handler = async (m, { conn, text, args, usedPrefix, command}) => { 
- if (!text) throw `*✘error✘*\n\n_. ᩭ✎Use el comandó correctamente_\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/kandndbwldnig/🍁_` 
- if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `「👑」 *Uso correcto\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁_` 
+ if (!text) throw `*「👑」*Use el comandó correctamente\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/kandndbwldnig/🍁_` 
+ if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `「👑」 *Uso correcto\n\n_Ejemplo : ${usedPrefix + command} https://vm.tiktok.com/nandlwmso/🍁` 
  let texto = `_🍁 @${m.sender.split`@`[0]} Enviando Video, espere un momento...._` 
  try { 
   conn.sendMessage(m.chat, { text: texto, mentions: [m.sender]}, {quoted: m})
@@ -35,7 +35,7 @@ import fg from 'api-dylux';
  let cap =  `_🍁 Tiktok sin marca de agua descargado con éxito_` 
  await conn.sendMessage(m.chat, { video: { url: url}, caption: cap }, { quoted: m })   
  } catch { 
- throw `_✘error✘ _Vuelve a intentarlo_` 
+ throw `「👑」 _Vuelve a intentarlo_` 
  }}}}} 
  handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i 
  export default handler 
