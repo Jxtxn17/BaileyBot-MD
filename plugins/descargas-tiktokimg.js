@@ -26,7 +26,7 @@ m.react(done)
 } catch (e) {
 console.log(e)
 m.react(error)
-return conn.reply(m.chat, `🍧 *Ocurrio un falló*`, m, fake, )
+return conn.reply(m.chat, `「👑」 *Ocurrio un falló*`, m, fake, )
 }
 
 }
