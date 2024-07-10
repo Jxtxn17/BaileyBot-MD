@@ -7,8 +7,8 @@ let limit
 if((isOwner || isPrems)) limit = 1000
 else limit = 600
 
-if (!args[0]) return conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *іᥒgrᥱsᥱ ᥙᥒ ᥱᥒᥣᥲᥴᥱ ძᥱ mᥱძіᥲ𝖿іrᥱ*\n\n[ 💡 ] ᥱȷᥱm⍴ᥣ᥆, !mediafire https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk`, m, fake, )
-if (!args[0].match(/mediafire/gi)) conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *ᥱᥒᥣᥲᥴᥱ іᥒᥴ᥆rrᥱᥴ𝗍᥆*`, m, fake, )
+if (!args[0]) return conn.reply(m.chat, `🚀 *Ingres@ un enlace de mediafire*\n\n[ 💡 ] Ejemplo, !mediafire https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk`, m, fake, )
+if (!args[0].match(/mediafire/gi)) conn.reply(m.chat, `❗ *Enlace incorrecto*`, m, fake, )
 
 try {
 
@@ -25,7 +25,7 @@ await conn.reply(m.chat, `*Nombre:* ${filename}\n*Peso:*  ${filesizeH}\n*Tipo:* 
 if(!isLimit) await conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
 m.react(done)
 } catch (e) {
-conn.reply(m.chat, `🚫 𝐄𝐑𝐑𝐎𝐑 🚫 *᥆ᥴᥙrrі᥆ ᥙᥒ 𝖿ᥲᥣᥣ᥆*`, m, fake, )
+conn.reply(m.chat, `「👑」 *Ocurrio un fallo*`, m, fake, )
 console.log(e)}
 
 }
