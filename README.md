@@ -108,18 +108,6 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 ```
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-Para que no pierda su progreso en BaileyBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
-
-- #### 💡 Para Activar 24/7 (Termux)
-> Este Comando Deve Ir En La Carpeta BaileyBot-MD
-```bash
-> npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-```
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-
 ###  INFINITY-HOST 👑
 <a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/XLCK.jpg" height="125px"></a>
 ### Información del Host
