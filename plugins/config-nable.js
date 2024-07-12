@@ -170,7 +170,7 @@ throw false
 }}
 chat.modohorny = isEnable
 break
-case 'prueba234'
+case 'prueba234':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
