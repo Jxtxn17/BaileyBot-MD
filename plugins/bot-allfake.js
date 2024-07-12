@@ -109,6 +109,28 @@ global.enlaces = linkSity.getRandom()
  global.taguser = '@' + m.sender.split("@s.whatsapp.net")[0] 
  global.fake = { contextInfo: { externalAdReply: {title: saludo + ` ${m.name}`, body: dev, sourceUrl: enlaces, thumbnailUrl: fotos }}
 }
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363194496147557@newsletter', serverMessageId: '', newsletterName: `☁️ Bienvenido ` + nombre }, externalAdReply: { title: wm + ` 💫`, body: dev, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: fotos, thumbnail: imagen1, sourceUrl: enlaces }}}, { quoted: fkontak } //fake con reenviado de canal
- }   
- export default handler
+/* global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363194496147557@newsletter', serverMessageId: '', newsletterName: `☁️ Bienvenido ` + nombre }, externalAdReply: { title: wm + ` 💫`, body: dev, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: fotos, thumbnail: imagen1, sourceUrl: enlaces }}}, { quoted: fkontak }}  
+
+global.fake = {
+contextInfo: {
+isForwarded: true,
+forwardedNewsletterMessageInfo: {
+newsletterJid: "120363194496147557@newsletter",
+serverMessageId: 100,
+newsletterName: 'Bailey Bot Channel 🚩',
+},
+externalAdReply: { 
+showAdAttribution: true,                                       title: packname,
+body: '✨️ Equipo BaileyBot-MD',
+mediaUrl: null,
+description: null,
+previewType: "PHOTO",
+thumbnailUrl: fotos,
+sourceUrl: enlaces,
+mediaType: 1,
+renderLargerThumbnail: false
+},
+},
+}}
+
+export default handler 
