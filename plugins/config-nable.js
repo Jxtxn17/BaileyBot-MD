@@ -170,14 +170,6 @@ throw false
 }}
 chat.modohorny = isEnable
 break
-case 'prueba234':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.prueba234 = isEnable
-break
 case 'autosticker':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
