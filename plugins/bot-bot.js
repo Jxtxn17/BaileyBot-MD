@@ -3,7 +3,7 @@ const handler = (m) => m;
 handler.all = async function(m) {
 
 const chat = global.db.data.chats[m.chat];
-if (m.isGroup) return
+if (chat.isBanned) return
 if (/^bot$/i.test(m.text)) {
 conn.reply(m.chat, `🥷 ¡Hola! Soy ${global.packname}, en que puedo ayudarte hoy?\n✰ Usa */menu* para ver mis comandos.`, m, fake, )
 }
