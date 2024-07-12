@@ -58,15 +58,15 @@ args[0] = args[0].replace('--code', '').trim()
 if (args[1]) args[1] = args[1].replace('--code', '').trim()
 if (args[0] == '') args[0] = undefined
 console.log(args[0])}
-if (!fs.existsSync('./jadibts/'+ id)){
-fs.mkdirSync('./jadibts/'+ id, { recursive: true })}
-args[0] && args[0] != undefined ? fs.writeFileSync('./jadibts/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
+if (!fs.existsSync('./BaileyJadibot/'+ id)){
+fs.mkdirSync('./BaileyJadibot/'+ id, { recursive: true })}
+args[0] && args[0] != undefined ? fs.writeFileSync('./BaileyJadibot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
 
-if (fs.existsSync('./jadibts/' + id + '/creds.json')) {
-let creds = JSON.parse(fs.readFileSync("./jadibts/" + id + "/creds.json"))
+if (fs.existsSync('./BaileyJadibot/' + id + '/creds.json')) {
+let creds = JSON.parse(fs.readFileSync("./BaileyJadibot/" + id + "/creds.json"))
 if (creds) {
 if (creds.registered = false) {
-fs.unlinkSync('./jadibts/' + id + '/creds.json')
+fs.unlinkSync('./BaileyJadibot/' + id + '/creds.json')
 }}}
 
 const comb = Buffer.from(crm1 + crm2 + crm3 + crm4, 'base64')
@@ -75,15 +75,15 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./jadibts/'+ id)){
-fs.mkdirSync('./jadibts/'+ id, { recursive: true })
+if (!fs.existsSync('./BaileyJadibot/'+ id)){
+fs.mkdirSync('./BaileyJadibot/'+ id, { recursive: true })
 }
-args[0] ? fs.writeFileSync('./jadibts/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
+args[0] ? fs.writeFileSync('./BaileyJadibot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
 
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
 const msgRetryCache = new NodeCache()
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./jadibts/" + id)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./BaileyJadibot/" + id)
 
 const connectionOptions = {
 printQRInTerminal: false,
@@ -135,7 +135,7 @@ const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.erro
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
-await fs.unlinkSync('./jadibts/' + id + '/creds.json')
+await fs.unlinkSync('./BaileyJadibot/' + id + '/creds.json')
 
 return await conn.reply(m.chat, '🚫 𝐀𝐓𝐄𝐍𝐂𝐈𝐎𝐍 🚫 *ᥴ᥆ᥒᥱ᥊і᥆́ᥒ ᥴᥱrrᥲძᥲ*', m)
 }
