@@ -317,7 +317,6 @@ _${usedPrefix + command} *modoadmin*_
 _${usedPrefix + command} *antisticker*_
 _${usedPrefix + command} *autosticker*_
 _${usedPrefix + command} *antibule*_
-_${usedPrefix + command} *chatbot*_
 
 *🍧 OPCIONES DE PROPIETARIO*
 
