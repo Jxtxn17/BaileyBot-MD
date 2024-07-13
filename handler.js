@@ -209,7 +209,7 @@ if (!('restrict' in settings)) settings.restrict = false
 if (!('antiCall' in settings)) settings.antiCall = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('modejadibot' in settings)) settings.modejadibot = true
-if (!('status' in settings)) settings.status = 0
+if (!('autobio' in settings)) settings.autobio = false
 } else global.db.data.settings[this.user.jid] = {
 self: false,
 autoread: false,
@@ -218,7 +218,7 @@ restrict: false,
 antiCall: false,
 antiPrivate: false,
 modejadibot: true,
-status: 0
+autobio: false
 
 }
 } catch (e) {
