@@ -218,10 +218,8 @@ restrict: false,
 antiCall: false,
 antiPrivate: false,
 modejadibot: true,
-autobio: false
-
-}
-} catch (e) {
+autobio: false,
+}} catch (e) {
 console.error(e)
 }
 //const dataown = global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)
