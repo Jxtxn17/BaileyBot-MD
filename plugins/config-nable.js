@@ -325,7 +325,8 @@ _${usedPrefix + command} *public*_
 _${usedPrefix + command} *pconly*_
 _${usedPrefix + command} *gconly*_
 _${usedPrefix + command} *autoread*_
-_${usedPrefix + command} *modejadibot*_`, m, fake, )
+_${usedPrefix + command} *modejadibot*_
+_${usedPrefix + command} *status*_`, m, fake, )
 throw false
 }
   conn.sendMessage(m.chat, {text: `*◇ OPCION:* ${type}\n*◇ ESTADO:* ${isEnable ? 'ACTIVADO' : 'DESACTIVADO/A'}\n*◇ PARA:* ${isAll ? 'ESTE BOT' : isUser ? '' : 'ESTE CHAT'}`}, {quoted: m});
