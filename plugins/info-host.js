@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+/*let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `*\`💫 Te presentamos un nuevo hosting: "Infinity-Wa Host"\`*
 
 *¿Muy lento tu nokia y necesitas tener activo tu bot 24/7?*
@@ -56,4 +56,4 @@ sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
 handler.tags =['info'] 
 handler.help = ['infinity', 'host', 'hosting'] 
 handler.command = /^(infinity|infinityWa|host|hosting)$/i
-export default handler
+export default handler*/
