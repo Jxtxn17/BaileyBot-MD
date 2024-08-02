@@ -1,4 +1,4 @@
-import { search, download } from 'aptoide-scraper'
+/*import { search, download } from 'aptoide-scraper'
 let handler = async (m, { conn, usedPrefix, command, text }) => {
 if (!text) throw `*Error*\n[ 💡 ] Ejemplo ${usedPrefix + command} WhatsApp Plus`
 try {
@@ -12,4 +12,4 @@ await conn.sendMessage(m.chat, { document: { url: data.dllink }, mimetype: 'appl
 }}
 handler.command = /^(apk)$/i
 handler.limit = 5
-export default handler
+export default handler*/
