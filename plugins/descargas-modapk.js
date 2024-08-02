@@ -22,6 +22,6 @@ return conn.reply(m.chat, '「👑」 *Ocurrio un fallo*', m, fake, )
 
 handler.tags = ['descargas']
 handler.help = ['apkmod']
-handler.command = /^(apkmod|modapk|dapk2|aptoide|aptoidedl)$/i
+handler.command = /^(apkmod|modapk|apk|dapk2|aptoide|aptoidedl)$/i
 
 export default handler
