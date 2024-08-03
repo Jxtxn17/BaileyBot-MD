@@ -1,8 +1,8 @@
 var handler = async (m, { conn, command }) => {
 
-let aviso = `¡Usa el comando .play!`
+let str = `¡Usa el comando .play!`
 
-conn.reply(m.chat, aviso, m, fake, )
+conn.reply(m.chat, str, m, fake, )
 
 }
 handler.help = ['aviso']
