@@ -4,6 +4,7 @@ import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
 ['51929972576', '🍧𝙹𝚇𝚃𝚇𝙽¹⁷🍧', true],
+['50558124470', 'GL', true],
 ['524434703586', 'Zamm', true]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
