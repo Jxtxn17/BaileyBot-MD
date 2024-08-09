@@ -14,7 +14,7 @@ let texto = `𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤 𝙖 𝙡𝙤𝙨 𝙜𝙧
 
 𝙈𝙊𝙊𝙉𝙇𝙄𝙂𝙏𝙃𝙏𝙀𝘼𝙈 - 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝘾𝙃𝘼𝙉𝙉𝙀𝙇
 
-https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S
+https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S`
 
 /*𝙏𝙖𝙢𝙗𝙞𝙚́𝙣 𝙥𝙪𝙚𝙙𝙚𝙨 𝙪𝙣𝙞𝙧𝙩𝙚 𝙖 𝙡𝙤𝙨 𝙜𝙧𝙪𝙥𝙤𝙨 𝙙𝙚 𝙣𝙪𝙚𝙨𝙩𝙧𝙤𝙨 𝙘𝙤𝙡𝙖𝙗𝙤𝙧𝙖𝙙𝙤𝙧𝙚𝙨.
 
@@ -29,7 +29,7 @@ HachikoBot-MD
 LoboBot-MD
 ╍╍┅╍╍╍╍╍╍╍┅
 *${Lobo}*
-┅╍╍╍╍╍╍╍╍╍┅*/`
+┅╍╍╍╍╍╍╍╍╍┅*/
 await conn.sendFile(m.chat, foto, 'Curiosity.jpg', texto, estilo)}
 
 handler.tags = ['main']
