@@ -113,13 +113,16 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
 
 ### 🔵 OLYMPUS-HOST 
-<a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+<a href="https://dash.olympus-host.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
 ### Información del Host
 
-- **Dashboard:** [`Aquí`](https://kingsvhost.asifofc.xyz)
-- **Panel:** [`Aquí`](https://host.asifofc.xyz)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
-- **Correo:** [`Aquí`](olympussupport@gmail.com.com)
+• Dashboard: [`Aquí`](https://dash.olympus-host.xyz)
+
+• Panel: [`Aquí`](https://panel.olympus-host.xyz)
+
+• Canal de WhatsApp: [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+
+• Correo: [`Aquí`](olympushost2@gmail.com.com)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - BaileyBot**</summary><img src="https://telegra.ph/file/47174142a517f0734db61.jpg"></details>
 
