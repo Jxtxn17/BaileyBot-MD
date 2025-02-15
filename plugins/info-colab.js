@@ -34,7 +34,7 @@ import fetch from 'node-fetch';
   
  ┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/HACHEJOTA/Hachiko-bot-MD 
   
- ┣𝙀𝙣𝙙𝙚𝙧|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
+ ┣𝙀𝙣𝙙𝙚𝙧|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
   
  ┣𝗘𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/Aleixon127271 
   
