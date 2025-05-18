@@ -58,7 +58,7 @@ var handler = async (m, { text, conn, args, usedPrefix, command }) => {
 
         try {
             //BaileysBot
-            const apiResponse = await fetch(`https://api.example.com/ytaudio?url=${youtubeLink}`); // Cambia a una API funcional
+            const apiResponse = await fetch(`https://api.vreden.my.id/api/ytmp3?url=${url}`); //test
             const apiData = await apiResponse.json();
 
             if (apiData.status === 'success') {
