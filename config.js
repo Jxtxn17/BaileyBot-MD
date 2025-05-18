@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'url'
 ['51929972576', '🍧𝙹𝚇𝚃𝚇𝙽¹⁷🍧', true],
 ['573012482597'],
 ['50558124470'],
+['59169739411']
 ['524434703586']]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
