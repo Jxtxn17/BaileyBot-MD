@@ -1,71 +1,97 @@
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
-import fetch from 'node-fetch' 
-import yts from 'yt-search'
-import ytdl from 'ytdl-core'
+import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
+import fetch from 'node-fetch';
+import yts from 'yt-search';
+import ytdl from 'ytdl-core';
 
 var handler = async (m, { text, conn, args, usedPrefix, command }) => {
+    if (!args[0]) {
+        return conn.reply(m.chat, '*🍇 Ingresa un enlace de YouTube válido.*', m);
+    }
 
-if (!args[0]) conn.reply(m.chat, '*🍇 Ingres@ un vídeo + un enlace de YouTube*',  m, fake, )
+    let youtubeLink = '';
+    if (args[0].includes('you')) {
+        youtubeLink = args[0];
+    } else {
+        const index = parseInt(args[0]) - 1;
+        if (index >= 0) {
+            if (Array.isArray(global.videoList) && global.videoList.length > 0) {
+                const matchingItem = global.videoList.find(item => item.from === m.sender);
+                if (matchingItem) {
+                    if (index < matchingItem.urls.length) {
+                        youtubeLink = matchingItem.urls[index];
+                    } else {
+                        return conn.reply(
+                            m.chat,
+                            `*🍓 No se encontró un enlace para ese número. Ingresa un número del 1 al ${matchingItem.urls.length}.*`,
+                            m
+                        );
+                    }
+                } else {
+                    return conn.reply(
+                        m.chat,
+                        `*🥑 Usa el comando \`${usedPrefix}playlist <texto>\` para buscar vídeos y luego selecciona un número.*`,
+                        m
+                    );
+                }
+            } else {
+                return conn.reply(
+                    m.chat,
+                    `*🍉 Usa el comando \`${usedPrefix}playlist <texto>\` para buscar vídeos y luego selecciona un número.*`,
+                    m
+                );
+            }
+        }
+    }
 
-let youtubeLink = ''
-if (args[0].includes('you')) {
-youtubeLink = args[0]
-} else {
-const index = parseInt(args[0]) - 1
-if (index >= 0) {
-if (Array.isArray(global.videoList) && global.videoList.length > 0) {
-const matchingItem = global.videoList.find(item => item.from === m.sender)
-if (matchingItem) {
-if (index < matchingItem.urls.length) {
-youtubeLink = matchingItem.urls[index]
-} else {
-return conn.reply(m.chat, `*🍓 No se encontró un enlace para ese número ingresa un número del 1 al ${matchingItem.urls.length}*`,  m, fake, )
-}} else {
-return conn.reply(m.chat, `*🥑 Para poder usar este comando de la manera ${usedPrefix + command} <numero>), realiza la búsqueda de vídeo con {usedPrefix}playlist <texto>*`,  m, fake, )
-}} else {
-return conn.reply(m.chat, `*🍉 Para usar este comando de la manera {usedPrefix + command} <numero>), realiza la búsqueda con{usedPrefix}playlist <texto>*`,  m, fake, )
-}}} 
- conn.reply(m.chat, `*𝙱𝚢 𝙱𝚊𝚒𝚕𝚎𝚢𝙱𝚘𝚝-𝙼𝙳 - 𝙲𝚊𝚛𝚐𝚊𝚗𝚍𝚘 𝚎𝚜𝚙𝚎𝚛𝚎..*`, m, fake, )
+    conn.reply(m.chat, `*🎶 Cargando... Por favor, espera unos segundos.*`, m);
 
-try {
+    try {
+        // BaileysBot
+        let q = '128kbps';
+        const yt = await youtubedl(youtubeLink).catch(async _ => await youtubedlv2(youtubeLink));
+        const dl_url = await yt.audio[q].download();
+        const ttl = await yt.title;
+        const size = await yt.audio[q].fileSizeH;
+        await conn.sendFile(m.chat, dl_url, `${ttl}.mp3`, null, m, false, { mimetype: 'audio/mp4' });
+    } catch (error) {
+        console.error('Error con youtubedl:', error);
 
-let q = '128kbps'
-let v = youtubeLink
-const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
-const dl_url = await yt.audio[q].download()
-const ttl = await yt.title
-const size = await yt.audio[q].fileSizeH
-await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
-} catch {
-  
-try {
+        try {
+            //BaileysBot
+            const apiResponse = await fetch(`https://api.example.com/ytaudio?url=${youtubeLink}`); // Cambia a una API funcional
+            const apiData = await apiResponse.json();
 
-let lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${youtubeLink}`)
-let lolh = await lolhuman.json()
-let n = lolh.result.title || 'error'
-m.react(done)
-await conn.sendMessage(m.chat, { audio: { url: lolh.result.link }, fileName: `${n}.mp3`, mimetype: 'audio/mp4' }, { quoted: m })
-} catch {
+            if (apiData.status === 'success') {
+                const title = apiData.result.title || 'audio';
+                const audioUrl = apiData.result.audio_url;
+                await conn.sendMessage(m.chat, { audio: { url: audioUrl }, fileName: `${title}.mp3`, mimetype: 'audio/mp4' }, { quoted: m });
+            } else {
+                throw new Error('La API no devolvió un resultado exitoso.');
+            }
+        } catch (secondError) {
+            console.error('Error con la nueva API:', secondError);
 
-try {
+            try {
+                // BaileysBot
+                const searchResults = await yts(youtubeLink);
+                const video = searchResults.all.find(v => v.type === 'video');
+                if (!video) throw new Error('No se encontró el video.');
 
-let searchh = await yts(youtubeLink)
-let __res = searchh.all.map(v => v).filter(v => v.type == "video")
-let infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
-let ress = await ytdl.chooseFormat(infoo.formats, { filter: 'audioonly' })
-m.react(done)
-conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })
-} catch {
-m.react(error)
-await conn.reply(m.chat, '*「👑」 ᥱrr᥆r, ᥒ᥆ sᥱ ⍴ᥙძ᥆ ᥱᥒ᥎іᥲr ᥱᥣ ᥲᥙძі᥆*', m, fake, )}
-}}
+                const info = await ytdl.getInfo(video.url);
+                const format = ytdl.chooseFormat(info.formats, { filter: 'audioonly' });
+                await conn.sendMessage(m.chat, { audio: { url: format.url }, fileName: `${video.title}.mp3`, mimetype: 'audio/mp4' }, { quoted: m });
+            } catch (thirdError) {
+                console.error('Error con ytdl-core:', thirdError);
+                await conn.reply(m.chat, '*❌ Error: No se pudo procesar el audio.*', m);
+            }
+        }
+    }
+};
 
-}
-handler.help = ['yta']
-handler.tags = ['descargas']
-handler.command = /^audio|fgmp3|dlmp3|getaud|yt(a|mp3)$/i
+handler.help = ['yta'];
+handler.tags = ['descargas'];
+handler.command = /^audio|fgmp3|dlmp3|getaud|yt(a|mp3)$/i;
 
-handler.register = true
-handler.limit = true
+handler.register = true;
 
-export default handler
+export default handler;
