@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url'
 import { setupMaster, fork } from 'cluster'
 import { watchFile, unwatchFile } from 'fs'
 import cfonts from 'cfonts'
-import cheerio from 'cheerio'
 import { createInterface } from 'readline'
 import yargs from 'yargs'
 
