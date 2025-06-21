@@ -5,7 +5,7 @@ handler.all = async function(m) {
 const chat = global.db.data.chats[m.chat];
 if (chat.isBaneed) return
 if (/^bot$/i.test(m.text)) {
-conn.reply(m.chat, `🥷 ¡Hola! Soy ${global.packname}, en que puedo ayudarte hoy?\n✰ Usa */menu* para ver mis comandos.`, m, fake, )
+conn.reply(m.chat, `🥷 ¡Hola! Soy ${global.packname}, en que puedo ayudarte hoy?\n✰ Usa */menuall* para ver mis comandos.`, m, fake, )
 }
 /*if (/^que|q$/i.test(m.text)) {
 conn.reply(m.chat, `*so* 🧀`, m, fake, )
